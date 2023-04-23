@@ -1,0 +1,45 @@
+Introduction:-
+===================
+-->java is a class-based ,object-oriented programming language.
+-->java was developed by James gosling at sun micro Systems in 1991 but it is officially announced in 1995 and later acquired by oracle 
+    corporation.
+-->structure of java:-
+--------------------------------
+       import java.util.Scanner;
+       import java.io.*;
+       import java.util.*;
+       import java.util.lang;
+       public class Sample{
+            public static void main(String args[]) //for static method we can access by using class ,for non-static method we can access by
+            {                                                                                         creating object.
+                 //wirte the logic here
+                 System.out.println("HELLO JAVA PROGRAMMING");
+            }
+      }
+-->object creation:-
+         classname obj_name=new classname();
+-->READING INPUT:-
+  =====================
+  -->Scanner sc=new Scanner(System.in);
+     byte r=sc.nextByte();
+     short m=sc.nextShort();
+     int n=sc.nextInt();
+     long s=sc.nextLong();
+     double w=sc.nextDouble();
+     float f=sc.nextFloat();
+     String q=sc.nextLine();
+===============================================================================
+-->pritning output:-
+ ==============================
+-->there are 3 ways of printing output.
+-->1.System.out.println("HELLO WORLD");
+-->2.System.out.println(x);
+-->3.System.out.println("THE VALUE OF x IS :"+x);
+-----------------------------------------------------------------------------
+-->Basic Terminologies of java:-
+----------------------------------------------------
+Class :- class is a template or blue print of an object.
+object:- object is a entity that consists of set of properties and behaviours
+properties:- variables-->describes the object
+behaviour:- method -->actions performed by the object.
+----------------------------------------------------------------------------------
