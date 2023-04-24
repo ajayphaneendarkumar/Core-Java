@@ -1,6 +1,7 @@
 Introduction:-
 ===================
 -->java is a class-based ,object-oriented programming language.
+-->java is case sensitive programming language.
 -->java was developed by James gosling at sun micro Systems in 1991 but it is officially announced in 1995 and later acquired by oracle 
     corporation.
 -->structure of java:-
@@ -9,6 +10,7 @@ Introduction:-
        import java.io.*;
        import java.util.*;
        import java.util.lang;
+       import java.util.Arrays;
        public class Sample{
             public static void main(String args[]) //for static method we can access by using class ,for non-static method we can access by
             {                                                                                         creating object.
@@ -43,3 +45,17 @@ object:- object is a entity that consists of set of properties and behaviours
 properties:- variables-->describes the object
 behaviour:- method -->actions performed by the object.
 ----------------------------------------------------------------------------------
+comment Lines in Java:-
+================================
+1.single line comment:-
+ --------------------------
+   //System.out.println("This is single comment line");
+2.multiple line comment :-
+----------------------------------
+/* System.out.println("This is multi line comment"); */
+=======================================================================================
+-->In java programming we need to save the file name with the class name with .java extension
+-->compiling the code:-   javac filename.java
+-->running the code :-    java  filename/className
+==================================================================================================
+
