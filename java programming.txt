@@ -58,4 +58,23 @@ comment Lines in Java:-
 -->compiling the code:-   javac filename.java
 -->running the code :-    java  filename/className
 ==================================================================================================
+ java Identifiers:-
+====================
+--> java identifiers are used for indentification purpose.
+-->valid identifiers:-->($,_,[A-Z],[a-z],[0-9])-->but should not start with numbers.
+-->Invalid identifiers:-->(@,#,%,-,...)
+=====================================================
+java Datatypes:-
+===========================================================
+boolean ->size->1bit  -->boolean boolvar;
+byte    ->size->8bits -->byte bytevar;
+char    ->size->16-bits-->char charvar;
+short    ->size->16-bits-->short shortvar;
+int      ->size->32-bits-->int intvar;
+long     ->size->64-bits-->long longvar;
+float    ->size->32-bits-->float floatvar;
+double   ->size->64-bits-->double doublevar;
+===============================================================
+java operators:-
+===================
 
