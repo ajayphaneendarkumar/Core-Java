@@ -11,6 +11,8 @@ Introduction:-
        import java.util.*;
        import java.util.lang;
        import java.util.Arrays;
+       import java.io.BufferedReader;
+       import java.io.InputStreamReader;
        public class Sample{
             public static void main(String args[]) //for static method we can access by using class ,for non-static method we can access by
             {                                                                                         creating object.
@@ -18,10 +20,13 @@ Introduction:-
                  System.out.println("HELLO JAVA PROGRAMMING");
             }
       }
+===========================================================================
 -->object creation:-
          classname obj_name=new classname();
+======================================================================
 -->READING INPUT:-
   =====================
+Scanner class:-
   -->Scanner sc=new Scanner(System.in);
      byte r=sc.nextByte();
      short m=sc.nextShort();
@@ -30,6 +35,11 @@ Introduction:-
      double w=sc.nextDouble();
      float f=sc.nextFloat();
      String q=sc.nextLine();
+BufferedReader class:-
+    -->InputStreamReader s=new InputStreamReader(System.in);
+    -->BufferedReader br=new BufferedReader(s);
+       ---->int n = Integer.parseInt(br.readLine());
+       --->float f=Float.parseFloat(br.redLine());
 ===============================================================================
 -->pritning output:-
  ==============================
@@ -77,4 +87,69 @@ double   ->size->64-bits-->double doublevar;
 ===============================================================
 java operators:-
 ===================
-
+-->Arithmetic Operators:-(+,-,*,%,/)
+-->unary operators:-(-,+,++,--)
+-->relational opeartors:-(>,<,>=,<=,==,!=)
+-->logical operators:-(&&,||,!)
+-->Assignment operators:-(variable=value)
+-->Ternary operator:-(condition?if true:if false)
+-->bitwise operators:-(&,|,^,>>(right shift),<<(left shift))
+=======================================================================
+java Strings:-
+====================
+-->Strings are the type of objects that can store the character of values. A string acts the same as an array of characters in Java.
+-->Syntax :-
+      string literal:-(<String_type>  <string_variable> = <String_Sequence>)
+          String s = "HELLO";
+      String using keyword:-
+          String s = new String("HELLO");
+-->byte[] b_arr={12,13,14,15,16};
+   String s= new String(b_arr);
+-->String methods:-
+   =======================
+    String s = "learm share any";
+    1)String length:-
+          s.length(); --->returns the number of characters in the String.
+    2)String concatenate:-
+          s1.concat(s2); -->used to concatenate the two strings
+    3)String charAt:-
+          s.charAt(i);  -->returns the character at the ith index.
+    4)String Substring:-
+          s.subString(int i);  -->returns the substring from the ith index to the end of string.
+    5)String subString:-
+          s.subString(int i,int j);  -->returns the substring from the ith index to j-1 index.
+    6)int indexOf:-
+          s.indexOf("learn");  
+    7)int lastIndexOf:-
+          s.lastIndexOf("a");
+    8)String toLowerCase():-
+          s.toLowerCase();      -->returns all caharacters of the string to lower case.
+    9)String toUppercase():-
+          s.toUpperCase();      -->returns all characters of the string to Upper Case.
+    10)String equals(another string):-
+          boolean res= s1.equals(s2);       -->return true/false;
+    11)String toCharArray():-
+          String s=str.toCharArray();
+    12)String replace(char old ,char new):-
+           s.replace("f" , "g");
+    13)string split:-
+          s.split("\\s+"); s.split(",");
+    14)toString():-
+         s.toString() -->used to convert given content to the string.
+    15) String trim():-
+          string s1=s.trim();
+ -------------------------------------------------------------------------------------------------------
+-->StringBuffer class in java:-
+   ------------------------------
+     -->StirngBufffer sb=new StringBuffer();
+      methods:-
+          String sb=new StringBuffer();
+          sb.append("HELLO"); --->used to add ,insert strings at the end of the buffer.
+          sb.delete(1,3);     --->used to delete the characters from the buffer.
+          sb.reverse();        -->used to reverse the buffer.
+          sb.insert(position,string);
+          sb.replace(1,3,string);
+============================================================================================================================
+java Arrays:-
+------------------
+-->
