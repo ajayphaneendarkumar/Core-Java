@@ -7,6 +7,7 @@ Introduction:-
 -->structure of java:-
 --------------------------------
        import java.util.Scanner;
+       import java.utilvector;  //import vector class
        import java.io.*;
        import java.util.*;
        import java.util.lang;
@@ -152,4 +153,57 @@ java Strings:-
 ============================================================================================================================
 java Arrays:-
 ------------------
--->
+-->In java all arrays are dynamically allocated.
+-->size of the arrays cannot be altered.
+-->The size of an array must be specified by int or short value and not long.
+-->declaration:-
+       int[] Array;
+           or 
+        int Array[];
+        byte[] byteArray;
+        short[] shortArray;
+        long[] longArray;
+        char[] charArray;
+        boolean[] booleanArray;
+-->intialization:-
+        int[] Array=new int[Array.length()];
+        byte[] byteArray=new byte[Array.length()];
+-->Accessing:-
+      for(int i=0;i<Array.length();i++)
+       {
+           Array[i]=sc.nextInt();
+           System.out.println(Array[i]);
+       }
+-->time complexity :O(n)
+-->cloning of Arrays:-(deep of the original array)
+ ---------------------------------------------------
+     int[] Array1={1,2,3};
+     int[] Array2=Array1.clone();
+----------------------------------------------------------
+-->multidimensional Arrays:-
+   ===========================
+   syntax:-
+       data_type[1st dimension][2nd]......[nth dimension]  array_name ;  //declaration
+       array_name=new int[][][]...[];         //intializing
+    -->for(int i=0;i<rows;i++)
+       {
+         for(int j=0;j<cols;j++)
+          {
+             Array[i][j]=sc.nextInt();
+           }
+       }
+-->ARRAYS CLASS:-
+   ==================
+   Arrays class is a built-in class in java that provides variuos utility methods for working with Arrays.
+   Methods:-
+        import java.uitl.Arrays;
+        int[] Array={1,4,2,5,3,6,9};
+       1) Arrays.sort(Array_name);   //sort the elements of the array in ascending order.
+       2)int[] index=Arrays.binarySearch(Array_name,value); //search for specific element inthe array using binary search algorithm.
+       3)boolean[] equal = Arrays.equals(Array1,Array2); //compares to Arrays for eqaulity.
+       4)var list=Arrays.asList(Array_name);  //converts given array into the list.
+       5)int[] copy=Arrays.copyOfRange(Array_name,value1,value2); //copies the specified range of Array elements to another Array.
+       6)Arrays.fill(Array_name,value); //Fills specific vlue in to the array.
+       7)Arrays.toString(Array_name)
+==============================================================================================================================================
+       
