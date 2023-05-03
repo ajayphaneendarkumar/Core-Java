@@ -275,6 +275,7 @@ java Arrays:-
      {
          System.out.println(it);
      }
+     -->list.contains(ele); //checks whwether the element present in the ArrayList or not.
 =======================================================================================================================
 HASHSET in JAVA:-
 =====================
