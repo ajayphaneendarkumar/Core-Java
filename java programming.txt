@@ -2,8 +2,26 @@ Introduction:-
 ===================
 -->java is a class-based ,object-oriented programming language.
 -->java is case sensitive programming language.
--->java was developed by James gosling at sun micro Systems in 1991 but it is officially announced in 1995 and later acquired by oracle 
-    corporation.
+-->java was developed by James gosling and his team at sun micro Systems in 1991,intitally java named as "oak" in the year 1995 later on it is renamed as java in 1996 and later acquired by oracle corporation.
+-->Application of java:-
+==========================
+  -->java is used in "DESKTOP APPLICATIONS"
+  -->"MOBILE APPLICATIONS"
+  -->"ENTERPRISE APPLICATIONS"
+  -->"WEB APPLICATIONS"
+  -->"EMBEDDED SYSTEMS"
+  -->"GAMING".
+========================================
+-->ADVANTAGES OF JAVA:-
+==============================
+-->java  is a popular and widely used programming language with many advantages.
+     -->platform independent -->code can run any jvm installed desktop
+     -->object-oriented programming -->deals the data with objects
+     -->memory management
+     -->security
+     -->multi-threading
+     -->community support
+======================================================================================
 -->structure of java:-
 --------------------------------
        import java.util.Scanner;
@@ -51,7 +69,7 @@ BufferedReader class:-
 -----------------------------------------------------------------------------
 -->Basic Terminologies of java:-
 ----------------------------------------------------
-Class :- class is a template or blue print of an object.
+Class :- class is a template or blue print for creating  an object.
 object:- object is a entity that consists of set of properties and behaviours
 properties:- variables-->describes the object
 behaviour:- method -->actions performed by the object.
@@ -192,6 +210,18 @@ java Arrays:-
              Array[i][j]=sc.nextInt();
            }
        }
+=====================================
+--->int min=Integer.MAX_VALUE;
+-->int max=Integer.MIN_VALUE;
+      if(A[i] < min)
+       {
+           min=A[i];
+        }
+       if(A[i]>max)           //min and max elements inthe array.
+        {
+           max=A[i];
+        }
+=========================================
 -->ARRAYS CLASS:-
    ==================
    Arrays class is a built-in class in java that provides variuos utility methods for working with Arrays.
@@ -206,4 +236,30 @@ java Arrays:-
        6)Arrays.fill(Array_name,value); //Fills specific vlue in to the array.
        7)Arrays.toString(Array_name)
 ==============================================================================================================================================
-       
+ COLLECTIONS IN JAVA:-
+ ======================
+-->java collections are used to store and manage the group of objects.
+-->vectors in java:-
+  ====================
+  -->vectors can allow duplicate elements to prserve in it and it is resizable nothing but it can increase or decrease it's size.
+     example for using vector in java.
+        import java.util.vector;
+        public class GFG{
+           public static void main(String args[])
+           {
+               vector<data_type>vector_name = new vector<data_type>vector_name();  //declaration of vector
+               //adding elements in to the vector.
+               vector_name.add(ele);
+               //accessing elements of the vector
+               data_type variable=vector_name.get(index);
+              //iterating vector elements
+               for(data_type it : vector_name)
+               {
+                  System.out.println(it);
+               }
+            }
+        }
+====================================================================================================================
+--->ARRAYLIST IN JAVA:-
+=================================
+
