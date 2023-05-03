@@ -241,6 +241,7 @@ java Arrays:-
 -->java collections are used to store and manage the group of objects.
 -->vectors in java:-
   ====================
+  -->vector is the legacy implementation of the list interface where it can store array elements in it.
   -->vectors can allow duplicate elements to prserve in it and it is resizable nothing but it can increase or decrease it's size.
      example for using vector in java.
         import java.util.vector;
@@ -262,3 +263,18 @@ java Arrays:-
 ====================================================================================================================
 --->ARRAYLIST IN JAVA:-
 =================================
+-->ArrayList is the legacy implementation of the list interface which uses array elements to store in it.
+-->declaration:-
+     ArrayList<data_type>list = new ArrayList<data_type>list();
+    //adding elements in to the arrayList.
+     list.add(ele);
+    //accessing arrayList elements
+     data_type vatiable = list.get(index);
+    //iterating ArrayList Elements
+     for(data_type it: list)
+     {
+         System.out.println(it);
+     }
+=======================================================================================================================
+HASHSET in JAVA:-
+=====================
