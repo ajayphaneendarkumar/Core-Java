@@ -60,12 +60,12 @@ BufferedReader class:-
        ---->int n = Integer.parseInt(br.readLine());
        --->float f=Float.parseFloat(br.redLine());
 ===============================================================================
--->To find Number of digits in the given number use this logic: (int)log10(num)+1;
+-->To find Number of digits in the given number use this logic: (int)Math.log10(num)+1;
 -->TO seperate the digits from first then use the below logic:
         while(num>0)
         {
-           int r= num%(int)Math.pow(10,d) ;
-           int s=num/(int)Math.pow(10,d);
+           int r= num/(int)Math.pow(10,d) ;
+           num=num%(int)Math.pow(10,d);
         }
  ===================================================================================
 -->pritning output:-
@@ -74,11 +74,19 @@ BufferedReader class:-
 -->1.System.out.println("HELLO WORLD");
 -->2.System.out.println(x);
 -->3.System.out.println("THE VALUE OF x IS :"+x);
+-->formatting the output:-
+while printing the floating point numbers after decimal point print only 2 digits.
+float pi=3.142345f;
+System.out.println(pi);
+
+System.out.format("%.2f",pi);
+printf("%.2f",pi);
+
 -----------------------------------------------------------------------------
 -->Basic Terminologies of java:-
 ----------------------------------------------------
-Class :- class is a template or blue print for creating  an object.
-object:- object is a entity that consists of set of properties and behaviours
+Class :- class is a template or blue print for creating  more  objects.
+object:- object is a entity that consists of set of properties and behaviours and it is anything that exists physically in the nature.
 properties:- variables-->describes the object
 behaviour:- method -->actions performed by the object.
 ----------------------------------------------------------------------------------
@@ -273,6 +281,7 @@ java Arrays:-
               }
                //contains keyword tocheck wether the element present in the vector or not
                vector_name.contains(ele);
+             -->Collections.sort(vector_name); //used to sort elements inthe vector.
             }
         }
 ====================================================================================================================
@@ -296,6 +305,7 @@ java Arrays:-
                   System.out.println(list.get(i));
               }
      -->list.contains(ele); //checks whwether the element present in the ArrayList or not.
+    -->Collections.sort(list_name); //used to sort elements inthe list.
 ======================================================================================================================
 LIST INTERFACE IN JAVA:-
 ===================================
