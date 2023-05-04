@@ -248,7 +248,7 @@ java Arrays:-
         public class GFG{
            public static void main(String args[])
            {
-               vector<data_type>vector_name = new vector<data_type>vector_name();  //declaration of vector
+               vector<data_type>vector_name = new vector<data_type>();  //declaration of vector
                //adding elements in to the vector.
                vector_name.add(ele);
                //accessing elements of the vector
@@ -258,6 +258,8 @@ java Arrays:-
                {
                   System.out.println(it);
                }
+               //contains keyword tocheck wether the element present in the vector or not
+               vector_name.contains(ele);
             }
         }
 ====================================================================================================================
@@ -265,7 +267,7 @@ java Arrays:-
 =================================
 -->ArrayList is the legacy implementation of the list interface which uses array elements to store in it.
 -->declaration:-
-     ArrayList<data_type>list = new ArrayList<data_type>list();
+     ArrayList<data_type>list = new ArrayList<data_type>();
     //adding elements in to the arrayList.
      list.add(ele);
     //accessing arrayList elements
