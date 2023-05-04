@@ -282,6 +282,7 @@ java Arrays:-
                //contains keyword tocheck wether the element present in the vector or not
                vector_name.contains(ele);
              -->Collections.sort(vector_name); //used to sort elements inthe vector.
+             -->vectofr_name.remove(ele);
             }
         }
 ====================================================================================================================
@@ -305,7 +306,52 @@ java Arrays:-
                   System.out.println(list.get(i));
               }
      -->list.contains(ele); //checks whwether the element present in the ArrayList or not.
-    -->Collections.sort(list_name); //used to sort elements inthe list.
+    -->Collections.sort(list_name); //used to sort elements inthe Arraylist.
+    --->list.remove(ele); //used to remove element form the Arraylist.
 ======================================================================================================================
 LIST INTERFACE IN JAVA:-
 ===================================
+-->list is the ordered collection of elements which allows duplicate values.
+-->methods:-  
+       add(),addAll(),remove(),removeAll(),get(),toArray(),Collections.sort(),size(),indexOf(),lastIndexOf(),isEmpty(),contains().
+--->syntax:-
+      List<data_type>list = new ArrayList<data_type>();
+     list.add(ele);
+     list.remove(ele);
+     list.get(index);
+     list.size();
+     list.isEmpty();
+     list.toArray();
+     list.contains(ele );
+     Collections.sort(list);
+     for(int i=0;i<list.size();i++)
+     {
+          System.out.println(list.get(i));
+     }
+      or
+   for(data_type it:list)
+   {
+      System.out.println(list.get(i));
+   }
+-->we can use same methods in ArrayList and vector.
+==================================================================================================================================================
+HASHSET INTERFACE IN JAVA:-
+====================================
+-->set is the unordered Collection of elements which doesn't allows the duplicate values.
+-->methods:-
+    add(),addAll(),remove(),removeAll(),retainAll(),get(),size(),isEmpty(),toArray(),contains(),collections.sort().
+    syntax:-
+         Set<Data_type>set = new HashSet<data_type>();
+         set.add(ele);
+         set.get(index);
+         set.remove(ele);
+         set.size();
+         set.isEmpty();
+         set.contains(ele);
+        for(int i=0;i<set.size();i++)
+        {
+           System.out.println(v.get(i));
+        }
+=================================================================================================================
+HASHMAP INTERFACE in java :-
+=======================================================================
