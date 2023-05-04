@@ -67,7 +67,7 @@ BufferedReader class:-
            int r= num%(int)Math.pow(10,d) ;
            int s=num/(int)Math.pow(10,d);
         }
-  ===================================================================================
+ ===================================================================================
 -->pritning output:-
  ==============================
 -->there are 3 ways of printing output.
@@ -266,6 +266,11 @@ java Arrays:-
                {
                   System.out.println(it);
                }
+             or
+              for(int i=0;i<v.size();i++)
+              {
+                  System.out.println(v.get(i));
+              }
                //contains keyword tocheck wether the element present in the vector or not
                vector_name.contains(ele);
             }
@@ -285,7 +290,12 @@ java Arrays:-
      {
          System.out.println(it);
      }
+     or 
+       for(int i=0;i<list.size();i++)
+              {
+                  System.out.println(list.get(i));
+              }
      -->list.contains(ele); //checks whwether the element present in the ArrayList or not.
-=======================================================================================================================
-HASHSET in JAVA:-
-=====================
+======================================================================================================================
+LIST INTERFACE IN JAVA:-
+===================================
