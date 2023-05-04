@@ -60,6 +60,14 @@ BufferedReader class:-
        ---->int n = Integer.parseInt(br.readLine());
        --->float f=Float.parseFloat(br.redLine());
 ===============================================================================
+-->To find Number of digits in the given number use this logic: (int)log10(num)+1;
+-->TO seperate the digits from first then use the below logic:
+        while(num>0)
+        {
+           int r= num%(int)Math.pow(10,d) ;
+           int s=num/(int)Math.pow(10,d);
+        }
+  ===================================================================================
 -->pritning output:-
  ==============================
 -->there are 3 ways of printing output.
