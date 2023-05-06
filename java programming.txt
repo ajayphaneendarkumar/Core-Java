@@ -355,3 +355,25 @@ HASHSET INTERFACE IN JAVA:-
 =================================================================================================================
 HASHMAP INTERFACE in java :-
 =======================================================================
+-->Map is the unordered_collection of key-value pairs which doesn't allows duplicate keys.
+-->methods:
+       put(key,value) , get(key), remove(key),size(),containskey(key),containsValue(value),keySet(),Values().
+   syntax:-
+     map<data_type1,data_type2>mp = new HashMap<>();
+     mp.put(key,value);  //adding elements into the map
+     mp.get(key);     //returns value associated with the key.
+     mp.size();    //returns size of the map.
+     mp.remove(key); //removes the key-value pair.
+     mp.containskey(key); //returns true if the key present in the map.
+     mp.containsValue(value);  //returns true if the value present in the map.
+      for(Data_type key : mp.keySet())  
+      {
+         System.out.println(key);        //iterate over the keys in the map.
+      }
+       for(data_type values : mp.Values()) 
+       {
+          System.out.println(values);   //iterate over the values in the map.
+       } 
+       set<data_type>keys = mp.keySet();  //get a set of the keys inthe map.
+       Collection<data_type>values = mp.values();//get a collection of the values in the map.
+=================================================================================================
