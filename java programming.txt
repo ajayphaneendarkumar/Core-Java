@@ -2,7 +2,19 @@ Introduction:-
 ===================
 -->java is a class-based ,object-oriented programming language.
 -->java is case sensitive programming language.
--->java was developed by James gosling and his team at sun micro Systems in 1991,intitally java named as "oak" in the year 1995 later on it is renamed as java in 1996 and later acquired by oracle corporation.
+-->java was developed by or brainchild of  James gosling and his team(patrick Naughthon,Mike sherdin) at sun micro Systems in 1991.
+-->intitally java named as "GreenTalk" later renamed as "oak" .
+-->"oak" is renamed as java in the year 1995 and later acquired by oracle corporation.
+============================================================================================================================================================================================
+--->JAVA Architecture:-
+===============================
+-->Step-1:  create a java source code file with .java extension
+-->step-2:  compile the source code using the java compiler which will creates a bytecode file with .class extension.
+-->Step-3:  class loader reads both user defined and library classes into memory for execution.
+-->step-4:  bytecode verifier validates all the byte codes are valid.
+-->step-5:  jvm(java virtual machine) reads bytecodes and translate into machine code for execution. 
+-->jvm is a interpreter which converts bytecode to machine code or machine specific instructions.
+==============================================================================================================================
 -->Application of java:-
 ==========================
   -->java is used in "DESKTOP APPLICATIONS"
@@ -105,7 +117,7 @@ comment Lines in Java:-
 ==================================================================================================
  java Identifiers:-
 ====================
---> java identifiers are used for indentification purpose.
+-->java identifiers are used for indentification purpose.
 -->valid identifiers:-->($,_,[A-Z],[a-z],[0-9])-->but should not start with numbers.
 -->Invalid identifiers:-->(@,#,%,-,...)
 =====================================================
