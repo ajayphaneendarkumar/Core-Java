@@ -138,7 +138,7 @@ java operators:-
 -->unary operators:-(-,+,++,--)
 -->relational opeartors:-(>,<,>=,<=,==,!=)
 -->logical operators:-(&&,||,!)
--->Assignment operators:-(variable=value)
+-->Assignment operators:-(variable=value, = ,+=,-=,/=,*=,%=,&=,|=,^=,<<=,>>=)
 -->Ternary operator:-(condition?if true:if false)
 -->bitwise operators:-(&,|,^,>>(right shift),<<(left shift))
 =======================================================================
@@ -166,7 +166,7 @@ java Strings:-
     5)String subString:-
           s.subString(int i,int j);  -->returns the substring from the ith index to j-1 index.
     6)int indexOf:-
-          s.indexOf("learn");  
+          s.indexOf("learn");   -->Finding a character in String.
     7)int lastIndexOf:-
           s.lastIndexOf("a");
     8)String toLowerCase():-
