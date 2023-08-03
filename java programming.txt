@@ -86,11 +86,10 @@ BufferedReader class:-
 -->1.System.out.println("HELLO WORLD");
 -->2.System.out.println(x);
 -->3.System.out.println("THE VALUE OF x IS :"+x);
--->formatting the output:-
 while printing the floating point numbers after decimal point print only 2 digits.
 float pi=3.142345f;
 System.out.println(pi);
-
+-->formating the output:-
 System.out.format("%.2f",pi);
 printf("%.2f",pi);
 
