@@ -121,6 +121,10 @@ comment Lines in Java:-
 -->valid identifiers:-->($,_,[A-Z],[a-z],[0-9])-->but should not start with numbers.
 -->Invalid identifiers:-->(@,#,%,-,...)
 =====================================================
+Java Modifiers:-
+==============================
+-->final ->	Attributes and methods cannot be overridden/modified.
+-->Static -> Attributes and methods belongs to a class , rather than object.-->It can be accessed without creating a object.
 java Datatypes:-
 ===========================================================
 boolean ->size->1bit  -->boolean boolvar;
@@ -304,4 +308,84 @@ JAVA METHODS:-
       myfunc(float y);
       myfunc(double z);
 ===================================================================================
+JAVA OOP:-
+============================
+-->OOPs Stands for object oriented programming.
+-->object-oriented programming is about creating objects that contains both data and Methods.
+-->Advantgaes/why we use:-
+==========================
+-->oop is faster and easier to execute.
+-->oop gives clear structure of program.
+-->oop makes code easier to maintain and reusable.
+-->oop providea security and high efficiency.
+=============================================
+-->class:- Template or blue print of creating objects.
+-->object:- It is an Instance of class or It is a set of properties and behaviours and more over it is physically occurs in nature.
+-->To create a class use "class keyword" -->public class Main(){
+                                                   int x=5;
+                                            }
+-->creating of Object:-
+    classname objname = new classname();
+-->Accessing methods with object :-
+       objname.methodname(); //we can pass parameters also if require.
+-->we can create multiple classes:-
+   example:
+       public class Main(){
+             int x=5;
+       }
+      public class second(){
+          public static void main(String args[]){
+              Main obj= new Main();
+              Sytem.out.println(obj.x);
+       }
+    }
+--->Java Class Methods:-
+   =======================
+-->There are two types of Java Class Maethods they are static and public.
+-->static methods can be called without creating or without using object.
+-->public methods should be called by using objects.
+example:-
+  public class Main(){
+        static void myMethod()
+          {
+                System.out.println("Ajay");  //Static Method
+          }
+         public void myName(){
+              System.out.println("Anil");  //Non-static Method
+          }
+         public static void main(String args[]){
+               myMethod();
+              Main obj = new Main();
+              obj.myName();
+        }
+  }
+-------------------------------------------
+JAVA Constructors:-
+=====================
+-->Constructor is a special member function used to intialize objects.when Object is created constructor get invoked Automatically.
+-->The class name and constructor name should br same.
+-->public class Main(){
+      public Main()
+       {
+          int x=5;             //Constructor Without Parameters.
+       } 
+       public static void main(String args[]){
+             Main myobj = new Main();
+             System.out.println(myobj.x);
+       }
+}
+ -->public class Main(){
+         int x;
+        public Main(int y){
+             x=y;                     //Constructor with Parameters.
+        }
+       public static void main(String args[]){
+            Main myobj= new Main(5);
+            System.out.println(myobj.x);
+        }
+   }
+-------------------------------------------------------------
+-->Abstraction:-
+ ==================
+-->
 
