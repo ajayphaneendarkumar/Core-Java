@@ -124,13 +124,13 @@ comment Lines in Java:-
 java Datatypes:-
 ===========================================================
 boolean ->size->1bit  -->boolean boolvar;
-byte    ->size->8bits -->byte bytevar;
+byte    ->size->1byte -->byte bytevar;
 char    ->size->16-bits-->char charvar;
-short    ->size->16-bits-->short shortvar;
-int      ->size->32-bits-->int intvar;
-long     ->size->64-bits-->long longvar;
-float    ->size->32-bits-->float floatvar;
-double   ->size->64-bits-->double doublevar;
+short    ->size->2bytes-->short shortvar;
+int      ->size->4bytes-->int intvar;
+long     ->size->8bytes-->long longvar;
+float    ->size->2bytes-->float floatvar;
+double   ->size->4bytes-->double doublevar;
 ===============================================================
 java operators:-
 ===================
@@ -197,8 +197,16 @@ java Strings:-
           sb.insert(position,string);
           sb.replace(1,3,string);
 ============================================================================================================================
-java Arrays:-
-------------------
+JAVA MATH:-
+=========================
+import java.io.*;
+-->Math.max(x,y); //returns the maximum value.
+-->Math.min(x,y); //returns the minimum value.
+-->Math.abs(x); //returns the absolute value.
+-->(int)Math.random()*10;
+===================================================================================
+JAVA ARRAYS:-
+=============================================
 -->In java all arrays are dynamically allocated.
 -->size of the arrays cannot be altered.
 -->The size of an array must be specified by int or short value and not long.
@@ -238,7 +246,7 @@ java Arrays:-
              Array[i][j]=sc.nextInt();
            }
        }
-=====================================
+=================================================================================
 --->int min=Integer.MAX_VALUE;
 -->int max=Integer.MIN_VALUE;
       if(A[i] < min)
@@ -249,7 +257,7 @@ java Arrays:-
         {
            max=A[i];
         }
-=========================================
+================================================================================================
 -->ARRAYS CLASS:-
    ==================
    Arrays class is a built-in class in java that provides variuos utility methods for working with Arrays.
@@ -261,7 +269,39 @@ java Arrays:-
        3)boolean[] equal = Arrays.equals(Array1,Array2); //compares to Arrays for eqaulity.
        4)var list=Arrays.asList(Array_name);  //converts given array into the list.
        5)int[] copy=Arrays.copyOfRange(Array_name,value1,value2); //copies the specified range of Array elements to another Array.
-       6)Arrays.fill(Array_name,value); //Fills specific vlue in to the array.
+       6)Arrays.fill(Array_name,value); //Fills specific value in to the array.
        7)Arrays.toString(Array_name)
 ==============================================================================================================================================
+JAVA METHODS:-
+===========================================
+-->Method is a block of code which runs when it is called.
+-->Method is also called as fucntions.
+-->Both Method and Main fucntion should be in one class.
+-->we can call the Method Multiple Times.
+-->public class Smaple{
+        public static void myname(){
+              System.out.println("Ajay");     //Method Without Parameters
+        }
+        public static void Main(String args[]){
+                  myname();
+         }
+  }
+ -->public class Main()
+   {
+         public static void myName(String s){     //Method with Parameters.
+             System.out.println(s);
+          }
+           public static void main(String[] args) thorws Exception{
+                 myName("Ajay");
+           }
+    }
+-->similarly we can wirte this Methods with if-else statments ,for loops ...
+-->Method Overloading:-
+   ----------------------
+   A Method declared  with Same Name But with diferrent parameters.
+  example:-
+      myfunc(int x);
+      myfunc(float y);
+      myfunc(double z);
+===================================================================================
 
