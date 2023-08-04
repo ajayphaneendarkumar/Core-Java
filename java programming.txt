@@ -422,6 +422,29 @@ JAVA Constructors:-
   -->class attributes can be made red-only or write only.
  -->Increases security of data.
 ====================================================================================================
-
+INHERITANCE:-
+===================
+-->It is possible to inherit attributes and Methods from one class to another class .
+-->Inheritance is grouped into two categeories:
+       -->derived or sub or child class :- (the class that inherited from another class)
+       -->base or super or parent class:- (the class is being inherited)
+--->why we use inheritance:->it is useful for  code reusability.
+TYPES:-
+=======
+1.single-level inheritance :- One sub class is extends from super class.
+    public class child{
+        public int x=2;
+    }
+    public parent extends child{
+         publc int y=5;
+         publlic static void main(String args[]){
+             parent myobj= new parent();
+            System.out.println(myobj.x+" "+myobj.y);
+        }
+    }
+2.multiple inheritance:- Two sub or base classes are inherited or extends from derived  or super class.
+     
+     
+       
 
 
