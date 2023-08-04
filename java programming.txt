@@ -122,11 +122,16 @@ comment Lines in Java:-
 -->Invalid identifiers:-->(@,#,%,-,...)
 =====================================================
 Java Modifiers:-
-==============================
+=======================================================================
 -->final ->	Attributes and methods cannot be overridden/modified.
 -->Static -> Attributes and methods belongs to a class , rather than object.-->It can be accessed without creating a object.
-java Datatypes:-
-===========================================================
+-->private -->code within the private section is accessible but outside th class not accessible.
+-->publiuc -->code inthe public section cna accessed even outside class also.
+-->default
+-->protected
+=====================================================================================================
+JAVA DATATYPES:-
+==============================================================================================================
 boolean ->size->1bit  -->boolean boolvar;
 byte    ->size->1byte -->byte bytevar;
 char    ->size->16-bits-->char charvar;
@@ -135,6 +140,7 @@ int      ->size->4bytes-->int intvar;
 long     ->size->8bytes-->long longvar;
 float    ->size->2bytes-->float floatvar;
 double   ->size->4bytes-->double doublevar;
+-->String, Array,class are Non-primitive datatypes.
 ===============================================================
 java operators:-
 ===================
@@ -284,7 +290,7 @@ JAVA METHODS:-
 -->we can call the Method Multiple Times.
 -->public class Smaple{
         public static void myname(){
-              System.out.println("Ajay");     //Method Without Parameters
+              System.out.println("Ajay");     //Method Without Parameters and it is a static Method
         }
         public static void Main(String args[]){
                   myname();
@@ -364,6 +370,10 @@ JAVA Constructors:-
 =====================
 -->Constructor is a special member function used to intialize objects.when Object is created constructor get invoked Automatically.
 -->The class name and constructor name should br same.
+-->constructors can be overLoaded.
+-->Constructors doesn't return any values.
+-->Constructors shuold be declared under public section and they get executed automatically when object is created.
+-->Two Types -->parametrised and default constructors.
 -->public class Main(){
       public Main()
        {
@@ -385,7 +395,33 @@ JAVA Constructors:-
         }
    }
 -------------------------------------------------------------
--->Abstraction:-
+-->Encapsulation:-
  ==================
--->
+-->The meaning of "Encapsulation" , is to make sure that "Sensitive" data is hidden from users.To Acheive this we need to    
+     ->declare calss variables or attributes as Private.
+     ->provide public "set" and "get" methods to access and update the value of private variables.
+   example:-
+  ----------
+  public class Main(){
+       private String name;
+       public String getName(){
+           return name;
+       }
+      public String setName(String myname){
+          this.name = myname;
+      } 
+     public static void main(String args[]){
+          Main myobj  = new Main();
+          myobj.setName("ajay");
+          System.out.println(myobj.getName());
+      }
+  }
+-->Why Encapsulation?
+ ------------------------
+  -->Better Control of calss Attributes or variables.
+  -->class attributes can be made red-only or write only.
+ -->Increases security of data.
+====================================================================================================
+
+
 
