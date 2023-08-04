@@ -323,7 +323,7 @@ JAVA OOP:-
 -->oop is faster and easier to execute.
 -->oop gives clear structure of program.
 -->oop makes code easier to maintain and reusable.
--->oop providea security and high efficiency.
+-->oop provides security and high efficiency.
 =============================================
 -->class:- Template or blue print of creating objects.
 -->object:- It is an Instance of class or It is a set of properties and behaviours and more over it is physically occurs in nature.
@@ -408,7 +408,7 @@ JAVA Constructors:-
            return name;
        }
       public String setName(String myname){
-          this.name = myname;
+          this.name = myname;  //use this keyword
       } 
      public static void main(String args[]){
           Main myobj  = new Main();
