@@ -474,7 +474,35 @@ TYPES:-
 -->heirarchial , Hybrid inheritances
 ========================================================================================================================================
 ABSTRACTION:-
-=================
+==========================================
+-->Abstraction is the process of "hidding certain details" and "showing only essential information to the user."
+-->Abstraction can be acheived with either abstract classes or interfaces.
+-->Abstract class:- It is a restricted class that cannot be used to create objects(to access it , it must be inherited from another class)
+-->Abstract method:- It can be only used in abstract class and it has no body.
+Example:-
+---------
+abstract class animal{     //abstract class
+     public abstract void myanimal();     //abstract method
+     public void sample(){
+          System.out.println("hello Animal");  //regular method
+     }
+}
+class forest extends animal{
+     public void myanimal(){
+          //The body of the abstract class is used here or provided here
+        System.out.println("Hello Tiger");
+     }
+}
+class Main{
+ public static void main(String args[]){
+     forest f=new forest();
+    f.myanimal();
+  f.sample();
+   }
+}
+===============================================================================================================
+POLYMORPHISM:-
+========================
 -->
 
   
