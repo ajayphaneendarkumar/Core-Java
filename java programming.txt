@@ -432,42 +432,43 @@ INHERITANCE:-
 TYPES:-
 =======
 1.single-level inheritance :- One sub class is extends from super class.
-     class child{
+     class parent{
         public int x=2;
     }
-    class parent extends child{
-         publc int y=5;
-         publlic static void main(String args[]){
-             parent myobj= new parent();
+    class child extends parent{
+         public int y=5;
+         public static void main(String args[]){
+             child myobj= new child();
             System.out.println(myobj.x+" "+myobj.y);
         }
     }
+-----------------------------------------------------------
 2.multiple inheritance:- Two sub or base classes are inherited or extends from derived  or super class.
-   class child1{
+   class parent1{
         public int x=7;
   }
- class child2{
+ class parent2{
       public int y=8;
  }
- class parent extends child1,child2{
+ class child extends parent1,parent2{
      public int z=9;
   public static void main(String args[]){
-     parent myobj= new parent();
+     child myobj= new child();
     System.out.println(myobj.x+" "+myobj.y+" "+myobj.z);
   }
 }
-
+------------------------------------------------------------------------------
 3.Multilevel Inheritance:- one class is inherited from another class , which already exteded from another class.
-   class child1{
+   class parent1{
       public int x=2;
     }
-    class parent1 extends child1{
+    class child1 extends parent1{
         public int y=3;
     }
-    class parent2 extends parent1 {
+    class child2 extends child1 {
         public int z=8;
       public static void main(String args[]){
-          parent2 myobj = new parent2();
+          child2 myobj = new child2();
          System.out.println(myobj.x+" "+myobj.y+" " + myobj.z);
        }
     }
@@ -489,7 +490,7 @@ abstract class animal{     //abstract class
 }
 class forest extends animal{
      public void myanimal(){
-          //The body of the abstract class is used here or provided here
+          //The body of the abstract method is used here or provided here
         System.out.println("Hello Tiger");
      }
 }
@@ -497,13 +498,35 @@ class Main{
  public static void main(String args[]){
      forest f=new forest();
     f.myanimal();
-  f.sample();
+    f.sample();
    }
 }
 ===============================================================================================================
 POLYMORPHISM:-
-========================
--->
+==================================
+-->polymorphism means "many forms" and it occurs when  we have many classes that are related to each other by inheritance.
+-->we can re-use attributes and methods of already existing class when a new class is created.
+-->public class Animal{
+      public void Myanimal(){
+         System.out.println("I am a Animal");
+       }
+   }
+   class pig extends Animal{
+        public void Myanimal(){
+          System.out.println("The pig sounds as: pee pee ");
+        }
+   }
+   class Main{
+        public static void main(String args[]){
+            Animal myobj= new Animal();
+            myobj.Myanimal();
+            Animal myobj1= new pig();
+            myobj1.Myanimal();
+        }
+   }
+============================================================================================================
+           
+       
 
   
     
