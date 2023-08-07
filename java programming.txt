@@ -123,12 +123,12 @@ comment Lines in Java:-
 =====================================================
 Java Modifiers:-
 =======================================================================
--->final ->	Attributes and methods cannot be overridden/modified.
+-->final ->final	Attributes and methods cannot be overridden/modified , for final class inheritance cannot be possible.
 -->Static -> Attributes and methods belongs to a class , rather than object.-->It can be accessed without creating a object.
 -->private -->code within the private section is accessible but outside th class not accessible.
--->publiuc -->code inthe public section cna accessed even outside class also.
--->default
--->protected
+-->publiuc -->code in the public section cna accessed even outside class also.
+-->default --> The class is only accessible by classes of same package.(package is nothing but  collection of classes).
+-->protected -->code acessible in both parent and child classes. 
 =====================================================================================================
 JAVA DATATYPES:-
 ==============================================================================================================
@@ -196,7 +196,7 @@ java Strings:-
     15) String trim():-
           string s1=s.trim();
  -------------------------------------------------------------------------------------------------------
--->StringBuffer class in java:-
+-->StringBuffer/string Builder class in java:-
    ------------------------------
      -->StirngBufffer sb=new StringBuffer();
       methods:-
@@ -326,9 +326,10 @@ JAVA OOP:-
 -->oop provides security and high efficiency.
 =============================================
 -->class:- Template or blue print of creating objects.
+-->In java ,by default class is always extends from object.
 -->object:- It is an Instance of class or It is a set of properties and behaviours and more over it is physically occurs in nature.
--->To create a class use "class keyword" -->public class Main(){
-                                                   int x=5;
+-->To create a class use "class keyword" --> class Main{
+                                                 public int x=5;
                                             }
 -->creating of Object:-
     classname objname = new classname();
@@ -347,7 +348,7 @@ JAVA OOP:-
     }
 --->Java Class Methods:-
    =======================
--->There are two types of Java Class Maethods they are static and public.
+-->There are two types of Java Class Methods they are static and public.
 -->static methods can be called without creating or without using object.
 -->public methods should be called by using objects.
 example:-
@@ -368,13 +369,14 @@ example:-
 -------------------------------------------
 JAVA Constructors:-
 =====================
--->Constructor is a special member function used to intialize objects.when Object is created constructor get invoked Automatically.
--->The class name and constructor name should br same.
+-->Constructor is a special member function which is used to intialize objects.when Object is created constructor get invoked Automatically.
+-->The class name and constructor name should be same.
 -->constructors can be overLoaded.
 -->Constructors doesn't return any values.
+-->Constructors does not have any return datatypes.
 -->Constructors shuold be declared under public section and they get executed automatically when object is created.
 -->Two Types -->parametrised and default constructors.
--->public class Main(){
+-->public class Main{
       public Main()
        {
           int x=5;             //Constructor Without Parameters.
@@ -395,8 +397,40 @@ JAVA Constructors:-
         }
    }
 -------------------------------------------------------------
--->Encapsulation:-
- ==================
+-->SUPER AND THIS KEYWORDS:-
+================================
+let us discuss super keyword by using an example program.
+class A extends object{  // class is by default extends from object
+  public A(){
+    super();
+    System.out.println("In A");         //super() key word will call the super class first and then  calls derived or sub class.
+ }
+ public A(int n){
+    this();                            // this keyword is used to call the constructor of the same class.
+    super();
+    System.out.println(n:+"In A int");
+ }
+}
+class B extends A{
+    public B(){
+        super();
+       System.out.println("In B");
+  }
+ public B(int n){
+     this();
+     super(n);
+     System.out.println(n: + "In B int");
+}
+}
+class Main{
+   public static void main(String args[]){
+       B myobj= new B(); // it will call class A default constructor and class B default constructor.
+       B myobj= new B(6); // it will call class B parameterised constructor and class A default constructuor and to call class A parameterised constructor pass the value in to super keyword.
+  }
+}
+=========================================================================================================       
+-->ENCAPSULATION:-
+=======================
 -->The meaning of "Encapsulation" , is to make sure that "Sensitive" data is hidden from users.To Acheive this we need to    
      ->declare calss variables or attributes as Private.
      ->provide public "set" and "get" methods to access and update the value of private variables.
@@ -407,8 +441,8 @@ JAVA Constructors:-
        public String getName(){
            return name;
        }
-      public String setName(String myname){
-          this.name = myname;  //use this keyword
+      public String setName(String name){
+          this.name = name;  //use this keyword
       } 
      public static void main(String args[]){
           Main myobj  = new Main();
@@ -443,22 +477,8 @@ TYPES:-
         }
     }
 -----------------------------------------------------------
-2.multiple inheritance:- Two sub or base classes are inherited or extends from derived  or super class.
-   class parent1{
-        public int x=7;
-  }
- class parent2{
-      public int y=8;
- }
- class child extends parent1,parent2{
-     public int z=9;
-  public static void main(String args[]){
-     child myobj= new child();
-    System.out.println(myobj.x+" "+myobj.y+" "+myobj.z);
-  }
-}
-------------------------------------------------------------------------------
-3.Multilevel Inheritance:- one class is inherited from another class , which already exteded from another class.
+2.Multilevel Inheritance:- one class is inherited from another class , which is already exteded from another class.
+============================
    class parent1{
       public int x=2;
     }
@@ -472,7 +492,10 @@ TYPES:-
          System.out.println(myobj.x+" "+myobj.y+" " + myobj.z);
        }
     }
--->heirarchial , Hybrid inheritances
+-->heirarchial Inheritance:-(
+===============================
+
+  Hybrid inheritances
 ========================================================================================================================================
 ABSTRACTION:-
 ==========================================
