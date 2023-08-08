@@ -196,7 +196,7 @@ java Strings:-
     10)String equals(another string):-
           boolean res= s1.equals(s2);       -->return true/false;
     11)String toCharArray():-
-          String s=str.toCharArray();
+          char[] s=str.toCharArray();
     12)String replace(char old ,char new):-
            s.replace("f" , "g");
     13)string split:-
@@ -408,7 +408,7 @@ JAVA Constructors:-
             System.out.println(myobj.x);
         }
    }
--------------------------------------------------------------
+=============================================================================
 -->SUPER AND THIS KEYWORDS:-
 ================================
 let us discuss super keyword by using an example program.
@@ -466,7 +466,7 @@ class Main{
       }
   }
 -->Why Encapsulation?
- ------------------------
+ =============================
   -->Better Control of calss Attributes or variables.
   -->class attributes can be made red-only or write only.
  -->Increases security of data.
@@ -481,6 +481,12 @@ INHERITANCE:-
 TYPES:-
 =======
 1.single-level inheritance :- One sub class is extends from super class.
+===========================================================================
+                               A(Baseclass)
+                                 |
+                               B(Derived class)
+Example:-
+===========
      class parent{
         public int x=2;
     }
@@ -493,7 +499,14 @@ TYPES:-
     }
 -----------------------------------------------------------
 2.Multilevel Inheritance:- one class is inherited from another class , which is already exteded from another class.
-============================
+====================================================================================================================
+                        A(Base class)
+                         |
+                        B(Intermediate class)
+                         |
+                        C(Derived class)
+Example:-
+============
    class parent1{
       public int x=2;
     }
@@ -508,10 +521,34 @@ TYPES:-
        }
     }
 -->heirarchial Inheritance:-(Two derived class and one parent class those two derived classes are extended from one base class)
-===============================================
--->
-
-  Hybrid inheritances
+==============================================================================================================================
+                              A(Base Class)
+                              |
+                            -   -
+                           |      |
+                    B(Derived)    C(Derived)
+Example:-
+===========
+-->class parent{
+      }
+  class child1 extends parent{
+  }
+  class child2 extends parent{
+  }
+  class Main{
+     public static void main(String args[]){
+            child1 obj1 = new child1();
+            child2 obj2 = new child2();
+      }
+ }
+=======================================================================================
+  Hybrid inheritance and multiple inheritance can be achieved by java interfaces.
+Advantages:-
+===========
+-->code reusability
+--->Abstraction
+--->class heirarchy
+-->polymorphism 
 ========================================================================================================================================
 ABSTRACTION:-
 ==========================================
@@ -536,8 +573,8 @@ class forest extends animal{
 class Main{
  public static void main(String args[]){
      forest f=new forest();
-    f.myanimal();
-    f.sample();
+     f.myanimal();
+     f.sample();
    }
 }
 ===============================================================================================================
@@ -545,6 +582,7 @@ POLYMORPHISM:-
 ==================================
 -->polymorphism means "many forms" and it occurs when  we have many classes that are related to each other by inheritance.
 -->we can re-use attributes and methods of already existing class when a new class is created.
+-->There are two of polymorphism they are run time and compile time polymorphisms.
 -->public class Animal{
       public void Myanimal(){
          System.out.println("I am a Animal");
@@ -557,14 +595,56 @@ POLYMORPHISM:-
    }
    class Main{
         public static void main(String args[]){
-            Animal myobj= new Animal();
+            Animal myobj = new Animal();
             myobj.Myanimal();
-            Animal myobj1= new pig();
+            Animal myobj1 = new pig();
             myobj1.Myanimal();
         }
    }
 ============================================================================================================
-           
+-->DIFFERENCE BETWEEN COMPILE TIME AND RUN TIME POLYMORPHISMS:-
+=================================================================
+-->compile-time polymorphism:-
+   ===========================
+  -->Whenever an object is bound with it's functionality at compile time that is known as compile time polymorphism.
+ -->this can be acheived by method-overloading -->method overloading says that it can have more than one fucntion with same name but different parameters in a class.
+Example:-
+========
+class Main{
+    public int add(int x , int y){
+         return x+y;
+    }
+  public double add(double x , double y){
+         return x+y;
+   }
+  public static void main(String args[]){
+      Main myobj = new Main();
+      myobj.add(3,4);
+      myobj.add(5.80,6.89);
+   }
+}
+===============================================================
+-->Run-Time polymorphism:-
+  ===========================
+-->Whenever an object bound it's functionality at run-time that is known as run-time polymorphism.
+-->this can be acheived by method overriding-->method overding means when a function or method in parent is declared same as in child class.
+Example:-
+===========
+class parent{
+  static void myMethod(){
+       System.out.println("Method 1");
+ }
+}
+class child extends parent{
+     static void myMethod(){
+       system.out.pintln("Method 2");
+     }
+   public static void main(String args[]){
+           myMethod();
+    }
+ }
+===================================================================================================================
+
        
 
   
