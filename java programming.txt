@@ -30,12 +30,20 @@ Introduction:-
      -->platform independent -->code can run any jvm installed desktop
      -->object-oriented programming -->deals the data with objects
      -->memory management
-     -->security
+     -->security enhancement
      -->multi-threading
      -->community support
-======================================================================================
--->structure of java:-
---------------------------------
+=============================================================================================================
+-->What is meant by "public static void main(String args[])"?
+     -->In public static void main(String args[])
+              -->public means direct access to the jvm(Java virtual machine).
+              -->static means direct access to the jvm(Java virtual machine)  but without creating any object.
+              -->void means where as main function does not return anything.
+              -->main means, it is callable environment to the java programs  where we can call user defined and pre-defined functions.
+              -->As we taking String args[] as arugment it accepts any type of any number of arguments.
+=======================================================================================================================================
+-->SRTUCTURE OF JAVA PROGRAM:-
+===================================
        import java.util.Scanner;
        import java.utilvector;  //import vector class
        import java.io.*;
@@ -52,7 +60,8 @@ Introduction:-
             }
       }
 ===========================================================================
--->object creation:-
+-->OBJECT CREATION IN JAVA :-
+================================
          classname obj_name=new classname();
 ======================================================================
 -->READING INPUT:-
@@ -151,7 +160,8 @@ java operators:-
 -->Assignment operators:-(variable=value, = ,+=,-=,/=,*=,%=,&=,|=,^=,<<=,>>=)
 -->Ternary operator:-(condition?if true:if false)
 -->bitwise operators:-(&,|,^,>>(right shift),<<(left shift))
-=======================================================================
+-->Literals are used to store binary data or hexadecimal data or all type of binary values.
+====================================================================================================
 java Strings:-
 ====================
 -->Strings are the type of objects that can store the character of values. A string acts the same as an array of characters in Java.
@@ -195,9 +205,11 @@ java Strings:-
          s.toString() -->used to convert given content to the string.
     15) String trim():-
           string s1=s.trim();
- -------------------------------------------------------------------------------------------------------
+==========================================================================================
 -->StringBuffer/string Builder class in java:-
-   ------------------------------
+   =========================================================
+-->String buffer is used to protect threads.
+-->where as String builder doesn't protect threads.
      -->StirngBufffer sb=new StringBuffer();
       methods:-
           String sb=new StringBuffer();
@@ -213,7 +225,7 @@ import java.io.*;
 -->Math.max(x,y); //returns the maximum value.
 -->Math.min(x,y); //returns the minimum value.
 -->Math.abs(x); //returns the absolute value.
--->(int)Math.random()*10;
+-->(int)Math.random()*10; //return the random values.
 ===================================================================================
 JAVA ARRAYS:-
 =============================================
@@ -325,9 +337,9 @@ JAVA OOP:-
 -->oop makes code easier to maintain and reusable.
 -->oop provides security and high efficiency.
 =============================================
--->class:- Template or blue print of creating objects.
+-->class:- Template or blue print of an objects.
 -->In java ,by default class is always extends from object.
--->object:- It is an Instance of class or It is a set of properties and behaviours and more over it is physically occurs in nature.
+-->object:- It is an Instance of class which has set of properties and behaviours and more over it is physically occurs in nature.
 -->To create a class use "class keyword" --> class Main{
                                                  public int x=5;
                                             }
@@ -434,8 +446,11 @@ class Main{
 -->The meaning of "Encapsulation" , is to make sure that "Sensitive" data is hidden from users.To Acheive this we need to    
      ->declare calss variables or attributes as Private.
      ->provide public "set" and "get" methods to access and update the value of private variables.
+                                   OR
+-->The process of wrapping code and data together in to a single unit is called Encapsulation.
+-->Types:  function encapsulation, calss encapsulation, member variable encapsulation
    example:-
-  ----------
+  ===================
   public class Main(){
        private String name;
        public String getName(){
@@ -492,8 +507,9 @@ TYPES:-
          System.out.println(myobj.x+" "+myobj.y+" " + myobj.z);
        }
     }
--->heirarchial Inheritance:-(
-===============================
+-->heirarchial Inheritance:-(Two derived class and one parent class those two derived classes are extended from one base class)
+===============================================
+-->
 
   Hybrid inheritances
 ========================================================================================================================================
