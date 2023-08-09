@@ -1,4 +1,4 @@
-Introduction:-
+JAVA Introduction:-
 ===================
 -->java is a class-based ,object-oriented programming language.
 -->java is case sensitive programming language.
@@ -42,6 +42,18 @@ Introduction:-
               -->main means, it is callable environment to the java programs  where we can call user defined and pre-defined functions.
               -->As we taking String args[] as arugment it accepts any type of any number of arguments.
 =======================================================================================================================================
+->DIFFERENCE BETWEEN C++ AND JAVA:-
+=====================================
+--> C++                                                                JAVA
+   ======================                                       =====================================
+    1.It is plat-form dependent                                    1.It is plat-from Independent
+    2.It is mainly used for system programming                     2.It is mainly useful for application programming
+    3.It supports goto statement                                   3.It doesn't supports goto statements
+    4.It suports multiple inheritance                              4.It doesn't supports multiple inheritance through class. It is acheived through interfaces.
+    5.It supports structures and unions                            5.java doesn't supports structures and unions.
+    6.c++ supports pointers and we can write a pointer program     6.java supports pointers internally but we can't pointer program in java.
+    7.c++ supoorts operator overloading                            7.java doesn't supports operator overloading.
+==================================================================================================================================================================
 -->SRTUCTURE OF JAVA PROGRAM:-
 ===================================
        import java.util.Scanner;
