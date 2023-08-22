@@ -146,8 +146,8 @@ Java Modifiers:-
 =======================================================================
 -->final ->final	Attributes and methods cannot be overridden/modified , for final class inheritance cannot be possible.
 -->Static -> Attributes and methods belongs to a class , rather than object.-->It can be accessed without creating a object.
--->private -->code within the private section is accessible but outside th class not accessible.
--->publiuc -->code in the public section cna accessed even outside class also.
+-->private -->code within the private section is accessible but outside the class not accessible.
+-->public  -->code in the public section can accessed even outside the class also.
 -->default --> The class is only accessible by classes of same package.(package is nothing but  collection of classes).
 -->protected -->code acessible in both parent and child classes. 
 =====================================================================================================
