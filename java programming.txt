@@ -1,4 +1,4 @@
-JAVA Introduction:-
+JAVA INTORDUCTION:-
 ===================
 -->java is a class-based ,object-oriented programming language.
 -->java is case sensitive programming language.
@@ -6,7 +6,7 @@ JAVA Introduction:-
 -->intitally java named as "GreenTalk" later renamed as "oak" .
 -->"oak" is renamed as java in the year 1995 and later acquired by oracle corporation.
 ============================================================================================================================================================================================
---->JAVA Architecture:-
+JAVA ARCHITECTURE:-
 ===============================
 -->Step-1:  create a java source code file with .java extension
 -->step-2:  compile the source code using the java compiler which will creates a bytecode file with .class extension.
@@ -15,7 +15,7 @@ JAVA Introduction:-
 -->step-5:  jvm(java virtual machine) reads bytecodes and translate into machine code for execution. 
 -->jvm is a interpreter which converts bytecode to machine code or machine specific instructions.
 ==============================================================================================================================
--->Application of java:-
+APPLICATIONS OF JAVA:-
 ==========================
   -->java is used in "DESKTOP APPLICATIONS"
   -->"MOBILE APPLICATIONS"
@@ -24,7 +24,7 @@ JAVA Introduction:-
   -->"EMBEDDED SYSTEMS"
   -->"GAMING".
 ========================================
--->ADVANTAGES OF JAVA:-
+ADVANTAGES OF JAVA:-
 ==============================
 -->java  is a popular and widely used programming language with many advantages.
      -->platform independent -->code can run any jvm installed desktop
@@ -42,8 +42,8 @@ JAVA Introduction:-
               -->main means, it is callable environment to the java programs  where we can call user defined and pre-defined functions.
               -->As we taking String args[] as arugment it accepts any type of any number of arguments.
 =======================================================================================================================================
-->DIFFERENCE BETWEEN C++ AND JAVA:-
-=====================================
+DIFFERENCE BETWEEN C++ AND JAVA:-
+=======================================================
 --> C++                                                                JAVA
    ======================                                       =====================================
     1.It is plat-form dependent                                    1.It is plat-from Independent
@@ -53,8 +53,8 @@ JAVA Introduction:-
     5.It supports structures and unions                            5.java doesn't supports structures and unions.
     6.c++ supports pointers and we can write a pointer program     6.java supports pointers internally but we can't pointer program in java.
     7.c++ supoorts operator overloading                            7.java doesn't supports operator overloading.
-==================================================================================================================================================================
--->SRTUCTURE OF JAVA PROGRAM:-
+================================================================================================================================================================
+SRTUCTURE OF JAVA PROGRAM:-
 ===================================
        import java.util.Scanner;
        import java.utilvector;  //import vector class
@@ -71,13 +71,13 @@ JAVA Introduction:-
                  System.out.println("HELLO JAVA PROGRAMMING");
             }
       }
-===========================================================================
--->OBJECT CREATION IN JAVA :-
+================================================================================================================================================================
+OBJECT CREATION IN JAVA :-
 ================================
          classname obj_name=new classname();
 ======================================================================
--->READING INPUT:-
-  =====================
+READING INPUT:-
+=====================
 Scanner class:-
   -->Scanner sc=new Scanner(System.in);
      byte r=sc.nextByte();
@@ -92,7 +92,7 @@ BufferedReader class:-
     -->BufferedReader br=new BufferedReader(s);
        ---->int n = Integer.parseInt(br.readLine());
        --->float f=Float.parseFloat(br.redLine());
-===============================================================================
+=================================================================================================================================
 -->To find Number of digits in the given number use this logic: (int)Math.log10(num)+1;
 -->TO seperate the digits from first then use the below logic:
         while(num>0)
@@ -100,8 +100,8 @@ BufferedReader class:-
            int r= num/(int)Math.pow(10,d) ;
            num=num%(int)Math.pow(10,d);
         }
- ===================================================================================
--->pritning output:-
+ ==========================================================================================================================================================
+PRINTING OUTPUT:-
  ==============================
 -->there are 3 ways of printing output.
 -->1.System.out.println("HELLO WORLD");
@@ -115,15 +115,8 @@ System.out.format("%.2f"+pi);
 printf("%.2f",pi);
 -->final int myNum = 15;
 myNum = 20;  // will generate an error: cannot assign a value to a final variable
------------------------------------------------------------------------------
--->Basic Terminologies of java:-
-----------------------------------------------------
-Class :- class is a template or blue print for creating  more  objects.
-object:- object is a entity that consists of set of properties and behaviours and it is anything that exists physically in the nature.
-properties:- variables-->describes the object
-behaviour:- method -->actions performed by the object.
-----------------------------------------------------------------------------------
-comment Lines in Java:-
+-==========================================================================================================================================================
+COMMENT LINES IN JAVA:-
 ================================
 1.single line comment:-
  --------------------------
@@ -135,14 +128,14 @@ comment Lines in Java:-
 -->In java programming we need to save the file name with the class name with .java extension
 -->compiling the code:-   javac filename.java
 -->running the code :-    java  filename/className
-==================================================================================================
- java Identifiers:-
-====================
+==============================================================================================================================================================
+ JAVA IDENTIFIERS:-
+============================
 -->java identifiers are used for indentification purpose.
 -->valid identifiers:-->($,_,[A-Z],[a-z],[0-9])-->but should not start with numbers.
 -->Invalid identifiers:-->(@,#,%,-,...)
-=====================================================
-Java Modifiers:-
+======================================================================================================================================================
+JAVA MODIFIERS:-
 =======================================================================
 -->final ->final	Attributes and methods cannot be overridden/modified , for final class inheritance cannot be possible.
 -->Static -> Attributes and methods belongs to a class , rather than object.-->It can be accessed without creating a object.
@@ -150,9 +143,9 @@ Java Modifiers:-
 -->public  -->code in the public section can accessed even outside the class also.
 -->default --> The class is only accessible by classes of same package.(package is nothing but  collection of classes).
 -->protected -->code acessible in both parent and child classes. 
-=====================================================================================================
+=================================================================================================================================================================
 JAVA DATATYPES:-
-==============================================================================================================
+==========================================================
 boolean ->size->1bit  -->boolean boolvar;
 byte    ->size->1byte -->byte bytevar;
 char    ->size->16-bits-->char charvar;
@@ -162,8 +155,8 @@ long     ->size->8bytes-->long longvar;
 float    ->size->2bytes-->float floatvar;
 double   ->size->4bytes-->double doublevar;
 -->String, Array,class are Non-primitive datatypes.
-===============================================================
-java operators:-
+=================================================================================================================================================================
+JAVA OPERATORS:-
 ===================
 -->Arithmetic Operators:-(+,-,*,%,/)
 -->unary operators:-(-,+,++,--)
@@ -174,7 +167,7 @@ java operators:-
 -->bitwise operators:-(&,|,^,>>(right shift),<<(left shift))
 -->Literals are used to store binary data or hexadecimal data or all type of binary values.
 ====================================================================================================
-java Strings:-
+JAVA STRINGS:-
 ====================
 -->Strings are the type of objects that can store the character of values. A string acts the same as an array of characters in Java.
 -->Syntax :-
@@ -184,8 +177,8 @@ java Strings:-
           String s = new String("HELLO");
 -->byte[] b_arr={12,13,14,15,16};
    String s= new String(b_arr);
--->String methods:-
-   =======================
+-->STRING METHODS:-
+   ===========================================
     String s = "learm share any";
     1)String length:-
           s.length(); --->returns the number of characters in the String.
@@ -217,9 +210,9 @@ java Strings:-
          s.toString() -->used to convert given content to the string.
     15) String trim():-
           string s1=s.trim();
-==========================================================================================
--->StringBuffer/string Builder class in java:-
-   =========================================================
+=================================================================================================================================================================
+STRING BUFFER / STRING BUILDER IN JAVA:-
+=========================================================
 -->String buffer is used to protect threads.
 -->where as String builder doesn't protect threads.
      -->StirngBufffer sb=new StringBuffer();
@@ -230,7 +223,7 @@ java Strings:-
           sb.reverse();        -->used to reverse the buffer.
           sb.insert(position,string);
           sb.replace(1,3,string);
-============================================================================================================================
+=================================================================================================================================================================
 JAVA MATH:-
 =========================
 import java.io.*;
@@ -238,7 +231,7 @@ import java.io.*;
 -->Math.min(x,y); //returns the minimum value.
 -->Math.abs(x); //returns the absolute value.
 -->(int)Math.random()*10; //return the random values.
-===================================================================================
+===============================================================================================================================================================
 JAVA ARRAYS:-
 =============================================
 -->In java all arrays are dynamically allocated.
@@ -291,10 +284,10 @@ JAVA ARRAYS:-
         {
            max=A[i];
         }
-================================================================================================
--->ARRAYS CLASS:-
-   ==================
-   Arrays class is a built-in class in java that provides variuos utility methods for working with Arrays.
+==============================================================================================================================================================
+ARRAYS CLASS:-
+==================
+  -->Arrays class is a built-in class in java that provides variuos utility methods for working with Arrays.
    Methods:-
         import java.uitl.Arrays;
         int[] Array={1,4,2,5,3,6,9};
@@ -338,7 +331,7 @@ JAVA METHODS:-
       myfunc(float y);
       myfunc(double z);
 ===================================================================================
-JAVA OOP:-
+JAVA OOPS:-
 ============================
 -->OOPs Stands for object oriented programming.
 -->object-oriented programming is about creating objects that contains both data and Methods.
@@ -370,8 +363,9 @@ JAVA OOP:-
               Sytem.out.println(obj.x);
        }
     }
---->Java Class Methods:-
-   =======================
+===============================================================================================================================================================
+JAVA CLASS METHODS:-
+=======================
 -->There are two types of Java Class Methods they are static and public.
 -->static methods can be called without creating or without using object.
 -->public methods should be called by using objects.
@@ -390,8 +384,8 @@ example:-
               obj.myName();
         }
   }
--------------------------------------------
-JAVA Constructors:-
+=================================================================================================================================================================
+JAVA CONSTRUCTORS:-
 =====================
 -->Constructor is a special member function which is used to intialize objects.when Object is created constructor get invoked Automatically.
 -->The class name and constructor name should be same.
@@ -420,8 +414,8 @@ JAVA Constructors:-
             System.out.println(myobj.x);
         }
    }
-=============================================================================
--->SUPER AND THIS KEYWORDS:-
+=================================================================================================================================================================
+SUPER AND THIS KEYWORDS:-
 ================================
 let us discuss super keyword by using an example program.
 class A extends object{  // class is by default extends from object
@@ -452,8 +446,8 @@ class Main{
        B myobj= new B(6); // it will call class B parameterised constructor and class A default constructuor and to call class A parameterised constructor pass the value in to super keyword.
   }
 }
-=========================================================================================================       
--->ENCAPSULATION:-
+===========================================================================================================================================================      
+ENCAPSULATION:-
 =======================
 -->The meaning of "Encapsulation" , is to make sure that "Sensitive" data is hidden from users.To Acheive this we need to    
      ->declare calss variables or attributes as Private.
@@ -479,10 +473,10 @@ class Main{
   }
 -->Why Encapsulation?
  =============================
-  -->Better Control of calss Attributes or variables.
-  -->class attributes can be made red-only or write only.
- -->Increases security of data.
-====================================================================================================
+-->Better Control of calss Attributes or variables.
+-->class attributes can be made red-only or write only.
+-->Increases security of data.
+=================================================================================================================================================================
 INHERITANCE:-
 ===================
 -->It is possible to inherit attributes and Methods from one class to another class .
@@ -555,12 +549,14 @@ Example:-
  }
 =======================================================================================
   Hybrid inheritance and multiple inheritance can be achieved by java interfaces.
+ -->Hybrid inheritance is the combination of two or more types of inheritances.
 Advantages:-
 ===========
--->code reusability
+--->code reusability
 --->Abstraction
+--->Method overriding
 --->class heirarchy
--->polymorphism 
+--->polymorphism 
 ========================================================================================================================================
 ABSTRACTION:-
 ==========================================
@@ -614,12 +610,12 @@ POLYMORPHISM:-
         }
    }
 ============================================================================================================
--->DIFFERENCE BETWEEN COMPILE TIME AND RUN TIME POLYMORPHISMS:-
+DIFFERENCE BETWEEN COMPILE TIME AND RUN TIME POLYMORPHISMS:-
 =================================================================
 -->compile-time polymorphism:-
-   ===========================
-  -->Whenever an object is bound with it's functionality at compile time that is known as compile time polymorphism.
- -->this can be acheived by method-overloading -->method overloading says that it can have more than one fucntion with same name but different parameters in a class.
+==============================
+-->Whenever an object is bound with it's functionality at compile time that is known as compile time polymorphism.
+ -->This can be acheived by method-overloading -->method overloading says that it can have more than one fucntion with same name but different parameters in a class.
 Example:-
 ========
 class Main{
@@ -639,7 +635,7 @@ class Main{
 -->Run-Time polymorphism:-
   ===========================
 -->Whenever an object bound it's functionality at run-time that is known as run-time polymorphism.
--->this can be acheived by method overriding-->method overding means when a function or method in parent is declared same as in child class.
+-->This can be acheived by method overriding-->method overding means when a function or method in parent is declared same as in child class.
 Example:-
 ===========
 class parent{
@@ -656,8 +652,9 @@ class child extends parent{
     }
  }
 ===================================================================================================================
-
-       
+INTERFACE IN JAVA:-
+====================================
+-->
 
   
     
