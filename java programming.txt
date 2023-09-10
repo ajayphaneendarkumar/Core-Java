@@ -446,7 +446,7 @@ class Main{
        B myobj= new B(6); // it will call class B parameterised constructor and class A default constructuor and to call class A parameterised constructor pass the value in to super keyword.
   }
 }
-===========================================================================================================================================================      
+================================================================================================================================================================      
 ENCAPSULATION:-
 =======================
 -->The meaning of "Encapsulation" , is to make sure that "Sensitive" data is hidden from users.To Acheive this we need to    
