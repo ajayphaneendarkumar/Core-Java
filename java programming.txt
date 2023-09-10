@@ -137,8 +137,8 @@ COMMENT LINES IN JAVA:-
 ======================================================================================================================================================
 JAVA MODIFIERS:-
 =======================================================================
--->final ->final	Attributes and methods cannot be overridden/modified , for final class inheritance cannot be possible.
--->Static -> Attributes and methods belongs to a class , rather than object.-->It can be accessed without creating a object.
+-->final    ->final Attributes and methods cannot be overridden/modified , for final class inheritance cannot be possible.
+-->Static  -> Attributes and methods belongs to a class , rather than object.-->It can be accessed without creating a object.
 -->private -->code within the private section is accessible but outside the class not accessible.
 -->public  -->code in the public section can accessed even outside the class also.
 -->default --> The class is only accessible by classes of same package.(package is nothing but  collection of classes).
@@ -273,9 +273,9 @@ JAVA ARRAYS:-
              Array[i][j]=sc.nextInt();
            }
        }
-=================================================================================
---->int min=Integer.MAX_VALUE;
--->int max=Integer.MIN_VALUE;
+===============================================================================================================================================================
+--->int min=Integer.MIN_VALUE;
+-->int max=Integer.MAX_VALUE;
       if(A[i] < min)
        {
            min=A[i];
