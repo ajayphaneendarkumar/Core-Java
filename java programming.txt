@@ -5,7 +5,7 @@ JAVA INTORDUCTION:-
 -->java was developed by or brainchild of  James gosling and his team(patrick Naughthon,Mike sherdin) at sun micro Systems in 1991.
 -->intitally java named as "GreenTalk" later renamed as "oak" .
 -->"oak" is renamed as java in the year 1995 and later acquired by oracle corporation.
-============================================================================================================================================================================================
+=================================================================================================================================================================
 JAVA ARCHITECTURE:-
 ===============================
 -->Step-1:  create a java source code file with .java extension
@@ -23,8 +23,8 @@ APPLICATIONS OF JAVA:-
   -->"WEB APPLICATIONS"
   -->"EMBEDDED SYSTEMS"
   -->"GAMING".
-========================================
-ADVANTAGES OF JAVA:-
+===============================================================================================================================================================
+ADVANTAGES OR FEATURES OF JAVA:-
 ==============================
 -->java  is a popular and widely used programming language with many advantages.
      -->platform independent -->code can run any jvm installed desktop
@@ -33,7 +33,7 @@ ADVANTAGES OF JAVA:-
      -->security enhancement
      -->multi-threading
      -->community support
-=============================================================================================================
+=============================================================================================================================================================
 -->What is meant by "public static void main(String args[])"?
      -->In public static void main(String args[])
               -->public means direct access to the jvm(Java virtual machine).
