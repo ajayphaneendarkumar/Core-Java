@@ -206,7 +206,7 @@ JAVA STRINGS:-
     12)String replace(char old ,char new):-
            s.replace("f" , "g");
     13)string split:-
-          s.split("\\s+"); s.split(",");
+          s.split("\\s+"); s.split(","); // for example String[] s = s1.split(",");
     14)toString():-
          s.toString() -->used to convert given content to the string.
     15) String trim():-
