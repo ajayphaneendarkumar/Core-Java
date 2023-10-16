@@ -692,7 +692,8 @@ COLLECTIONS IN JAVA:-
 -->"Collections.shuffle(arr);"  -->It will rearrange all the elements of the array.
 -->"Collections.replaceAll(arr, old_value, new_value);"
 -->"Collections.binarySearch(arr,ele);"
-so these are some the important methods they can be by using collections.
+-->"Collections.rotate(arr,how_many_rotations);
+so these are some the important methods they can be by using collections. 
 ==================================================================================================================================================================
 
 
