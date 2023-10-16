@@ -655,7 +655,31 @@ class child extends parent{
 ================================================================================================================================================================
 INTERFACE IN JAVA:-
 ====================================
--->
+-->Another way to acheive "Abstraction" in java is with interfaces.
+-->"Interface" is a completely "Abstract Class" that is used to group related methods with no body.
+-->Example:-
+   interface animal{
+        public void animalsound(){}
+        public void sleep(){}
+   }
+  class pig extends animal{
+        public void animalsound(){
+           System.out.println("pig sound as zeeeg");  //abstract method body
+        }
+         public void sleep(){
+             System.out.println("pig sleep as zooo"); //abstract method body
+        }
+ }
+ class Main{
+       public static void main(String args[]){
+              pig mypig= new pig();
+              mypig.animalsound();
+              mypig.sleep();
+      }
+}
+-->Similarly multiple interfaces can be developed.
+==================================================================================================================================================================
+                  
 
   
     
