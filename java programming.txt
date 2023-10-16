@@ -691,6 +691,7 @@ COLLECTIONS IN JAVA:-
 -->"Collections.min(arr);" -->It is used to find minimum element of the array.
 -->"Collections.shuffle(arr);"  -->It will rearrange all the elements of the array.
 -->"Collections.replaceAll(arr, old_value, new_value);"
+-->"Collections.binarySearch(arr,ele);"
 so these are some the important methods they can be by using collections.
 ==================================================================================================================================================================
 
