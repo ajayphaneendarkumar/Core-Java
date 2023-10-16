@@ -656,7 +656,7 @@ class child extends parent{
 INTERFACE IN JAVA:-
 ====================================
 -->Another way to acheive "Abstraction" in java is with interfaces.
--->"Interface" is a completely "Abstract Class" that is used to group related methods with no body.
+-->An "Interface" is a completely "Abstract Class" that is used to group related methods with no body.
 -->Example:-
    interface animal{
         public void animalsound(){}
@@ -679,7 +679,21 @@ INTERFACE IN JAVA:-
 }
 -->Similarly multiple interfaces can be developed.
 ==================================================================================================================================================================
-                  
+COLLECTIONS IN JAVA:-
+=====================
+-->These provides below shown methods.
+-->"Collections.sort(arr_name or list_name); " -->It is used to sort the elements of array or list.
+-->"Collections.copy(arr1,arr2) ;" -->It is used to copy elements from one array to another array. 
+-->"Collections.swap(arr,index1,index2);" --">It is used to swap elements of the array.
+-->"Collections.reverse(arr);" -->It is used to reverse  elements of the array.
+-->"Collections.frequency(arr,ele);"
+-->"Collections.max(arr);" -->It is used to find maximum element of the array.
+-->"Collections.min(arr);" -->It is used to find minimum element of the array.
+-->"Collections.shuffle(arr);"  -->It will rearrange all the elements of the array.
+-->"Collections.replaceAll(arr, old_value, new_value);"
+so these are some the important methods they can be by using collections.
+==================================================================================================================================================================
+
 
   
     
