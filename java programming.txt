@@ -458,7 +458,7 @@ ENCAPSULATION:-
 -->Types:  function encapsulation, calss encapsulation, member variable encapsulation
    example:-
   ===================
-  public class Main(){
+  public class Main{
        private String name;
        public String getName(){
            return name;
