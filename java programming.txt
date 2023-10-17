@@ -695,7 +695,17 @@ COLLECTIONS IN JAVA:-
 -->"Collections.rotate(arr,how_many_rotations);
 so these are some the important methods they can be by using collections. 
 ==================================================================================================================================================================
-
+COLLECTION FRAME WORK IN JAVA:-
+==================================
+-->following are some of the collection data structures in java.
+-->They are:-
+        -->ArrayList
+        -->HashMap
+        -->HashSet
+        -->LinkedList
+ARRAYLIST:-
+====================
+-->
 
   
     
