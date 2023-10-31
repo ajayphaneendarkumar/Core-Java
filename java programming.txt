@@ -706,12 +706,25 @@ COLLECTION FRAME WORK IN JAVA:-
 ARRAYLIST:-
 ====================
 -->The "ArrayList" class is a  resizable array which can be found in the java.util package.
--->The difference between  "built-in array" and "ArrayList" is that for the built array we cannot add or remove elements to/from the array whereas for ArrayList the elements can be added or removed at any place or position.
+-->The difference between  "built-in array" and "ArrayList" is that for the built array we cannot add or remove elements to/from the built-in array whereas for ArrayList the elements can be added or removed at any place or position.
 -->SYNTAX:-
       import java.util.ArrayList;
       ArrayList<data_type> ArrayName = new ArrayList<data_type>();
 -->SOME OF THE USEFUL METHODS THAT ARRAYLIST CLASS HAS:-
-   -->
+   -->"A.add(ele);"  -->it is used to add elements in to the arraylist.
+   -->"A.get(i);"  -->it is used to access elements inthe arraylist.
+   -->"A.set(index, ele);" -->it is used to replace elements at particular position in the arraylist.
+   -->"A.remove(index);" -->it is used to remove element at particular index in the arraylist.
+   -->"A.clear();" -->it will entire arraylist.
+   -->"A.size();" -->it will print size of the arraylist.
+for(int i=0;i<A.size();i++){
+    System.out.println(A.get(i));
+ }
+for(int x:A){
+ system.out.println(x);
+}
+==================================================================================================================================================================
+   
 
   
     
