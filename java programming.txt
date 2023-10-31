@@ -705,7 +705,13 @@ COLLECTION FRAME WORK IN JAVA:-
         -->LinkedList
 ARRAYLIST:-
 ====================
--->
+-->The "ArrayList" class is a  resizable array which can be found in the java.util package.
+-->The difference between  "built-in array" and "ArrayList" is that for the built array we cannot add or remove elements to/from the array whereas for ArrayList the elements can be added or removed at any place or position.
+-->SYNTAX:-
+      import java.util.ArrayList;
+      ArrayList<data_type> ArrayName = new ArrayList<data_type>();
+-->SOME OF THE USEFUL METHODS THAT ARRAYLIST CLASS HAS:-
+   -->
 
   
     
