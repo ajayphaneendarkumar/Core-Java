@@ -717,6 +717,7 @@ JAVA ARRAYLIST:-
    -->"A.remove(index);" -->it is used to remove element at particular index in the arraylist.
    -->"A.clear();" -->it will entire arraylist.
    -->"A.size();" -->it will print size of the arraylist.
+   -->"A.contains(ele);" -->it will checck for whether the element exits or not.
 for(int i=0;i<A.size();i++){
     System.out.println(A.get(i));
  }
@@ -737,6 +738,7 @@ HashMap<data_type1, data_type2> Hashmap_Name =  new HashMap<data_type1, data_typ
    -->"HasMap.remove(key);" -->it is used to remove values with specific keys.
    -->"HasMap.size();" -->it will return size of map.
    -->"HasMap.clear();" -->it will clear/delete entire HasMap.
+   -->"HashMap.contains(key);" -->it will check whether the value exits in the map or not.
 -->for(data_type ele : HasMap.keySet()){
        system.out.println(ele); //prints keys
        System.out.println(i+ " " + HashMap.get(ele)); //prints keys , values
