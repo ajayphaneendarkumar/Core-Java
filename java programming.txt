@@ -749,6 +749,24 @@ HashMap<data_type1, data_type2> Hashmap_Name =  new HashMap<data_type1, data_typ
 ==================================================================================================================================================================
  JAVA HASHSET:-
 ==================
+-->It is used to store collection of items where every item is unique and it can found in java.util package.
+SYNTAX:-
+=======
+ HashSet<data_type> HashSet_Name = new HashSet<data_type>();
+
+-->Following are some of the useful methods that HashSet has:-
+     -->"HashSet.add(ele);" --> it is used to add elements in to the Hashset.
+     -->"HashSet.Contains(ele);" -->it will check whether the element present in the set or not.
+     -->"HashSet.size();" -->it will return size of the set.
+     -->"HashSet.clear();" -->it will delete entire set at a time.
+     -->"HashSet.remove(ele);" -->it will remove specific element in the HashSet.
+-->for(int i : HashSet) {
+         System.out.println(i);
+    }
+==================================================================================================================================================================
+JAVA LINKEDLIST:-
+====================
+-->
 
   
     
