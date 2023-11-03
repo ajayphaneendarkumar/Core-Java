@@ -5,6 +5,9 @@ JAVA INTORDUCTION:-
 -->java was developed by or brainchild of  James gosling and his team(patrick Naughthon,Mike sherdin) at sun micro Systems in 1991.
 -->intitally java named as "GreenTalk" later renamed as "oak" .
 -->"oak" is renamed as java in the year 1995 and later acquired by oracle corporation.
+-->Java is one of the most popular programming language in the world.
+-->It has more demand inthe current job market.
+-->it is easy to learn and simple to use.
 =================================================================================================================================================================
 JAVA ARCHITECTURE:-
 ===============================
