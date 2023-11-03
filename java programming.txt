@@ -766,7 +766,24 @@ SYNTAX:-
 ==================================================================================================================================================================
 JAVA LINKEDLIST:-
 ====================
--->
+-->java is LinkedList Class is same as Java ArrayList Class both are having same methods to perform operations.
+SYNTAX:-
+========
+LinkedList<data_type> L = new LinkedList<data_type>();
+-->Following are some of the useful methods that LinkedList has:-
+     -->"L.add(ele);" 
+     -->"L.get(i);" 
+     -->"L.size();"
+     -->"L.set(i,ele);"
+     -->"L.remove(i);" 
+     -->"L.clear();"
+     -->"L.addFirst();" -->adds an item to the beginning of the  list.
+     -->"L.addLast();"  -->adds an item to the end of the list.
+     -->"L.removeFirst();" -->removes an item from the begging of the list.
+     -->"L.removeLast();" -->removes an item from the end of the list.
+     -->"L.getFirst();" -->get an item at the beginning of the list.
+     -->"L.getLast();" -->get an item at the end of the list.
+=================================================================================================================================================================
 
   
     
