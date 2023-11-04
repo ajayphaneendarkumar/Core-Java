@@ -17,7 +17,10 @@ JAVA ARCHITECTURE:-
 -->step-4:  bytecode verifier validates all the byte codes are valid.
 -->step-5:  jvm(java virtual machine) reads bytecodes and translate into machine code for execution. 
 -->jvm is a interpreter which converts bytecode to machine code or machine specific instructions.
-==============================================================================================================================
+-->"JVM" stands for Java Virtual Machine it is a Java interpreter. It is responsible for loading, verifying, and executing the bytecode created in Java.
+-->"JRE" stands for Java Run-Time Environment, it is an installed package that provides environment to run java programs on any machine.
+-->"JDK" stands for Java Development Kit which provides the environment to develop and execute the java programs.
+==================================================================================================================================================================
 APPLICATIONS OF JAVA:-
 ==========================
   -->java is used in "DESKTOP APPLICATIONS"
@@ -36,6 +39,8 @@ ADVANTAGES OR FEATURES OF JAVA:-
      -->security enhancement
      -->multi-threading
      -->community support
+     -->Robust-->Garbage Collection and exception handling makes the java programming as Robust.
+     -->Architecture Neutral -->it is not depend on the Architecture design.
 =============================================================================================================================================================
 -->What is meant by "public static void main(String args[])"?
      -->In public static void main(String args[])
@@ -352,6 +357,9 @@ JAVA METHODS:-
       myfunc(float y);
       myfunc(double z);
 ===================================================================================
+JAVA RECURSION:-
+==================
+-->
 JAVA OOPS:-
 ============================
 -->OOPs Stands for object oriented programming.
@@ -723,6 +731,7 @@ COLLECTION FRAME WORK IN JAVA:-
         -->HashMap
         -->HashSet
         -->LinkedList
+        -->
 JAVA ARRAYLIST:-
 ====================
 -->The "ArrayList" class is a  resizable array which can be found in the java.util package.
@@ -732,12 +741,15 @@ JAVA ARRAYLIST:-
       ArrayList<data_type> ArrayName = new ArrayList<data_type>();
 -->SOME OF THE USEFUL METHODS THAT ARRAYLIST CLASS HAS:-
    -->"A.add(ele);"  -->it is used to add elements in to the arraylist.
+   -->"A.add(index, ele);" -->it is used to add element at the specific position in the list.
    -->"A.get(i);"  -->it is used to access elements inthe arraylist.
    -->"A.set(index, ele);" -->it is used to replace elements at particular position in the arraylist.
    -->"A.remove(index);" -->it is used to remove element at particular index in the arraylist.
+   -->"A.index(ele); -->it will return index of the specific element.
    -->"A.clear();" -->it will entire arraylist.
    -->"A.size();" -->it will print size of the arraylist.
    -->"A.contains(ele);" -->it will checck for whether the element exits or not.
+   -->"A.isEmpty();" -->it will true or false based on whether the ArrayList is empty or not.
 for(int i=0;i<A.size();i++){
     System.out.println(A.get(i));
  }
@@ -747,10 +759,11 @@ for(int x:A){
 =================================================================================================================================================================
 JAVA HASHMAP:-
 ==============
--->java HashMap is used to store elements in key/value pairs.
+-->java HashMap is used to store elements as key/value pairs.
 -->it does not allows duplicate elements and it return elements in sorted order.
 SYNTAX:-
 =======
+import java.util.HashMap;
 HashMap<data_type1, data_type2> Hashmap_Name =  new HashMap<data_type1, data_type2>();
 -->Following are some of the java HashMap Class methods they are:
    -->"HashMap.put(key,value);" -->it is used to add elements in to the map.
@@ -758,7 +771,7 @@ HashMap<data_type1, data_type2> Hashmap_Name =  new HashMap<data_type1, data_typ
    -->"HasMap.remove(key);" -->it is used to remove values with specific keys.
    -->"HasMap.size();" -->it will return size of map.
    -->"HasMap.clear();" -->it will clear/delete entire HasMap.
-   -->"HashMap.contains(key);" -->it will check whether the value exits in the map or not.
+   -->"HashMap.containsKey(key);" -->it will check whether the value exits in the map or not.
 -->for(data_type ele : HasMap.keySet()){
        system.out.println(ele); //prints keys
        System.out.println(i+ " " + HashMap.get(ele)); //prints keys , values
@@ -772,31 +785,38 @@ HashMap<data_type1, data_type2> Hashmap_Name =  new HashMap<data_type1, data_typ
 -->It is used to store collection of items where every item is unique and it can found in java.util package.
 SYNTAX:-
 =======
+import java.util.HashSet;
  HashSet<data_type> HashSet_Name = new HashSet<data_type>();
 
 -->Following are some of the useful methods that HashSet has:-
      -->"HashSet.add(ele);" --> it is used to add elements in to the Hashset.
-     -->"HashSet.Contains(ele);" -->it will check whether the element present in the set or not.
-     -->"HashSet.size();" -->it will return size of the set.
-     -->"HashSet.clear();" -->it will delete entire set at a time.
-     -->"HashSet.remove(ele);" -->it will remove specific element in the HashSet.
--->for(int i : HashSet) {
+     -->"HashSet_Name.Contains(ele);" -->it will check whether the element present in the set or not.
+     -->"HashSet_Name.size();" -->it will return size of the set.
+     -->"HashSet_Name.clear();" -->it will delete entire set at a time.
+     -->"HashSet_Name.remove(ele);" -->it will remove specific element in the HashSet.
+     -->"HashSet_Name.isEmpty();" -->return true or false  based on whether the HashSet is empty or not.
+-->for(int i : HashSet_Name) {
          System.out.println(i);
     }
 ==================================================================================================================================================================
 JAVA LINKEDLIST:-
 ====================
 -->java is LinkedList Class is same as Java ArrayList Class both are having same methods to perform operations.
+-->The difference between ArrayList and LinkedList are insertion and deletion and faster in LinkedList when compared to ArrayList.
 SYNTAX:-
 ========
+import java.util.LinkedList;
 LinkedList<data_type> L = new LinkedList<data_type>();
 -->Following are some of the useful methods that LinkedList has:-
      -->"L.add(ele);" 
+     -->"L.add(index,ele);"
      -->"L.get(i);" 
      -->"L.size();"
      -->"L.set(i,ele);"
      -->"L.remove(i);" 
      -->"L.clear();"
+     -->"L.contians(ele);"
+     -->"L.isEmpty();"
      -->"L.addFirst();" -->adds an item to the beginning of the  list.
      -->"L.addLast();"  -->adds an item to the end of the list.
      -->"L.removeFirst();" -->removes an item from the begging of the list.
