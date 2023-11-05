@@ -194,6 +194,7 @@ JAVA OPERATORS:-
 JAVA STRINGS:-
 ====================
 -->Strings are the type of objects that can store the character of values. A string acts the same as an array of characters in Java.
+-->Strings are immutable in java.
 -->Syntax :-
       string literal:-(<String_type>  <string_variable> = <String_Sequence>)
           String s = "HELLO";
@@ -756,6 +757,7 @@ JAVA ARRAYLIST:-
 -->The "ArrayList" class is a  resizable array which can be found in the java.util package.
 -->The difference between  "built-in array" and "ArrayList" is that for the built array we cannot add or remove elements to/from the built-in array whereas for ArrayList the elements can be added or removed at any place or position.
 -->vector is a thread safe and ArrayList is not a thread safe.
+-->mutable.
 -->SYNTAX:-
       import java.util.ArrayList;
       ArrayList<data_type> ArrayName = new ArrayList<data_type>();
@@ -803,6 +805,7 @@ HashMap<data_type1, data_type2> Hashmap_Name =  new HashMap<data_type1, data_typ
  JAVA HASHSET:-
 ==================
 -->It is used to store collection of items where every item is unique and it can found in java.util package.
+-->immutable.
 SYNTAX:-
 =======
 import java.util.HashSet;
@@ -823,6 +826,7 @@ JAVA LINKEDLIST:-
 ====================
 -->java is LinkedList Class is same as Java ArrayList Class both are having same methods to perform operations.
 -->The difference between ArrayList and LinkedList are insertion and deletion and faster in LinkedList when compared to ArrayList.
+-->mutable.
 SYNTAX:-
 ========
 import java.util.LinkedList;
