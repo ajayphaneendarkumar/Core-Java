@@ -773,10 +773,20 @@ JAVA ARRAYLIST:-
    -->"A.size();" -->it will print size of the arraylist.
    -->"A.contains(ele);" -->it will checck for whether the element exits or not.and return true or false.
    -->"A.isEmpty();" -->it will true or false based on whether the ArrayList is empty or not.
-for(int i=0;i<A.size();i++){
+   -->"A.endsWith("ch");"
+   -->"A.startsWith("ch");"
+-->for(String c : cars){
+      if(c.endsWith("a"){
+          System.out.println(c);
+      }
+      if(c.startsWith("V"){
+         System.out.println(c);
+      }
+}
+-->for(int i=0;i<A.size();i++){
     System.out.println(A.get(i));
  }
-for(int x:A){
+-->for(int x:A){
  system.out.println(x);
 }
 =================================================================================================================================================================
@@ -848,6 +858,16 @@ LinkedList<data_type> L = new LinkedList<data_type>();
      -->"L.removeLast();" -->removes an item from the end of the list.
      -->"L.getFirst();" -->get an item at the beginning of the list.
      -->"L.getLast();" -->get an item at the end of the list.          ---->These two methods should be in print statements.
+     -->"L.endsWith("ch");"
+     -->"L.startsWith("ch");"
+-->for(String c : cars){
+      if(c.endsWith("a"){
+          System.out.println(c);
+      }
+      if(c.startsWith("V"){
+         System.out.println(c);
+      }
+}
 =================================================================================================================================================================
 
   
