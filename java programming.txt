@@ -776,10 +776,10 @@ JAVA ARRAYLIST:-
    -->"A.endsWith("ch");"
    -->"A.startsWith("ch");"
 -->for(String c : cars){
-      if(c.endsWith("a"){
+      if(c.endsWith("a")){
           System.out.println(c);
       }
-      if(c.startsWith("V"){
+      if(c.startsWith("V")){
          System.out.println(c);
       }
 }
@@ -861,10 +861,10 @@ LinkedList<data_type> L = new LinkedList<data_type>();
      -->"L.endsWith("ch");"
      -->"L.startsWith("ch");"
 -->for(String c : cars){
-      if(c.endsWith("a"){
+      if(c.endsWith("a")){
           System.out.println(c);
       }
-      if(c.startsWith("V"){
+      if(c.startsWith("V")){
          System.out.println(c);
       }
 }
