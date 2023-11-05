@@ -768,7 +768,7 @@ JAVA ARRAYLIST:-
    -->"A.get(i);"  -->it is used to access elements inthe arraylist.
    -->"A.set(index, ele);" -->it is used to replace elements at particular position in the arraylist.
    -->"A.remove(index);" -->it is used to remove element at particular index in the arraylist.
-   -->"A.index(ele); -->it will return index of the specific element.
+   -->"A.indexOf(ele);" -->it will return index of the specific element.
    -->"A.clear();" -->it will entire arraylist.
    -->"A.size();" -->it will print size of the arraylist.
    -->"A.contains(ele);" -->it will checck for whether the element exits or not.and return true or false.
