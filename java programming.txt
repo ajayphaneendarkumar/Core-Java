@@ -748,10 +748,10 @@ COLLECTION FRAME WORK IN JAVA:-
 -->following are some of the collection data structures in java.
 -->They are:-
         -->ArrayList
+        -->LinkedList
         -->HashMap
         -->HashSet
-        -->LinkedList
-        -->
+        -->TreeSet
 JAVA ARRAYLIST:-
 ====================
 -->The "ArrayList" class is a  resizable array which can be found in the java.util package.
@@ -760,6 +760,8 @@ JAVA ARRAYLIST:-
 -->mutable collection.
 -->SYNTAX:-
       import java.util.ArrayList;
+      List<data_type> Arraylist = new ArrayList<>();
+                   or
       ArrayList<data_type> ArrayName = new ArrayList<data_type>();
 -->SOME OF THE USEFUL METHODS THAT ARRAYLIST CLASS HAS:-
    -->"A.add(ele);"  -->it is used to add elements in to the arraylist.
@@ -790,49 +792,6 @@ JAVA ARRAYLIST:-
  system.out.println(x);
 }
 =================================================================================================================================================================
-JAVA HASHMAP:-
-==============
--->java HashMap is used to store elements as key/value pairs.
--->it does not allows duplicate elements and it return elements in sorted order.
-SYNTAX:-
-=======
-import java.util.HashMap;
-HashMap<data_type1, data_type2> Hashmap_Name =  new HashMap<data_type1, data_type2>();
--->Following are some of the java HashMap Class methods they are:
-   -->"HashMap.put(key,value);" -->it is used to add elements in to the map.
-   -->"HasMap.get(key);" -->it is used to access Hashmap values by taking key as reference.
-   -->"HasMap.remove(key);" -->it is used to remove values with specific keys.
-   -->"HasMap.size();" -->it will return size of map.
-   -->"HasMap.clear();" -->it will clear/delete entire HasMap.
-   -->"HashMap.containsKey(key);" -->it will check whether the value exits in the map or not.and return true or false.
--->for(data_type ele : HasMap.keySet()){
-       system.out.println(ele); //prints keys
-       System.out.println(i+ " " + HashMap.get(ele)); //prints keys , values
-   }
--->for(data_type ele: HashMap.values()){
-      System.out.println(ele); //prints values
-   }
-==================================================================================================================================================================
- JAVA HASHSET:-
-==================
--->It is used to store collection of items where every item is unique and it can found in java.util package.
--->immutable collection.
-SYNTAX:-
-=======
-import java.util.HashSet;
- HashSet<data_type> HashSet_Name = new HashSet<data_type>();
-
--->Following are some of the useful methods that HashSet has:-
-     -->"HashSet.add(ele);" --> it is used to add elements in to the Hashset.
-     -->"HashSet_Name.Contains(ele);" -->it will check whether the element present in the set or not.
-     -->"HashSet_Name.size();" -->it will return size of the set.
-     -->"HashSet_Name.clear();" -->it will delete entire set at a time.
-     -->"HashSet_Name.remove(ele);" -->it will remove specific element in the HashSet.
-     -->"HashSet_Name.isEmpty();" -->return true or false  based on whether the HashSet is empty or not.
--->for(int i : HashSet_Name) {
-         System.out.println(i);
-    }
-==================================================================================================================================================================
 JAVA LINKEDLIST:-
 ====================
 -->java is LinkedList Class is same as Java ArrayList Class both are having same methods to perform operations.
@@ -841,6 +800,8 @@ JAVA LINKEDLIST:-
 SYNTAX:-
 ========
 import java.util.LinkedList;
+List<data_type> linkedlist = new LinkeList<>();
+          or
 LinkedList<data_type> L = new LinkedList<data_type>();
 -->Following are some of the useful methods that LinkedList has:-
      -->"L.add(ele);" 
@@ -869,9 +830,72 @@ LinkedList<data_type> L = new LinkedList<data_type>();
       }
 }
 =================================================================================================================================================================
+JAVA HASHMAP:-
+==============
+-->java HashMap is used to store elements as key/value pairs.
+-->it does not allows duplicate elements and it return elements in sorted order.
+SYNTAX:-
+=======
+import java.util.HashMap;
+HashMap<data_type1, data_type2> Hashmap_Name =  new HashMap<data_type1, data_type2>();
+-->Following are some of the java HashMap Class methods they are:
+   -->"HashMap.put(key,value);" -->it is used to add elements in to the map.
+   -->"HasMap.get(key);" -->it is used to access Hashmap values by taking key as reference.
+   -->"HasMap.remove(key);" -->it is used to remove values with specific keys.
+   -->"HasMap.size();" -->it will return size of map.
+   -->"HasMap.clear();" -->it will clear/delete entire HasMap.
+   -->"HashMap.containsKey(key);" -->it will check whether the value exits in the map or not.and return true or false.
+-->for(data_type ele : HasMap.keySet()){
+       system.out.println(ele); //prints keys
+       System.out.println(i+ " " + HashMap.get(ele)); //prints keys , values
+   }
+-->for(data_type ele: HashMap.values()){
+      System.out.println(ele); //prints values
+   }
+==================================================================================================================================================================
+ JAVA HASHSET:-
+==================
+-->It is used to store collection of items where every item is unique and it can found in java.util package.
+-->immutable collection.
+-->It does not cares about sorted order and  insertion order.
+SYNTAX:-
+=======
+import java.util.HashSet;
+ Set<data_type> Hashset = new HashSet<>();
+            or
+ HashSet<data_type> HashSet_Name = new HashSet<data_type>();
 
-  
-    
+-->Following are some of the useful methods that HashSet has:-
+     -->"HashSet.add(ele);" --> it is used to add elements in to the Hashset without caring about insertion and sorted order.
+     -->"HashSet_Name.Contains(ele);" -->it will check whether the element present in the set or not.
+     -->"HashSet_Name.size();" -->it will return size of the set.
+     -->"HashSet_Name.clear();" -->it will delete entire set at a time.
+     -->"HashSet_Name.remove(ele);" -->it will remove specific element in the HashSet.
+     -->"HashSet_Name.isEmpty();" -->return true or false  based on whether the HashSet is empty or not.
+-->for(int i : HashSet_Name) {
+         System.out.println(i);
+    }
+==================================================================================================================================================================
+JAVA TREESET:-
+====================
+-->TreeSet cares about sorted Order but not about insertion order.
+-->HashSet does not cares about both sorted and insertion order.
+-->LinkedHashSet cares about insertion order but not about sorted order.
+SYNTAX:-
+========
+Set<data_type> numbers = new TreeSet<>();
+      or
+TreeSet<data_type> treeset = new TreeSet<data_type>();
+-->"numbers.add(ele);" -->it will add  items into the set in sorted order without caring about insertion order.
+-->"numbers.floor(ele);" -->it will return the element that is less than or equal to the given parameter.
+-->"numbers.lower(ele);" -->it will return the element that is less than the given parameter.
+-->"numbers.ceil(ele);" -->it will the return the element that is greater than or equal to the given parameter.
+-->"numbers.upper(ele);" -->it will the return the element that is greater than the given parameter.
+-->"numbers.subSet(ele1, ele2);" -->ex: [10,12,14,15,17, 18,20,24,26] -->numbers.subSet(15,20); -->[17,18]
+-->"numbers.headSet(ele);" -->it will return the elements that are before to the given parameter.
+-->"numbers.tailSet(ele);" -->it will return the elements that are after to the given parameter.
+==================================================================================================================================================================
+
      
      
        
