@@ -770,7 +770,7 @@ JAVA ARRAYLIST:-
    -->"A.index(ele); -->it will return index of the specific element.
    -->"A.clear();" -->it will entire arraylist.
    -->"A.size();" -->it will print size of the arraylist.
-   -->"A.contains(ele);" -->it will checck for whether the element exits or not.
+   -->"A.contains(ele);" -->it will checck for whether the element exits or not.and return true or false.
    -->"A.isEmpty();" -->it will true or false based on whether the ArrayList is empty or not.
 for(int i=0;i<A.size();i++){
     System.out.println(A.get(i));
@@ -793,7 +793,7 @@ HashMap<data_type1, data_type2> Hashmap_Name =  new HashMap<data_type1, data_typ
    -->"HasMap.remove(key);" -->it is used to remove values with specific keys.
    -->"HasMap.size();" -->it will return size of map.
    -->"HasMap.clear();" -->it will clear/delete entire HasMap.
-   -->"HashMap.containsKey(key);" -->it will check whether the value exits in the map or not.
+   -->"HashMap.containsKey(key);" -->it will check whether the value exits in the map or not.and return true or false.
 -->for(data_type ele : HasMap.keySet()){
        system.out.println(ele); //prints keys
        System.out.println(i+ " " + HashMap.get(ele)); //prints keys , values
@@ -839,8 +839,8 @@ LinkedList<data_type> L = new LinkedList<data_type>();
      -->"L.set(i,ele);"
      -->"L.remove(i);" 
      -->"L.clear();"
-     -->"L.contians(ele);"
-     -->"L.isEmpty();"
+     -->"L.contians(ele);"  -->return true or false .whether the element presento or not.
+     -->"L.isEmpty();"       -->return true or false. whether it is empty or not.
      -->"L.addFirst();" -->adds an item to the beginning of the  list.
      -->"L.addLast();"  -->adds an item to the end of the list.
      -->"L.removeFirst();" -->removes an item from the begging of the list.
