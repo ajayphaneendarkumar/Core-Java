@@ -866,7 +866,8 @@ import java.util.HashSet;
  HashSet<data_type> HashSet_Name = new HashSet<data_type>();
 
 -->Following are some of the useful methods that HashSet has:-
-     -->"HashSet.add(ele);" --> it is used to add elements in to the Hashset without caring about insertion and sorted order.
+     -->"HashSet_Name.add(ele);" --> it is used to add elements in to the Hashset without caring about insertion and sorted order.
+     -->"HashSet_Name.addAll(newSet);"
      -->"HashSet_Name.Contains(ele);" -->it will check whether the element present in the set or not.
      -->"HashSet_Name.size();" -->it will return size of the set.
      -->"HashSet_Name.clear();" -->it will delete entire set at a time.
