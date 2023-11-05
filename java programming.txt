@@ -846,7 +846,7 @@ LinkedList<data_type> L = new LinkedList<data_type>();
      -->"L.removeFirst();" -->removes an item from the begging of the list.
      -->"L.removeLast();" -->removes an item from the end of the list.
      -->"L.getFirst();" -->get an item at the beginning of the list.
-     -->"L.getLast();" -->get an item at the end of the list.
+     -->"L.getLast();" -->get an item at the end of the list.          ---->These two methods should be in print statements.
 =================================================================================================================================================================
 
   
