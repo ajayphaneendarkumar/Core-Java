@@ -834,10 +834,10 @@ LinkedList<data_type> L = new LinkedList<data_type>();
 -->Following are some of the useful methods that LinkedList has:-
      -->"L.add(ele);" 
      -->"L.add(index,ele);"
-     -->"L.get(i);" 
+     -->"L.get(i);"  --->it is used to access the items in linked list.
      -->"L.size();"
-     -->"L.set(i,ele);"
-     -->"L.remove(i);" 
+     -->"L.set(i,ele);"   -->it is used to replace an item at the specific position inthe linkedlist.
+     -->"L.remove(i);"    -->it is used to remove specific item in the linkedlist at specific position.
      -->"L.clear();"
      -->"L.contians(ele);"  -->return true or false .whether the element presento or not.
      -->"L.isEmpty();"       -->return true or false. whether it is empty or not.
