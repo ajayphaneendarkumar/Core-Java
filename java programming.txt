@@ -359,7 +359,26 @@ JAVA METHODS:-
 ===================================================================================
 JAVA RECURSION:-
 ==================
--->
+-->Recursion is the technique of making a function call itself. This Technique provides a way to break down complicated problems into simple problems which are easier to solve.
+Example:-
+  public class Main{
+      public static void main(String args[]){
+           Scanner s = new Scanner(System.in);
+           int num=s.nextInt();
+           int res= sum(num); 
+          System.out.println(res);
+     }
+     public static int sum(int n){ 
+          if(n>0){
+               return n+sum(n-1);
+          }
+           else
+            {
+              return 0;
+            }
+     }
+  }
+==================================================================================================================================================================
 JAVA OOPS:-
 ============================
 -->OOPs Stands for object oriented programming.
