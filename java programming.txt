@@ -795,7 +795,7 @@ JAVA ARRAYLIST:-
 JAVA LINKEDLIST:-
 ====================
 -->java is LinkedList Class is same as Java ArrayList Class both are having same methods to perform operations.
--->The difference between ArrayList and LinkedList are insertion and deletion and faster in LinkedList when compared to ArrayList.
+-->The difference between ArrayList and LinkedList are insertion and deletion are faster in LinkedList when compared to ArrayList.
 -->mutable collection.
 SYNTAX:-
 ========
