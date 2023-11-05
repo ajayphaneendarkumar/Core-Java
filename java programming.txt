@@ -764,6 +764,7 @@ JAVA ARRAYLIST:-
 -->SOME OF THE USEFUL METHODS THAT ARRAYLIST CLASS HAS:-
    -->"A.add(ele);"  -->it is used to add elements in to the arraylist.
    -->"A.add(index, ele);" -->it is used to add element at the specific position in the list.
+   -->"A.addAll(newList);" --> it is used to addall elements of newList to the already existing ArrayList.
    -->"A.get(i);"  -->it is used to access elements inthe arraylist.
    -->"A.set(index, ele);" -->it is used to replace elements at particular position in the arraylist.
    -->"A.remove(index);" -->it is used to remove element at particular index in the arraylist.
