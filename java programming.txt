@@ -64,6 +64,7 @@ DIFFERENCE BETWEEN C++ AND JAVA:-
 ================================================================================================================================================================
 SRTUCTURE OF JAVA PROGRAM:-
 ===================================
+-->packages in java can be defined as grouping of related type of classes.
 //-->java lib contains all java related packages .
        import java.util.Scanner;
        import java.utilvector;  //import vector class
