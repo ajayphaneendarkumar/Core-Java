@@ -1,5 +1,5 @@
 JAVA INTORDUCTION:-
-===================
+=====================
 -->java is a class-based ,object-oriented programming language.
 -->java is case sensitive programming language.
 -->java was developed by or brainchild of  James gosling and his team(patrick Naughthon,Mike sherdin) at sun micro Systems in 1991.
@@ -906,6 +906,15 @@ TreeSet<data_type> treeset = new TreeSet<data_type>();
 -->"numbers.headSet(ele);" -->it will return the elements that are before to the given parameter.
 -->"numbers.tailSet(ele);" -->it will return the elements that are after to the given parameter.
 ==================================================================================================================================================================
+PRIORITY QUEUE:-
+=================
+SYNTAX:-
+==========
+Queue<Data_type> q = new priorityQueue<data_type>();
+-->"q.addAll(newList);" -->it is used to add list of items in to the list.
+-->"q.offer(ele);" --->it is used to add element/item in to the queue.
+-->"q.poll();"     --->it is used to bring out elements from the queue.
+===============================================================================================================================================================
 
      
      
