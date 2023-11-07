@@ -62,10 +62,15 @@ DIFFERENCE BETWEEN C++ AND JAVA:-
     6.c++ supports pointers and we can write a pointer program     6.java supports pointers internally but we can't pointer program in java.
     7.c++ supoorts operator overloading                            7.java doesn't supports operator overloading.
 ================================================================================================================================================================
+PACKAGES IN JAVA:-
+=====================
+-->Packages in java can be defined as grouping related type of classes.
+-->packages are used to avoid naming clashes and provides easier control access.
+-->it is easier to locate related type classes.
+-->there are two typesof packages in java they are -->user defined and built in packages.
+================================================================================================================================================================
 SRTUCTURE OF JAVA PROGRAM:-
 ===================================
--->packages in java can be defined as grouping of related type of classes.
--->packages are used in java in order to prevent naming conflicts and control access.
 //-->java lib contains all java related packages .
        import java.util.Scanner;
        import java.utilvector;  //import vector class
