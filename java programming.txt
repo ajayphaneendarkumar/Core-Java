@@ -20,6 +20,8 @@ JAVA ARCHITECTURE:-
 -->"JVM" stands for Java Virtual Machine it is a Java interpreter. It is responsible for loading, verifying, and executing the bytecode created in Java.
 -->"JRE" stands for Java Run-Time Environment, it is an installed package that provides environment to run java programs on any machine.
 -->"JDK" stands for Java Development Kit which provides the environment to develop and execute the java programs.
+-->"JIT" stands for Just-In-Time , it is a part of JVM that is used for better performance of java applications during run-time.
+-->class, Heap , stack, pc register, Native method stack these are memory's of class loader.
 ==================================================================================================================================================================
 APPLICATIONS OF JAVA:-
 ==========================
