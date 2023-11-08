@@ -29,10 +29,17 @@ public class Collections {
 		TreeSet<Integer>t = new TreeSet(s);
 		LinkedHashSet<Integer> Lh = new LinkedHashSet<Integer>();
 		//Queue<String> q = new PriorityQueue<String>();
-	     Map<String , Integer> m = Map.of("Apple1",1,"Orange1",2,"Bannana1",3);
+	     Map<String , Integer> m = Map.of("Apple1",1,"Orange1",2,"Bannana1",3,"RASANA",4,"Grapes",5);
 	    // HashMap<String, Integer> hm = new HashMap<>();
 	     LinkedHashMap<String ,Integer> lhm = new LinkedHashMap<>(m);
 	     TreeMap<String, Integer> tm = new TreeMap<>(m);
+	     //System.out.println(tm.lowerKey("Apple"));
+	    // System.out.println(tm.floorKey("Apple"));
+	     //System.out.println(tm.higherKey("Apple1"));
+	     //System.out.println(tm.ceilingKey("Apple1"));
+	    // System.out.println(tm.lastEntry());
+	     //System.out.println(tm.firstEntry());
+	     //System.out.println(tm.subMap("Bannana1" , "Orange1"));
 	     //System.out.println(lhm);
 	    // System.out.println(tm);
 	    // hm.put("RASANA", 4);
@@ -122,7 +129,7 @@ public class Collections {
 		//L.removeLast();
 		//System.out.println(L.getFirst());
 		//System.out.println(L.getlast());
-	     Scanner sc = new Scanner(System.in);
+	    /* Scanner sc = new Scanner(System.in);
 	     String str = sc.next();
 	     HashMap<Character,Integer> hm = new HashMap<>();
 	     char[] ch = str.toCharArray();
@@ -138,7 +145,7 @@ public class Collections {
 	    		 hm.put(character1, cnt+1);
 	    	 }
 	     }
-	     System.out.println(hm);
+	     System.out.println(hm);*/
 	     
 
 	}
