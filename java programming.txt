@@ -840,29 +840,6 @@ LinkedList<data_type> L = new LinkedList<data_type>();
       }
 }
 =================================================================================================================================================================
-JAVA HASHMAP:-
-==============
--->java HashMap is used to store elements as key/value pairs.
--->it does not allows duplicate elements and it return elements in sorted order.
-SYNTAX:-
-=======
-import java.util.HashMap;
-HashMap<data_type1, data_type2> Hashmap_Name =  new HashMap<data_type1, data_type2>();
--->Following are some of the java HashMap Class methods they are:
-   -->"HashMap.put(key,value);" -->it is used to add elements in to the map.
-   -->"HasMap.get(key);" -->it is used to access Hashmap values by taking key as reference.
-   -->"HasMap.remove(key);" -->it is used to remove values with specific keys.
-   -->"HasMap.size();" -->it will return size of map.
-   -->"HasMap.clear();" -->it will clear/delete entire HasMap.
-   -->"HashMap.containsKey(key);" -->it will check whether the value exits in the map or not.and return true or false.
--->for(data_type ele : HasMap.keySet()){
-       system.out.println(ele); //prints keys
-       System.out.println(i+ " " + HashMap.get(ele)); //prints keys , values
-   }
--->for(data_type ele: HashMap.values()){
-      System.out.println(ele); //prints values
-   }
-==================================================================================================================================================================
  JAVA HASHSET:-
 ==================
 -->It is used to store collection of items where every item is unique and it can found in java.util package.
