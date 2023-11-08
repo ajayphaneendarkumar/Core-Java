@@ -916,6 +916,13 @@ Following are some of the useful methods that MAP has:-
 -->"map.containsKey(key);" -->it will return true or false.
 -->"map.containsValue(value); " -->it will return true or false.
 -->"map.remove(key);" -->it is used to remove specific value in the map.
+-->"map2.higherkey(key);" --> it will print the key that is greater than the given key.
+-->"map2.ceilingKey(key);" --> it will print the key that is grater than or equal to the given key.
+-->"map2.lowerKey(key);"  -->it will print the key that is less than the given key.
+-->"map2.floorKey(key);"  -->it will print the key that is less than or equal to the given key.
+-->"map2.firstEntry();"   -->it will print the first key in the map.
+-->"map2.lastEntry();"    -->it will print the last key or entry in the map.
+-->"map2.subMap("key1-range" , "key2-range");" -->it will print the subMap of the gievn range.
 -->for(data_type c : map.keySet()){
      System.out.println(c); -->it will print all the keys of a map.
   }
