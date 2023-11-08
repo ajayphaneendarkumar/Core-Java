@@ -891,10 +891,37 @@ Queue<Data_type> q = new priorityQueue<data_type>();
 -->"q.addAll(newList);" -->it is used to add list of items in to the list.
 -->"q.offer(ele);" --->it is used to add element/item in to the queue.
 -->"q.poll();"     --->it is used to bring out elements from the queue.
+-->"q.remove();"
+-->"q.peek();"
 ===============================================================================================================================================================
-
-     
-     
-       
+JAVA MAP:-
+=================
+-->MAP stores items or elements as key value pairs.
+-->it does not allows duplicates.
+-->"HashMap" -->it is unsorted and unordered.
+-->"LinkedHashMap" -->it maintains or cares about insertion order.
+-->"TreeMap" -->it maintains or cares about sorted order.
+SYNTAXES:-
+================
+-->Map<key,value> map= Map.of("A" , 1 , "B" , 2, "c" , 3);
+-->"HashMap<key, value > map = new HashMap<>();"
+-->"LinkedHashMap<key,value> map1 = new LinkedHashMap<>();"
+-->"TreeMap<key,value> map2 = new TreeMap<>();"
+Following are some of the useful methods that MAP has:-
+-->"map.put(key,value);" -->it is used to insert key and values into the map.
+-->"map.get(key);" -->it is used to access value by using key.
+-->"map.size();" -->it will return size of map.
+-->"map.clear(); " -->it will delete entire map.
+-->"map.isEmpty();" -->it will return true or false based on whether map is empty or not.
+-->"map.containsKey(key);" -->it will return true or false.
+-->"map.containsValue(value); " -->it will return true or false.
+-->"map.remove(key);" -->it is used to remove specific value in the map.
+-->for(data_type c : map.keySet()){
+     System.out.println(c); -->it will print all the keys of a map.
+  }
+-->for(data_type c : map.values()){
+        System.out.println( c); -->it will print all the values in a map.
+   }
+==================================================================================================================================================================
 
 
