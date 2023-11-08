@@ -3,13 +3,16 @@ package com.sample;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.Scanner;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 public class Collections {
@@ -27,8 +30,12 @@ public class Collections {
 		LinkedHashSet<Integer> Lh = new LinkedHashSet<Integer>();
 		//Queue<String> q = new PriorityQueue<String>();
 	     Map<String , Integer> m = Map.of("Apple1",1,"Orange1",2,"Bannana1",3);
-	     HashMap<String, Integer> hm = new HashMap<>(m);
-	     hm.put("RASANA", 4);
+	    // HashMap<String, Integer> hm = new HashMap<>();
+	     LinkedHashMap<String ,Integer> lhm = new LinkedHashMap<>(m);
+	     TreeMap<String, Integer> tm = new TreeMap<>(m);
+	     //System.out.println(lhm);
+	    // System.out.println(tm);
+	    // hm.put("RASANA", 4);
 	     /*for(String c : hm.keySet())
 	     {
 	    	 System.out.println(c);
@@ -115,7 +122,24 @@ public class Collections {
 		//L.removeLast();
 		//System.out.println(L.getFirst());
 		//System.out.println(L.getlast());
-		
+	     Scanner sc = new Scanner(System.in);
+	     String str = sc.next();
+	     HashMap<Character,Integer> hm = new HashMap<>();
+	     char[] ch = str.toCharArray();
+	     for(char character1 : ch)
+	     {
+	    	 Integer cnt = hm.get(character1);
+	    	 if(cnt==null)
+	    	 {
+	    		 hm.put(character1, 1);
+	    	 }
+	    	 else
+	    	 {
+	    		 hm.put(character1, cnt+1);
+	    	 }
+	     }
+	     System.out.println(hm);
+	     
 
 	}
 
