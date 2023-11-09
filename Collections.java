@@ -80,6 +80,7 @@ public class Collections {
 		//System.out.println(t.ceil(6));
 		//System.out.println(t.lower(8));
 		//System.out.println(t.floor(8));
+		//System.out.println(t.higher(9));
 		//System.out.println(t);
 	    //h.add(3);
 		//h.add(5);
