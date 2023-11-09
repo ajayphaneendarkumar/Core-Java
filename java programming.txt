@@ -878,7 +878,7 @@ TreeSet<data_type> treeset = new TreeSet<data_type>();
 -->"numbers.floor(ele);" -->it will return the element that is less than or equal to the given parameter.
 -->"numbers.lower(ele);" -->it will return the element that is less than the given parameter.
 -->"numbers.ceil(ele);" -->it will the return the element that is greater than or equal to the given parameter.
--->"numbers.upper(ele);" -->it will the return the element that is greater than the given parameter.
+-->"numbers.higher(ele);" -->it will the return the element that is greater than the given parameter.
 -->"numbers.subSet(ele1, ele2);" -->ex: [10,12,14,15,17, 18,20,24,26] -->numbers.subSet(15,20); -->[17,18]
 -->"numbers.headSet(ele);" -->it will return the elements that are before to the given parameter.
 -->"numbers.tailSet(ele);" -->it will return the elements that are after to the given parameter.
