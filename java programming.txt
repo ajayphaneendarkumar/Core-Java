@@ -179,16 +179,16 @@ JAVA TYPECASTING:-
 ====================
 -->Type casting is nothing but when we assign a value of one primitive data_type to another data_type.
 -->there are two typesof type casting they are:
-      1.Widening type casting(Automatic) :-  converts smaller data_type to larger data_type size.
+      1.Widening type casting(Automatic) :-  converts smaller data_type to larger data_type size. 
          byte -> short -> char -> int -> long -> float -> double.
       2.Narrowing type casting(Manual) :- converts  larger data_type to smaller data_type size
          double -> float -> long -> int -> char -> short -> byte.
 -->Example for automatic or widening :-
           int myInt = 9;
-          int mydouble = myInt;
+          int mydouble = myInt; -->this is nothing but implicit casting.
 -->Example for manual or narrowing:-
           int myDouble = 9.0;
-          int myInt = (int)myDouble;
+          int myInt = (int)myDouble; -->this is nothing but explicit casting.
 ==================================================================================================================================================================
 JAVA OPERATORS:-
 ===================
