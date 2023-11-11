@@ -164,7 +164,7 @@ JAVA MODIFIERS:-
 =================================================================================================================================================================
 JAVA PRIMITIVE DATATYPES:-
 ==========================================================
--->Primitive data_types in java are pre-defined by a java language and named as the reserved keywords.primitive data_types does not share their state with other primitive data types.
+-->Primitive data_types in java are pre-defined by a java language and named as the reserved keywords. As primitive data_types does not share a state with other primitive values.
 boolean ->size->1bit  -->boolean boolvar;
 byte (Byte)   ->size->1byte(8 bits)-->max value we can store in byte is 127 and min value is -128 -->byte bytevar;(Byte.SIZE,Byte.MAX_VALUE,Byte.MIN_VALUE);
 char    ->size->16-bits-->char charvar;
