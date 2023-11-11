@@ -162,16 +162,17 @@ JAVA MODIFIERS:-
 -->default --> The class is only accessible by classes of same package.(package is nothing but  collection of classes).
 -->protected -->code acessible in both parent and child classes. 
 =================================================================================================================================================================
-JAVA DATATYPES:-
+JAVA PRIMITIVE DATATYPES:-
 ==========================================================
+-->Primitive data_types in java are pre-defined by a java language and named as the reserved keywords.primitive data_types does not share their state with other primitive data types.
 boolean ->size->1bit  -->boolean boolvar;
-byte    ->size->1byte(8 bits)-->max value we can store in byte is 127 and min value is -128 -->byte bytevar;(Byte.SIZE,Byte.MAX_VALUE,Byte.MIN_VALUE);
+byte (Byte)   ->size->1byte(8 bits)-->max value we can store in byte is 127 and min value is -128 -->byte bytevar;(Byte.SIZE,Byte.MAX_VALUE,Byte.MIN_VALUE);
 char    ->size->16-bits-->char charvar;
-short    ->size->2bytes(16 bits)-->max value we can store in short is 32767 and min value is -32768 -->short shortvar;(Short.SIZE,Short.MAX_VALUE,Short.MIN_VALUE)
-int      ->size->4bytes(32 bits) -->max value we can store in int is 214748 and min value is -214748 -->int intvar;(Integer.SIZE,Integer.MAX_VALUE,Integer.MIN_VALUE)
-long     ->size->8bytes(64-bits)-->long longvar;
-float    ->size->2bytes(16 bits)-->float floatvar;
-double   ->size->4bytes(32 bits)-->double doublevar;
+short(Short)    ->size->2bytes(16 bits)-->max value we can store in short is 32767 and min value is -32768 -->short shortvar;(Short.SIZE,Short.MAX_VALUE,Short.MIN_VALUE)
+int(Integer)      ->size->4bytes(32 bits) -->max value we can store in int is 214748 and min value is -214748 -->int intvar;(Integer.SIZE,Integer.MAX_VALUE,Integer.MIN_VALUE)
+long(Long)     ->size->8bytes(64-bits)-->long longvar;
+float(Float)    ->size->2bytes(16 bits)-->float floatvar;
+double(Double)   ->size->4bytes(32 bits)-->double doublevar;
 -->String, Array,class are Non-primitive datatypes.
 =================================================================================================================================================================
 JAVA TYPECASTING:-
