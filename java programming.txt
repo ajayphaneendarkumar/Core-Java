@@ -242,7 +242,7 @@ JAVA STRINGS:-
     13)string split:-
           "s.split("\\s+");" s.split(","); // for example String[] s = s1.split(",");
     14)toString():-
-        String s1 = s.toString() -->used to convert given content to the string.
+        String s1 = s.toString() or Integer.toString();-->used to convert given content to the string.
     15) String trim():-
           string s1=s.trim();
     16) "Character.isDigit(ch);" -->it will return true or false based on it is digit or not.
@@ -932,6 +932,10 @@ Following are some of the useful methods that MAP has:-
 -->for(data_type c : map.values()){
         System.out.println( c); -->it will print all the values in a map.
    }
+-->To access elements of array into map use the following process:
+      for(int i=0;i<A.size();i++){
+             m.put(A.get(i), m.put(A.get(i),0)+1);
+      }
 ==================================================================================================================================================================
 
 
