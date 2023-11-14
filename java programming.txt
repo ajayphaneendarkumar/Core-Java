@@ -939,5 +939,40 @@ Following are some of the useful methods that MAP has:-
 ==================================================================================================================================================================
 JAVA ITERATOR:-
 ===================
--->
+-->java "Iterator" is an object that can be used to loop through collections like "ArrayList" and "HashSet". It is called an iterator because iterating is the technical term for looping.
+-->Syntax for creating iterator:-
+ ====================================
+import java.util.Iterator;
+Iterator<data_type> it = Collection_name.iterator();
+Example:-
+========
+import java.util.ArrayList;
+import java.util.Iterator;
+public class Iterating{
+    public static void main(String args[]){
+          ArrayList<Integer> A = new ArrayList<>();
+          A.add(1); 
+          A.add(10);
+          A.add(14);
+          A.add(16);
+          A.add(18);
+         //get the iterator
+         Iterator<Integer> it = A.iterator();
+         //prints the first term
+         System.out.println("it.next()");
+        //looping through iterator.
+        while("it.hasNext()"){
+             System.out.println(it.next());
+        }
+        while(it.hasNext()){
+            Integer i = it.next();
+            if(i< 10){
+               "it.remove();"  //remove items from arraylist or collection by using iterator
+            }
+       }
+      System.out.println(A);
+}
+}
+==================================================================================================================================================================
+
 
