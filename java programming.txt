@@ -247,8 +247,10 @@ JAVA STRINGS:-
           string s1=s.trim();
     16) "Character.isDigit(ch);" -->it will return true or false based on it is digit or not.
     17) "Character.getNumericValue(ch);" 
-    18) "Integer.valueOf(ele);"
-    19) "String.valueOf(ele);"
+    18) "Character.isUpperCase();"
+    19) "Character.isLowerCase();"
+    20) "Integer.valueOf(ele);"
+    21) "String.valueOf(ele);"
 =================================================================================================================================================================
 STRING BUFFER / STRING BUILDER IN JAVA:-
 =========================================================
