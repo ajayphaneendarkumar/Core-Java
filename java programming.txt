@@ -936,7 +936,7 @@ Following are some of the useful methods that MAP has:-
    }
 -->To access elements of array into map use the following process:
       for(int i=0;i<A.size();i++){
-             m.put(A.get(i), m.put(A.get(i),0)+1);
+             m.put(key, m.getordefault(key,0)+1);
       }
 ==================================================================================================================================================================
 JAVA ITERATOR:-
