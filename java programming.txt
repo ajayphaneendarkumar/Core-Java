@@ -161,7 +161,7 @@ JAVA MODIFIERS:-
 -->public  -->code in the public section can accessed even outside the class also.
 -->default --> The class is only accessible by classes of same package.(package is nothing but  collection of classes).
 -->protected -->code acessible in both parent and child classes. 
-=================================================================================================================================================================
+================================================================================================================================================================
 JAVA PRIMITIVE DATATYPES:-
 ==========================================================
 -->Primitive data_types in java are pre-defined by a java language and named as the reserved keywords. As primitive data_types does not share a state with other primitive values.
@@ -189,7 +189,60 @@ JAVA TYPECASTING:-
 -->Example for manual or narrowing:-
           int myDouble = 9.0;
           int myInt = (int)myDouble; -->this is nothing but explicit casting.
-==================================================================================================================================================================
+================================================================================================================================================================
+JAVA WRAPPER CLASSES:-
+=======================
+-->Java Wrapper classes provides a way to use primitive data_types as objects.
+--->  Primitive data_type                Wrapper Class
+     ========================          ===================
+       byte(8bits)              -->      Byte
+       short(16 bits)           -->      Short
+       int(32 bits)             -->      Integer
+       long(64 bits)            -->      Long
+       float(16 bits)           -->      Float
+       double(32 bits)          -->      Double
+       char                     -->      Character
+       boolean(1 bit)           -->      Boolean
+-->example:
+   =======
+    import java.util.*;
+    public class M{
+        public static void main(String args[]){
+                Integer a = 5;
+                Float f = 5.66;
+                Character c = 'A';
+           System.out.println(a);
+           System.out.println(f);
+           System.out.println(c);
+       }
+   }
+-->For converting one primitive data_type to another data_type we have type casting but to one type to another type by using wrapper class objects we have folowing methods.
+     -->intValue();
+     -->floatValue();
+     -->doubleValue();
+     -->longValue();
+     -->charValue();
+     -->byteValue();
+     -->shortValue();
+     -->toString();
+     -->booleanValue();
+-->example:-
+  ==========
+  import java.util.*;
+    public class M{
+        public static void main(String args[]){
+                Integer a = 5;
+                Float f = 5.66;
+                Character c = 'A';
+           System.out.println(a);
+           System.out.println(f);
+           System.out.println(c);
+           System.out.println(f.intValue());
+           System.out.println(a.doubleValue());
+          System.out.println)(c.toString());
+       }
+   }
+================================================================================================================================================================
 JAVA OPERATORS:-
 ===================
 -->Arithmetic Operators:-(+,-,*,%,/)
@@ -393,7 +446,7 @@ Example:-
             }
      }
   }
-==================================================================================================================================================================
+================================================================================================================================================================
 JAVA OOPS:-
 ============================
 -->OOPs Stands for object oriented programming.
