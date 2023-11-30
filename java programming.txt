@@ -812,6 +812,8 @@ so these are some the important methods they can be by using collections.
 ==================================================================================================================================================================
 COLLECTION FRAME WORK IN JAVA:-
 ==================================
+-->Any Group of individual objects which are represented as a single unit known as collection of objects. In java, a seperate framework named as  "COLLECTION 
+   FRAMEWORK" has been defined in java jdk1.2 which holds the collection classes and interfaces.
 -->following are some of the collection data structures in java.
 -->They are:-
         -->ArrayList
