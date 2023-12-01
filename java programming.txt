@@ -1035,4 +1035,7 @@ INTRODUCTION TO THREADS AND CONCURRECNY IN JAVA:-
 ===================================================
 -->Threads allows a programs to operate more efficiently by doing multiple things at the same time.
 -->Threads can be used to perform complicated tasks in the background but without interrupting the main program.
--->
+-->creating threads :-
+     -->Threads can be created in two ways -->by extending the class called thread or by implementing the interface called Runnable.
+-->Synatx to create Threads:-
+     -->
