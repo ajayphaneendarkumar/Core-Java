@@ -1099,7 +1099,10 @@ public class ThreadTasks {
 		 Thread thread = new Thread(task2);
                  thread.setPriority(1);
 		 thread.start();
-		 //task3 
+                 //wait for task1 and task2 to complete their execution
+                  task1.join();
+                  task2.join();
+                //task3 
 		 System.out.println("\nTask3 Kickedofff");
 		 for(int k=301;k<=399;k++)
 		 {
