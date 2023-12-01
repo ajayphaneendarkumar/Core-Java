@@ -22,7 +22,7 @@ JAVA ARCHITECTURE:-
 -->"JDK" stands for Java Development Kit which provides the environment to develop and execute the java programs.
 -->"JIT" stands for Just-In-Time , it is a part of JVM that is used for better performance of java applications during run-time.
 -->class, Heap , stack, pc register, Native method stack these are memory's of class loader.
-==================================================================================================================================================================
+================================================================================================================================================================
 APPLICATIONS OF JAVA:-
 ==========================
   -->java is used in "DESKTOP APPLICATIONS"
@@ -993,7 +993,7 @@ Following are some of the useful methods that MAP has:-
       for(int i=0;i<A.size();i++){
              m.put(key, m.getordefault(key,0)+1);
       }
-==================================================================================================================================================================
+================================================================================================================================================================
 JAVA ITERATOR:-
 ===================
 -->java "Iterator" is an object that can be used to loop through collections like "ArrayList" and "HashSet". It is called an iterator because iterating is the technical term for looping.
@@ -1030,6 +1030,8 @@ public class Iterating{
       System.out.println(A);
 }
 }
-==================================================================================================================================================================
-
+================================================================================================================================================================
+JAVA EXCEPTIONS:-
+=======================
+-->
 
