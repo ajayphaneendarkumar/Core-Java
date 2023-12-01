@@ -8,7 +8,7 @@ JAVA INTORDUCTION:-
 -->Java is one of the most popular programming language in the world.
 -->It has more demand inthe current job market.
 -->it is easy to learn and simple to use.
-=================================================================================================================================================================
+================================================================================================================================================================
 JAVA ARCHITECTURE:-
 ===============================
 -->Step-1:  create a java source code file with .java extension
@@ -1060,7 +1060,7 @@ INTRODUCTION TO THREADS AND CONCURRECNY IN JAVA:-
           thread.start();
      }
    }
--->EXAMPLE PROGRA FOR THREADS:-
+-->EXAMPLE PROGRAM FOR THREADS:-
 =================================
 package com.sample;
 class Task1 extends Thread{
@@ -1091,11 +1091,13 @@ public class ThreadTasks {
          //Task1
 		System.out.println("\nTask1 Kickedoff");
 		Task1 task1 = new Task1();
+                task1.setPriority(5);       //it will changes the prority of threads to execute.
 		task1.start();
 		 //Task2 
 		System.out.println("\nTask2 Kickeoff");
 		 Task2 task2= new Task2();
 		 Thread thread = new Thread(task2);
+                 thread.setPriority(1);
 		 thread.start();
 		 //task3 
 		 System.out.println("\nTask3 Kickedofff");
