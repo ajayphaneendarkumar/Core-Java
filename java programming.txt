@@ -1070,6 +1070,12 @@ class Task1 extends Thread{
 		 {
 			 System.out.println(i+" ");
 		 }
+                 try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		 System.out.println("\nTask1 Done");
 	}
 }
@@ -1081,6 +1087,7 @@ class Task2 implements Runnable{
 		 {
 			 System.out.println(i+" ");
 		 }
+                 Thread.yeild(); //it is a thread utility method.
 		 System.out.println("\nTask2 Done");
 	}
 }
