@@ -1060,6 +1060,11 @@ INTRODUCTION TO THREADS AND CONCURRECNY IN JAVA:-
           thread.start();
      }
    }
+-->"threadname.setPriority(ele);" -->it is used to change the priority of the thread to execute.
+-->"threadname.join();" -->it is used for the communication between the threads nothing but one thread has to wait until the another thread completes it's execution .
+-->"Thread.sleep(ele);" -->thread utility method
+-->"Thread.yeild();"
+========================================
 -->EXAMPLE PROGRAM FOR THREADS:-
 =================================
 package com.sample;
@@ -1117,7 +1122,6 @@ public class ThreadTasks {
 		 }
 		 System.out.println("\nTask3 Done");
 	}
-
 }
 -->Physical States of Thread:-
   ===========================
