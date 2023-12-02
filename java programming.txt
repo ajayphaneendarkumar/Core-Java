@@ -304,7 +304,11 @@ JAVA STRINGS:-
     19) "Character.isLowerCase();"
     20) "Integer.valueOf(ele);"
     21) "String.valueOf(ele);"
-=================================================================================================================================================================
+    22) int sum = IntStream.range(ele1 , ele2).sum();
+    23) IntStream.rangeClosed(ele1 , ele2)
+             .filter(num->num%2==0)
+             .foreach(System.out:println)
+================================================================================================================================================================
 STRING BUFFER / STRING BUILDER IN JAVA:-
 =========================================================
 -->String buffer is used to protect threads.
@@ -500,7 +504,7 @@ example:-
               obj.myName();
         }
   }
-=================================================================================================================================================================
+================================================================================================================================================================
 JAVA CONSTRUCTORS:-
 =====================
 -->Constructor is a special member function which is used to intialize objects.when Object is created constructor get invoked Automatically.
@@ -530,7 +534,7 @@ JAVA CONSTRUCTORS:-
             System.out.println(myobj.x);
         }
    }
-=================================================================================================================================================================
+================================================================================================================================================================
 SUPER AND THIS KEYWORDS:-
 ================================
 let us discuss super keyword by using an example program.
@@ -747,11 +751,12 @@ class Main{
       myobj.add(5.80,6.89);
    }
 }
-==================================================================================================================================================================
+================================================================================================================================================================
 -->Run-Time polymorphism:-
   ===========================
 -->Whenever an object bound it's functionality at run-time that is known as run-time polymorphism.
--->This can be acheived by method overriding-->method overding means when a function or method in parent is declared same as in child class.
+-->This can be acheived by method overriding-->method overiding means when a function or method in parent is declared same as in child class and should have 
+   same parameters of same type.
 Example:-
 ===========
 class parent{
@@ -899,7 +904,7 @@ LinkedList<data_type> L = new LinkedList<data_type>();
          System.out.println(c);
       }
 }
-=================================================================================================================================================================
+================================================================================================================================================================
  JAVA HASHSET:-
 ==================
 -->It is used to store collection of items where every item is unique and it can found in java.util package.
@@ -1037,6 +1042,8 @@ INTRODUCTION TO THREADS AND CONCURRECNY IN JAVA:-
 -->Threads can be used to perform complicated tasks in the background but without interrupting the main program.
 -->creating threads :-
      -->Threads can be created in two ways -->by extending the class called thread or by implementing the interface called Runnable.
+     -->Inorder to run the single Thread we use the thread by extending Thread Class.
+     -->Inorder to run the multiple threads we need to use interface called Runnable.
 -->Synatx to create Threads:-
  ===============================
      -->class Task1 extends Thread{
