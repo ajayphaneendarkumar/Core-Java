@@ -296,6 +296,7 @@ JAVA STRINGS:-
           "s.split("\\s+");" s.split(","); // for example String[] s = s1.split(",");
     14)toString():-
         String s1 = s.toString() or Integer.toString();-->used to convert given content to the string.
+        String res = Integer.toBinaryString(num);
     15) String trim():-
           string s1=s.trim();
     16) "Character.isDigit(ch);" -->it will return true or false based on it is digit or not.
