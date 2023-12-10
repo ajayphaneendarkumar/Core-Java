@@ -1145,7 +1145,7 @@ JAVA EXCEPTIONS:-
 -->when an error occurs java will stop normally and shows an error message . The Technical term for this is java will throw an exception.
 JAVA TRY AND CATCH:-
 ====================
--->The "try" Statement allows you to define a block of code to be tested for errors when it is being executed.
+-->The "try" Statement allows you to define a block of code to be tested for errors while it is being executed.
 -->The "catch" Statement allows you to define a block of code to be executed , if an error occurs in the try block.
 SYNTAX:
 =======
