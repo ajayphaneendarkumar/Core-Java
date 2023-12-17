@@ -333,7 +333,7 @@ import java.io.*;
 ===============================================================================================================================================================
 JAVA ARRAYS:-
 =============================================
--->In java all arrays are dynamically allocated.
+-->In java all arrays are static in nature.
 -->size of the arrays cannot be altered.
 -->The size of an array must be specified by int or short value and not long.
 -->declaration:-
