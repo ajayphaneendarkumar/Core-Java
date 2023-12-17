@@ -684,6 +684,7 @@ ABSTRACTION:-
 -->Abstraction is the process of "hidding certain details" and "showing only essential information to the user."
 -->Abstraction can be acheived with either abstract classes or interfaces.
 -->Abstract class:- It is a restricted class that cannot be used to create objects(to access it , it must be inherited from another class)
+-->Abstract class can have a constructor, final methods, private methods , private constructor ...
 -->Abstract method:- It can be only used in abstract class and it has no body.
 Example:-
 ---------
