@@ -816,7 +816,7 @@ COLLECTIONS IN JAVA:-
 -->"Collections.binarySearch(arr,ele);"
 -->"Collections.rotate(arr,how_many_rotations);
 so these are some the important methods they can be by using collections. 
-==================================================================================================================================================================
+=================================================================================================================================================================
 COLLECTION FRAME WORK IN JAVA:-
 ==================================
 -->Any Group of individual objects which are represented as a single unit known as collection of objects. In java, a seperate framework named as  "COLLECTION 
@@ -825,9 +825,12 @@ COLLECTION FRAME WORK IN JAVA:-
 -->They are:-
         -->ArrayList
         -->LinkedList
-        -->HashMap
         -->HashSet
+        -->LinkedHashSet
         -->TreeSet
+        -->HashMap
+        -->LinkedHashMap
+        -->TreeMap
 JAVA ARRAYLIST:-
 ====================
 -->The "ArrayList" class is a  resizable array which can be found in the java.util package.
