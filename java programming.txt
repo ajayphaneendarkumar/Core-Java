@@ -896,8 +896,8 @@ LinkedList<data_type> L = new LinkedList<data_type>();
      -->"L.clear();"
      -->"L.contians(ele);"  -->return true or false .whether the element presento or not.
      -->"L.isEmpty();"       -->return true or false. whether it is empty or not.
-     -->"L.addFirst();" -->adds an item to the beginning of the  list.
-     -->"L.addLast();"  -->adds an item to the end of the list.
+     -->"L.addFirst(parameter);" -->adds an item to the beginning of the  list.
+     -->"L.addLast(parameter);"  -->adds an item to the end of the list.
      -->"L.removeFirst();" -->removes an item from the begging of the list.
      -->"L.removeLast();" -->removes an item from the end of the list.
      -->"L.getFirst();" -->get an item at the beginning of the list.
