@@ -762,16 +762,19 @@ class Main{
 Example:-
 ===========
 class parent{
-  static void myMethod(){
+  public  void myMethod(){
        System.out.println("Method 1");
  }
 }
 class child extends parent{
-     static void myMethod(){
+     public void myMethod(){
        system.out.pintln("Method 2");
      }
+ }
+class Main{
    public static void main(String args[]){
-           myMethod();
+          child ch = new child();
+          ch.myMethod();
     }
  }
 ================================================================================================================================================================
@@ -933,7 +936,7 @@ import java.util.HashSet;
 -->for(int i : HashSet_Name) {
          System.out.println(i);
     }
-==================================================================================================================================================================
+=================================================================================================================================================================
 JAVA TREESET:-
 ====================
 -->TreeSet cares about sorted Order but not about insertion order.
@@ -952,7 +955,7 @@ TreeSet<data_type> treeset = new TreeSet<data_type>();
 -->"numbers.subSet(ele1, ele2);" -->ex: [10,12,14,15,17, 18,20,24,26] -->numbers.subSet(15,20); -->[17,18]
 -->"numbers.headSet(ele);" -->it will return the elements that are before to the given parameter.
 -->"numbers.tailSet(ele);" -->it will return the elements that are after to the given parameter.
-==================================================================================================================================================================
+=================================================================================================================================================================
 PRIORITY QUEUE:-
 =================
 SYNTAX:-
