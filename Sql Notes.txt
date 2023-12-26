@@ -1,3 +1,17 @@
 Introduction to DataBases and Querying:-
 ===========================================
--->
+PREREQUISITES:-
+====================
+-->what to expect?
+-->what do you take away?
+==============================================
+-->WHAT IS A DATABASE?:-
+   --> A Database is an Organised Collection of Data. It is the Collection of tables, queries , reports , views and other objects.
+===================================================================================================================================================================
+-->what can we store in database?
+-->How do we store data?
+   -->First we need to understand what kind of data needs to be store.
+   -->Then we create tables accordingly.
+   -->Then we Query.
+   -->That's it.
+==================================================================================================================================================================
