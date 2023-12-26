@@ -1,4 +1,4 @@
-Introduction to DataBases and Querying:-
+Introduction to DataBases and SQL Querying:-
 ===========================================
 PREREQUISITES:-
 ====================
