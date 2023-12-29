@@ -1200,3 +1200,57 @@ public class Main {
   }
 }
 =================================================================================================================================================================
+JAVA ENUMS:-
+==============
+-->An "enum" is a special class that represents a group of "Constants".
+-->To create an "enum" , use the enum KeyWord and sperate the constants with comma.
+Synatx:-
+  enum level{
+     low,
+     Middle,
+     High
+ }
+-->We can access the enum constants with dot syntax operator.
+     level myVar = level.Middle;
+-->we can use "enum"  often inside a class.
+   public class Main{
+      enum level{
+          low,
+          middle,
+          high
+      }
+       public static void main(String args[]){
+          level myVar = level.middle;
+          System.out.println(myVar);
+       }
+ }
+-->We can use "enum" often inside the  switch case also..
+   enum Level {
+  LOW,
+  MEDIUM,
+  HIGH
+}
+public class Main {
+  public static void main(String[] args) {
+    Level myVar = Level.MEDIUM;
+
+    switch(myVar) {
+      case LOW:
+        System.out.println("Low level");
+        break;
+      case MEDIUM:
+         System.out.println("Medium level");
+        break;
+      case HIGH:
+        System.out.println("High level");
+        break;
+    }
+  }
+}
+-->Loop through Enum:
+    for (Level myVar : Level.values()) {
+             System.out.println(myVar);
+     }
+=================================================================================================================================================================
+
+
