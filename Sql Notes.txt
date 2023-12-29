@@ -15,6 +15,29 @@ PREREQUISITES:-
    -->Then we Query.
    -->That's it.
 ==================================================================================================================================================================
-What is SQL?
+WHAT IS SQL?
 ====================
+-->SQL Stands for "Structured Query Language".
+-->SQL is a Standard Language for accessing and Manipulating databases.
+-->SQL is a standard for American National Standards Institute(ANSI) in 1986.
+=================================================================================================================================================================
+WHAT  CAN  SQL DO?
+=========================
+-->SQL Can execute queries against databases.
+-->SQL Can retrieve data from database.
+-->SQL Can insert records in a database.
+-->SQL Can update records in a database.
+-->SQL Can delete records in a database.
+-->SQL Can create a Database.
+-->SQL Can create tables in a database.
+=================================================================================================================================================================
+RDBMS:-
+==============
+-->RDBMS Stands for Relational Database Management System.
+-->RDBMS is a basis for sql and all modern database Systems like Mysql, IBM DB2, Oracle, MS SQL SERVER...
+-->The data in RDBMS is stored in database objects called tables.
+-->A table is a collection of Related data Entries and it Consists of Columns/Fields and rows/records.
+=================================================================================================================================================================
+SOME OF THE MOST USEFUL SQL COMMANDS:-
+===========================================
 -->
