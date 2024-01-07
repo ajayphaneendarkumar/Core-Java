@@ -129,7 +129,7 @@ while printing the floating point numbers after decimal point print only 2 digit
 float pi=3.142345f;
 System.out.println(pi);
 -->formating the output:-
-System.out.format("%.2f"+pi);
+System.out.format("%.2f",pi);
 printf("%.2f",pi);
 -->final int myNum = 15;
 myNum = 20;  // will generate an error: cannot assign a value to a final variable
