@@ -36,4 +36,16 @@ RDBMS:-
 SOME OF THE MOST USEFUL SQL COMMANDS:-
 ===========================================
 -->Keep it in mind that SQL KeyWords are not "Case Sensitive".
--->
+-->"SELECT"          -This Keyword is used to extracts data from a database.
+-->"UPDATE"          -This Keyword is used to updates data in a database.
+-->"DELETE"          -This Keyword is used to deletes data from a database.
+-->"INSERT INTO"     -This keyword is used to inserts new data into a database.
+-->"CREATE DATABASE" -This Keyword is used to creates a new database.
+-->"ALTER DATABASE"  -This Keyword is used to modifies a database.
+-->"DROP DATABASE"   -This Keyword is used to databses.
+-->"CREATE TABLE"    -This Keyword is used to create a new table.
+-->"ALTER TABLE"     -This Keyword is used to modifies a table.
+-->"DROP TABLE"      -This Keyword is used to drop Table.
+-->"CREATE INDEX"    -This Keyword is used to create a index (serach key)
+-->"DROP INDEX"      -This Keyword is used to drop index.
+===================================================================================================================================================================
