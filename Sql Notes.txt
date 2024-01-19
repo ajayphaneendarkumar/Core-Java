@@ -49,3 +49,28 @@ SOME OF THE MOST USEFUL SQL COMMANDS:-
 -->"CREATE INDEX"    -This Keyword is used to create a index (serach key)
 -->"DROP INDEX"      -This Keyword is used to drop index.
 ===================================================================================================================================================================
+SQL SELECT STATEMENT:-
+=======================
+-->The  "SELECT" Statement is used to "extract data from a  databases".
+Syntax:-
+========
+SELECT cloumn1, column2, column3,... from Table_Name;
+SELECT * from Table_Name;
+===================================================================================================================================================================
+SQL "SELECT DISTINCT" Statement:-
+================================
+-->The  "SELECT DISTINCT" Statement is used to return only distinct(different) values.
+Syntax:-
+========
+SELECT DISTINCT column1, column2, column3 , .... from Table_Name;
+=================================================================================================================================================================
+SQL WHERE CLAUSE:-
+=========================
+-->The "WHERE" Clause  is used to filter Records.
+-->It is used to extract only those records that fullfill specified Condition.
+Syntax:
+========
+SELECT column1,column2,.. from Table_Name where Condition;
+-->Following are some of the operators used in where clause:
+     -->"=" , ">", "<", ">=" , "<=" , "<> or !=" , "BETWEEN" , "LIKE(Search for a pattern)" , "IN"
+==================================================================================================================================================================
