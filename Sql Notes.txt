@@ -74,3 +74,16 @@ SELECT column1,column2,.. from Table_Name where Condition;
 -->Following are some of the operators used in where clause:
      -->"=" , ">", "<", ">=" , "<=" , "<> or !=" , "BETWEEN" , "LIKE(Search for a pattern)" , "IN"
 ==================================================================================================================================================================
+SQL ORDER BY KEYWORD:-
+===========================
+-->The "ORDER BY" Keyword is used to sort the result-set in Ascending or descending or Alphabetical Order order.
+-->The "ORDER BY" Keyword sorts the records in ascending order by default.
+Synatx:-
+============
+SELECT col1,col2,.... from Table_Name "order by" col1,col2 , .. ASC|DESC;
+SELECT Col1,col2,.... from Table_Name "order by" col1 DESC(highest to lowest order);
+SELECT Col1,col2,.... from Table_Name "order by" col1 ASC(lowest to highest order);
+==================================================================================================================================================================
+SQL AND Keyword:-
+====================
+-->
