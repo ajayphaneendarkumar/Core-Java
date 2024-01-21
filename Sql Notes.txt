@@ -87,11 +87,16 @@ SELECT Col1,col2,.... from Table_Name "order by" col1 ASC(lowest to highest orde
 SQL AND Operator:-
 ====================
 -->The "AND" Operator is used to filter records based on more than one condition.
--->The "WHERE" Clause csn contain one or more "AND" Operators.
+-->The "WHERE" Clause can contain one or more "AND" Operators.
 Syntax:-
 =======
-SELECT col1,col2,..  from Tbale_Name where condition1  AND  condition2 AND condition3 ...
+SELECT col1,col2,..  from Tbale_Name where condition1  AND  condition2 AND condition3 ...;
 ==================================================================================================================================================================
 SQL OR Operator:-
 =====================
--->
+-->The "OR" Operator is used to filter records based on one or more than one condition.
+-->The "WHERE" Clause can contain one or more "OR" Operators.
+Syntax:-
+=========
+SELECT col1,col2,.. form Table_Name WHERE conditio1 OR condition2 OR condition3 OR ...;
+=================================================================================================================================================================
