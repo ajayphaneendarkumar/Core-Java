@@ -84,6 +84,14 @@ SELECT col1,col2,.... from Table_Name "order by" col1,col2 , .. ASC|DESC;
 SELECT Col1,col2,.... from Table_Name "order by" col1 DESC(highest to lowest order);
 SELECT Col1,col2,.... from Table_Name "order by" col1 ASC(lowest to highest order);
 ==================================================================================================================================================================
-SQL AND Keyword:-
+SQL AND Operator:-
 ====================
+-->The "AND" Operator is used to filter records based on more than one condition.
+-->The "WHERE" Clause csn contain one or more "AND" Operators.
+Syntax:-
+=======
+SELECT col1,col2,..  from Tbale_Name where condition1  AND  condition2 AND condition3 ...
+==================================================================================================================================================================
+SQL OR Operator:-
+=====================
 -->
