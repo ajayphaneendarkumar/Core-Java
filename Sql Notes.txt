@@ -102,4 +102,13 @@ SELECT col1,col2,.. form Table_Name WHERE conditio1 OR condition2 OR condition3 
 =================================================================================================================================================================
 SQL INSERT INTO Statement:-
 ==============================
+-->The SQL "INSERT INTO" Statement is used to insert new records in a database or table.
+Syntax:-
+======
+There are two ways to declare INSERT INTO Statement they are:
+ -->INSERT INTO table_name(col1,col2,col3,...)VALUES(value1,value2,value3,...);
+ -->INSERT INTO table_name VALUES(value1,value2,value3,...);
+==================================================================================================================================================================
+SQL UPDATE Statement:-
+======================
 -->
