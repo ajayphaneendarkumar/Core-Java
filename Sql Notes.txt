@@ -2,7 +2,7 @@ Introduction to DataBases and SQL Querying:-
 ===========================================
 -->WHAT IS A DATABASE?:-
    --> A Database is an Organised Collection of Data. It is the Collection of tables, queries , reports , views and other objects.
-===================================================================================================================================================================
+==================================================================================================================================================================
 -->what can we store in database?
 -->How do we store data?
    -->First we need to understand what kind of data needs to be store.
@@ -42,13 +42,13 @@ SOME OF THE MOST USEFUL SQL COMMANDS:-
 -->"INSERT INTO"     -This keyword is used to inserts new data into a database.
 -->"CREATE DATABASE" -This Keyword is used to creates a new database.
 -->"ALTER DATABASE"  -This Keyword is used to modifies a database.
--->"DROP DATABASE"   -This Keyword is used to databses.
+-->"DROP DATABASE"   -This Keyword is used to delete  databses.
 -->"CREATE TABLE"    -This Keyword is used to create a new table.
 -->"ALTER TABLE"     -This Keyword is used to modifies a table.
--->"DROP TABLE"      -This Keyword is used to drop Table.
+-->"DROP TABLE"      -This Keyword is used to drop Table from a database.
 -->"CREATE INDEX"    -This Keyword is used to create a index (serach key)
 -->"DROP INDEX"      -This Keyword is used to drop index.
-===================================================================================================================================================================
+==================================================================================================================================================================
 SQL SELECT STATEMENT:-
 =======================
 -->The  "SELECT" Statement is used to "extract data from a  databases".
@@ -56,7 +56,7 @@ Syntax:-
 ========
 SELECT cloumn1, column2, column3,... from Table_Name;
 SELECT * from Table_Name;
-===================================================================================================================================================================
+==================================================================================================================================================================
 SQL "SELECT DISTINCT" Statement:-
 ================================
 -->The  "SELECT DISTINCT" Statement is used to return only distinct(different) values.
