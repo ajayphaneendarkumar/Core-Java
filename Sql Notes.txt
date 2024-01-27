@@ -86,7 +86,7 @@ SELECT Col1,col2,.... from Table_Name "order by" col1 ASC(lowest to highest orde
 ==================================================================================================================================================================
 SQL AND Operator:-
 ====================
--->The "AND" Operator is used to filter records based on more than one condition.
+-->The "AND" Operator is used to filter records based on one or more than one condition.
 -->The "WHERE" Clause can contain one or more "AND" Operators.
 Syntax:-
 =======
