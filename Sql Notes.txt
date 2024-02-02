@@ -55,7 +55,7 @@ SQL SELECT STATEMENT:-
 Syntax:-
 ========
 SELECT cloumn1, column2, column3,... from Table_Name;
-SELECT * from Table_Name;
+SELECT * from Table_Name; // this is used to return all columns from a table.
 ==================================================================================================================================================================
 SQL "SELECT DISTINCT" Statement:-
 ================================
@@ -111,4 +111,11 @@ There are two ways to declare INSERT INTO Statement they are:
 ==================================================================================================================================================================
 SQL UPDATE Statement:-
 ======================
+-->The "UPDATE" Statement is used to modify the existing records in a table or databse.
+Syntax:-
+=======
+UPDATE table_name set col1 = value1 , clo2 = value2 where condition;
+==================================================================================================================================================================
+SQl DELETE Statement:-
+=======================
 -->
