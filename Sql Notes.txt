@@ -123,4 +123,15 @@ Syntax:-
 ======
 delete form  table_name where  Condition;
 =============================================================================================================================================================
-
+SQl SELECT TOP, LIMIT, FETCH FIRST:-
+==========================================
+-->The "SELECT TOP" statement is used to specify the number of records to return.
+Syntax:-
+========
+-->SELECT TOP number/percent column name from table_name WHERE Condition.
+-->SELECT column from table_name where conditon LIMIT number;
+-->SELECT column_name(s)
+FROM table_name
+ORDER BY column_name(s)
+FETCH FIRST number ROWS ONLY;
+========================================================================================================================================================
