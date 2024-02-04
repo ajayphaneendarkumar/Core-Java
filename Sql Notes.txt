@@ -122,7 +122,7 @@ SQl DELETE Statement:-
 Syntax:-
 ======
 delete form  table_name where  Condition;
-=============================================================================================================================================================
+==================================================================================================================================================================
 SQl SELECT TOP, LIMIT, FETCH FIRST:-
 ==========================================
 -->The "SELECT TOP" statement is used to specify the number of records to return.
@@ -134,4 +134,20 @@ Syntax:-
 FROM table_name
 ORDER BY column_name(s)
 FETCH FIRST number ROWS ONLY;
-========================================================================================================================================================
+==================================================================================================================================================================
+SQL MIN() AND MAX() FUNCTIONS:-
+==================================
+-->The MIN() function returns the smallest value of the selected column.
+-->The MAX() function returns the largest  value of the selected column.
+Syntax:-
+=========
+-->SELECT MIN(Column_name) from table_name where Condition;
+-->SELECT MAX(Column_name) from table_name where Condition;
+=================================================================================================================================================================
+SQL COUNT() FUNCTION:-
+=========================
+-->The COUNT() Function returns the number of rows that matches a specified criterion.
+Synatx:-
+===========
+-->SELECT COUNT(column_name) from table_name where conditon;
+==================================================================================================================================================================
