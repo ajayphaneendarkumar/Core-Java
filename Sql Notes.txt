@@ -137,8 +137,8 @@ FETCH FIRST number ROWS ONLY;
 ==================================================================================================================================================================
 SQL MIN() AND MAX() FUNCTIONS:-
 ==================================
--->The MIN() function returns the smallest value of the selected column.
--->The MAX() function returns the largest  value of the selected column.
+-->The MIN() function returns the smallest value of a selected column.
+-->The MAX() function returns the largest  value of a selected column.
 Syntax:-
 =========
 -->SELECT MIN(Column_name) from table_name where Condition;
@@ -151,3 +151,20 @@ Synatx:-
 ===========
 -->SELECT COUNT(column_name) from table_name where conditon;
 ==================================================================================================================================================================
+SQL SUM() FUNCTON:-
+======================
+-->The SUM() function returns the total sum of a numeric column.
+Syntax:-
+=========
+SELECT SUM(Column_name) from table_name where Conditon;
+==================================================================================================================================================================
+SQL AVG() FUNCTION:-
+====================
+-->The AVG() Function returns the Average value of a numeric Column.
+Synatx:-
+========
+SELECT AVG(Column_name) from table_Name where condition;
+==================================================================================================================================================================
+SQL LIKE OPERATOR:
+==================
+-->
