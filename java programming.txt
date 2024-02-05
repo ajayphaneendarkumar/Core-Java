@@ -160,6 +160,12 @@ COMMENT LINES IN JAVA:-
 ============================
 -->java identifiers are used for indentification purpose.
 -->valid identifiers:-->($,_,[A-Z],[a-z],[0-9])-->but should not start with numbers.
+  Rules for identifiers:-
+ =========================
+    -->can start with alphabet , underscore or dollar($).
+    -->can contain numeric values but not as the starting.
+    -->cannot conatin or start with special characters like @,#,%, ...
+    -->keywords cannot used as an identifiers.
 -->Invalid identifiers:-->(@,#,%,-,...)
 ======================================================================================================================================================
 JAVA MODIFIERS:-
