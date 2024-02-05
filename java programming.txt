@@ -2,9 +2,13 @@ JAVA INTORDUCTION:-
 =====================
 -->java is a class-based ,object-oriented programming language.
 -->java is case sensitive programming language.
+How Java Started:-
+===================
+-->In 1990, sun microsystems began a new project known as the Green project to work on a new Technology.
 -->java was developed by or brainchild of  James gosling and his team(patrick Naughthon,Mike sherdin) at sun micro Systems in 1991.
--->intitally java named as "GreenTalk" later renamed as "oak" .
--->"oak" is renamed as java in the year 1995 and later acquired by oracle corporation.
+-->intitally java named as "GreenTalk" later on it is renamed as "oak" .
+-->"oak" is renamed as java in the year 1995 where java was first publicy released and later acquired by oracle corporation.
+-->In 1996 java Development kit(JDK)1.0 was released.
 -->Java is one of the most popular programming language in the world.
 -->It has more demand inthe current job market.
 -->it is easy to learn and simple to use.
@@ -32,15 +36,19 @@ APPLICATIONS OF JAVA:-
   -->"EMBEDDED SYSTEMS"
   -->"GAMING".
 ===============================================================================================================================================================
-ADVANTAGES OR FEATURES OF JAVA:-
+ADVANTAGES (OR) FEATURES OF JAVA:-
 ==============================
 -->java  is a popular and widely used programming language with many advantages.
-     -->platform independent -->code can run any jvm installed desktop
+     -->platform independent -->code can run on any jvm installed desktop
      -->object-oriented programming -->deals the data with objects
+     -->Simple
+     -->Secure
+     -->High-performance
      -->memory management
-     -->security enhancement
      -->multi-threading
      -->community support
+     -->Dynamic
+     -->Distrobuted.
      -->Robust-->Garbage Collection and exception handling makes the java programming as Robust.
      -->Architecture Neutral -->it is not depend on the Architecture design.
 =============================================================================================================================================================
