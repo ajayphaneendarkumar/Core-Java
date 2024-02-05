@@ -154,6 +154,7 @@ COMMENT LINES IN JAVA:-
 -->In java programming we need to save the file name with the class name with .java extension
 -->compiling the code:-   javac filename.java
 -->running the code :-    java  filename/className
+-->To see the Copiled Code:- javap filename
 ==============================================================================================================================================================
  JAVA IDENTIFIERS:-
 ============================
