@@ -271,13 +271,13 @@ backslash    ---> \\
 =================================================================================================================================================================
 JAVA OPERATORS:-
 ===================
--->Arithmetic Operators:-(+,-,*,%,/)
--->unary operators:-(-,+,++,--)
--->relational opeartors:-(>,<,>=,<=,==,!=)
--->logical operators:-(&&,||,!)
+-->Binary Arithmetic Operators:-(+,-,*,%,/)
+-->unary  Arithmetic  operators:-(-,+,++(pre,post),--(pre,post));
+-->Relational opeartors:-(>,<,>=,<=,==,!=)
+-->Logical operators:-(&&,||,!)
 -->Assignment operators:-(variable=value, = ,+=,-=,/=,*=,%=,&=,|=,^=,<<=,>>=)
 -->Ternary operator:-(condition?if true:if false)
--->bitwise operators:-(&,|,^,>>(right shift),<<(left shift))
+-->Bitwise operators:-(&,|,^,>>(right shift),<<(left shift))
 -->Literals are used to store binary data or hexadecimal data or all type of binary values.
 ====================================================================================================
 JAVA STRINGS:-
