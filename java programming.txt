@@ -282,8 +282,9 @@ JAVA OPERATORS:-
 Operators Preceedence and Associativity:-
  ========================================
  1.unary operators have high preceedence(+,-,++,--)
- 2. *,/,% -->are having second highest priority.
- 3. +(Addition) , -(Subtraction) -->are having third highest priority.
+ 2.  (.) -->paranthesis are having Second highest priority.
+ 3. *,/,% -->are having third highest priority.
+ 4. +(Addition) , -(Subtraction) -->are having fourth highest priority.
 If we have same preceedence operators in the equation:
   then for(*,/, %) the Associativity will be Left to Right.
   then for(+,-) the Associativity will be from Right to Left.
