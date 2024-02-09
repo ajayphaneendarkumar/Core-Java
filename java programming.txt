@@ -278,6 +278,7 @@ JAVA OPERATORS:-
 -->Assignment operators:-(variable=value, = ,+=,-=,/=,*=,%=,&=,|=,^=,<<=,>>=)
 -->Ternary operator:-(condition?if true:if false)
 -->Bitwise operators:-(&,|,^,>>(right shift),<<(left shift))
+     -->right shfiting is nothing division by 2 and left is nothing but multiplication by2.
 -->Literals are used to store binary data or hexadecimal data or all type of binary values.
 Operators Preceedence and Associativity:-
  ========================================
