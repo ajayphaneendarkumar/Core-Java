@@ -268,6 +268,7 @@ carriage return --> \r
 Form Feed    ---> \f
 backspace    ---> \b
 backslash    ---> \\
+-->While loop is called entry Controlled Loop or sentinel Loop and Do while loop is called exit controlled loop.
 =================================================================================================================================================================
 JAVA OPERATORS:-
 ===================
