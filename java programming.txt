@@ -640,6 +640,7 @@ ENCAPSULATION:-
 -->Better Control of calss Attributes or variables.
 -->class attributes can be made red-only or write only.
 -->Increases security of data.
+-->Code Maintainance.
 =================================================================================================================================================================
 INHERITANCE:-
 ===================
