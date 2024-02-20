@@ -648,8 +648,8 @@ INHERITANCE:-
 -->It is possible to inherit attributes and Methods from one class to another class .
 -->Inheritance is "is a" relationship .
 -->Inheritance is grouped into two categeories:
-       -->derived or sub or child class :- (the class that inherited from another class)
-       -->base or super or parent class:- (the class is being inherited)
+       -->Super or base class :- (the class whose features are  inherited is known as Super Class or Parent Class)
+       -->Derived or sub class:- (the class that inherits the other class is known as derived class or sub class)
 --->why we use inheritance:->it is useful for  code reusability.
 TYPES:-
 =======
