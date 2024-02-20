@@ -646,6 +646,7 @@ ENCAPSULATION:-
 INHERITANCE:-
 ===================
 -->It is possible to inherit attributes and Methods from one class to another class .
+-->Inheritance is "is a" relationship .
 -->Inheritance is grouped into two categeories:
        -->derived or sub or child class :- (the class that inherited from another class)
        -->base or super or parent class:- (the class is being inherited)
