@@ -823,6 +823,12 @@ class Main{
           ch.myMethod();
     }
  }
+=====================================================
+Benefits of polymorphism:-
+==========================
+-->Increases code reusability.
+-->Improves readability and maintainability.
+-->Supports dynamic binding.
 ================================================================================================================================================================
 INTERFACE IN JAVA:-
 ====================================
