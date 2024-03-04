@@ -328,6 +328,7 @@ JAVA STRINGS:-
           "System.out.println(s.toUpperCase());"      -->returns all characters of the string to Upper Case.
     10)String equals(another string):-
          " boolean res= s1.equals(s2);"       -->return true/false;
+         "boolean res1= s1.equalsIgnoreCase(s2);" -->return true again.
     11)String toCharArray():-
           "char[] s=str.toCharArray();"
     12)String replace(char old ,char new):-
