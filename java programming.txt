@@ -353,8 +353,9 @@ JAVA STRINGS:-
              .filter(num->num%2==0)
              .foreach(System.out:println)
 ================================================================================================================================================================
-STRING BUFFER / STRING BUILDER IN JAVA:-
+STRING BUFFER && STRING BUILDER IN JAVA:-
 =========================================================
+-->String Buffer is a Class in java that represents a mutable sequence of Characters. It provides an alternative to the immutable string class by allowing you to modify the contents of a string without creating new object every time.
 -->String buffer is used to protect threads.
 -->where as String builder doesn't protect threads.
      -->StirngBufffer sb=new StringBuffer();
