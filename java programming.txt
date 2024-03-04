@@ -295,7 +295,9 @@ If we have same preceedence operators in the equation:
 JAVA STRINGS:-
 ====================
 -->Strings are the type of objects that can store the character of values. A string acts the same as an array of characters in Java.
--->Strings are immutable in java.
+-->String Objects are immutable in java.
+    -->Immutable in the sense the Object cannot be modified or unchanagable.
+-->Once String Object is Created its data or state can't be changed but new object will be created.
 -->Syntax :-
       string literal:-(<String_type>  <string_variable> = <String_Sequence>)
           String s = "HELLO";
