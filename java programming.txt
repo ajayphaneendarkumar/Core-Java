@@ -329,6 +329,8 @@ JAVA STRINGS:-
     10)String equals(another string):-
          " boolean res= s1.equals(s2);"       -->return true/false;
          "boolean res1= s1.equalsIgnoreCase(s2);" -->return true again.
+         "s1.compareTo(s2);" -->Compares two strings lexicographically.
+         "s1.comapreTo(s2);" -->compare two Strings lexicographically,ignoring case differences.
     11)String toCharArray():-
           "char[] s=str.toCharArray();"
     12)String replace(char old ,char new):-
