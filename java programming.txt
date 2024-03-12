@@ -1208,6 +1208,10 @@ JAVA EXCEPTIONS:-
 ===================
 -->When Executing java Code, different errors can occur:  coding errors made by the programmer , errors due to wrong input ...
 -->when an error occurs java will stop normally and shows an error message . The Technical term for this is java will throw an exception.
+-->There are two types of exceptions they are :
+      -->checked Exceptions -- Exceptions Which are checked during for during compile time are called as checked Exceptions.
+      -->Unchecked Exceptions --Exceptions which are not checked for  during compile time  or Exceptions which are checked for during run time are called as 
+       unchecked Exceptions.eg: Arithmetic Exception, NullPointer Exception, etc..
 JAVA TRY AND CATCH:-
 ====================
 -->The "try" Statement allows you to define a block of code to be tested for errors while it is being executed.
