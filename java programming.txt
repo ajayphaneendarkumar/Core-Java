@@ -1212,6 +1212,8 @@ JAVA EXCEPTIONS:-
       -->checked Exceptions -- Exceptions Which are checked during for during compile time are called as checked Exceptions.
       -->Unchecked Exceptions --Exceptions which are not checked for  during compile time  or Exceptions which are checked for during run time are called as 
        unchecked Exceptions.eg: Arithmetic Exception, NullPointer Exception, etc..
+-->Try-Catch block handles both checked and unchecked Exceptions.
+-->Throws keyword handles only checked Exception.
 JAVA TRY AND CATCH:-
 ====================
 -->The "try" Statement allows you to define a block of code to be tested for errors while it is being executed.
