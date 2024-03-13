@@ -1203,6 +1203,18 @@ public class ThreadTasks {
   -->"RUNNING"
   -->"BLOCKED/WAITING"
   -->"TERMINATED/DEAD"
+===============================================================================================================================================================
+MULTI THREADING IN JAVA:-
+============================
+-->THREAD:- single sequential flow of control within the program.
+-->Single threaded process can only handle one task at any time.
+-->multi-tasking allows single process to run several concurrent threads.
+Advantages:-
+===========
+-->reactive systems
+-->parallel processing
+-->server can handle mutliple clients simultaneoulsy.
+-->Different processes do not share memory spaces.
 ================================================================================================================================================================
 JAVA EXCEPTIONS:-
 ===================
