@@ -24,13 +24,13 @@ BASIC STRUCUTURE OF HTML:-
          </body>
    </hmtl>
 -->The "<!DOCTYPE HTML>" declaration defines that the document is a html5 document.
--->The "<html>"  element is the root element of an html page.
--->The "<head>"  element contains about the meta information of a html page or web page.
--->The "<title>" element specifies a title for the html page.
--->The "<body>"  element defines the document's body and is a container for all the visible contents such as headings, paragraphs, hyper links, images, tables , etc..
--->The "<h1>"    element defines a larger heading.
--->The "<p>"     element defines a paragraph.
--->The "<br>" element is used to break the line and it is also known as empty element.
+-->The "<html>" element is the root element of an html page.
+-->The "<head>" element contains about the meta information of a html page or web page.
+-->The "<title>"element specifies a title for the html page.
+-->The "<body>" element defines the document's body and is a container for all the visible contents such as headings, paragraphs, hyper links, images, tables , etc..
+-->The "<h1>" element defines a larger heading.
+-->The "<p>" element defines a paragraph.
+-->The "<br>"element is used to break the line and it is also known as empty element.
 -->"<p style="color:red"> this the attribute and element or tag.
--->
+-->Attributes are used to provide additional information about the html elements.
 =================================================================================================================================================================================================================
