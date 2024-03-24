@@ -20,7 +20,7 @@ BASIC STRUCUTURE OF HTML:-
          </head>
          <body>
              <h1> my first heading </h1>
-             <p>  my first Paragraph </p>
+             <p>  my first Paragraph <br> happy to start my new lesrning html </p>
          </body>
    </hmtl>
 -->The "<!DOCTYPE HTML>" declaration defines that the document is a html5 document.
@@ -29,5 +29,8 @@ BASIC STRUCUTURE OF HTML:-
 -->The "<title>" element specifies a title for the html page.
 -->The "<body>"  element defines the document's body and is a container for all the visible contents such as headings, paragraphs, hyper links, images, tables , etc..
 -->The "<h1>"    element defines a larger heading.
--->The "<p>"     element defines a paragrapg.
+-->The "<p>"     element defines a paragraph.
+-->The "<br>" element is used to break the line and it is also known as empty element.
+-->"<p style="color:red"> this the attribute and element or tag.
+-->
 =================================================================================================================================================================================================================
