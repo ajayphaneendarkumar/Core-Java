@@ -9,3 +9,24 @@ WHAT IS HTML?
 -->html elements tell the browser how to display the content.
 -->html files are saved with ".hmtl" or ".htm" extension.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BASIC STRUCUTURE OF HTML:-
+===========================
+<!DOCTYPE HTML>
+   <html>
+         <head>
+               <meta></meta>
+               <title>This is My New Web Page</title>
+         </head>
+         <body>
+             <h1> my first heading </h1>
+             <p>  my first Paragraph </p>
+         </body>
+   </hmtl>
+-->The "<!DOCTYPE HTML>" declaration defines that the document is a html5 document.
+-->The "<html>"  element is the root element of an html page.
+-->The "<head>"  element contains about the meta information of a html page or web page.
+-->The "<title>" element specifies a title for the html page.
+-->The "<body>"  element defines the document's body and is a container for all the visible contents such as headings, paragraphs, hyper links, images, tables , etc..
+-->The "<h1>"    element defines a larger heading.
+-->The "<p>"     element defines a paragrapg.
+=================================================================================================================================================================================================================
