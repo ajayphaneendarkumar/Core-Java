@@ -36,6 +36,7 @@ BASIC STRUCUTURE OF HTML:-
 ATTRIBUTES:-
 =====================
 -->All HTML elements have attributes.
--->Attributes provide additional information to the html elements.
+-->Attributes provide additional information about elements.
 -->Attributes are always specifies in a start tag.
--->
+-->Attributes usually come in name or value pairs like : name="value".
+
