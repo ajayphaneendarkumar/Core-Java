@@ -38,5 +38,14 @@ ATTRIBUTES:-
 -->All HTML elements have attributes.
 -->Attributes provide additional information about elements.
 -->Attributes are always specifies in a start tag.
--->Attributes usually come in name or value pairs like : name="value".
+-->Attributes usually come in name/value pairs like : name="value".
+-->The <a> tag defines a hyper Link. The href attribute specifies the url of the page the link goes to.
+    Ex:- <a href="https://acet.ac.in/"> Visit Link </a>
+-->The <img> tag is used to embed an image in the html page. The src attribute specifies the path to the image to be dipalyed.
+-->The <img> tag also contains width and height attributes which specifies the width and height of the image.
+    EX:- <img src="img.jpg" height=500 width=500>
+-->The Style attribute specifies different styles to an element such as color , font , size and more..
+     Ex:- <p color:"blue">This is a paragraph </p>
+-->The HTML Standard does not require qoutes to the attribute values but the w3c reqiures quote to the attribute values.
+=================================================================================================================================================================
 
