@@ -29,6 +29,7 @@ BASIC STRUCUTURE OF HTML:-
 -->The "<title>"element specifies a title for the html page.
 -->The "<body>" element defines the document's body and is a container for all the visible contents such as headings, paragraphs, hyper links, images, tables , etc..
 -->The "<h1>" element defines a larger heading.
+-->The "<h1> to <h6>" defines HTML headings.
 -->The "<p>" element defines a paragraph.
 -->The "<br>"element is used to break the line and it is also known as empty element.
 -->"<p style="color:red">  whenever we add extra properties to the html tags such properties are called attributes.
