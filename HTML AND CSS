@@ -57,6 +57,7 @@ ATTRIBUTES:-
        Ex:-  <img src="image.jpg" alt="This is Ajay Picture">
 -->The Style attribute specifies different styles to an element such as color , font , size and more..
      Ex:- <p color:"blue">This is a paragraph </p>
+-->The "Lang" attribute of html page declares the language of the html page.
 -->The HTML Standard does not require qoutes to the attribute values but the w3c recommends quotes to the attribute values.
 =================================================================================================================================================================
 
