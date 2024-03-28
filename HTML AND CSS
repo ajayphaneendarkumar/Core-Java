@@ -47,6 +47,14 @@ ATTRIBUTES:-
      -->The src attribute specifies the path to the image to be dipalyed.
      -->The <img> tag also contains width and height attributes which specifies the width and height of the image.
     EX:- <img src="img.jpg" height=500 width=500>
+  -->There are two ways to specify the  url in src attribute, they are:
+       Absolute URL:- Links to an external image that is hosted on the another website.
+         Ex:- <img src="https://www.w3schools.com/images/img_girl.jpg">
+       Relative URL:- Links to an image that is hosted within the website.
+         Ex:- <img src="image.jpg">
+ -->The "alt" attribute for the "img" tag specifies the alternative text for the image incase of image doesn't load due to poor Network Connection ,
+    user can understand easily by seeing the alternative text.
+       Ex:-  <img src="image.jpg" alt="This is Ajay Picture">
 -->The Style attribute specifies different styles to an element such as color , font , size and more..
      Ex:- <p color:"blue">This is a paragraph </p>
 -->The HTML Standard does not require qoutes to the attribute values but the w3c recommends quotes to the attribute values.
