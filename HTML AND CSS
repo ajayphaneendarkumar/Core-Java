@@ -60,6 +60,12 @@ ATTRIBUTES:-
 -->The "Lang" attribute of html page declares the language of the html page.
 -->The HTML Standard does not require qoutes to the attribute values but the w3c recommends quotes to the attribute values.
 =================================================================================================================================================================
-LET US SEE ELEMENTS IN THE HEAD  TAG:-
+LET US SEE ELEMENTS IN THE HEAD TAG:-
 ======================================
--->
+-->It's a Container for metadata. Metadata typically defines the document's title, character set, styles, scripts and other meta information.
+-->"<title>" -->title of Document.
+-->"<style>" -->internal css styles.
+-->"<base>" -->Specifies the base URL for all relative URL's in a Document.
+-->"<meta>" -->is used to specify page description, keywords, author of Document , last modified charset and other metadata.
+-->"<link>" -->defines the link between a Document and an external resource.
+===================================================================================================================================================================
