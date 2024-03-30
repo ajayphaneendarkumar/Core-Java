@@ -70,5 +70,13 @@ LET US SEE ELEMENTS IN THE HEAD TAG:-
 -->"<link>" -->defines the link between a Document and an external resource.
 Headings:-
 =========
--->They are defined with 
-===================================================================================================================================================================
+-->They are defined with the <h1> to <h6>. <h1> defines the most important heading and <h6> defines the least important heading.it is important to use headings to show the document structure.
+   Ex:-  <h1>Heading 1</h1>
+         <h2>Heading 2</h2>
+         <h3>Heading 3</h3>
+         <h4>Heading 4</h4>
+         <h5>Heading 5</h5>
+         <h6>Heading 6</h6>
+-->Each HTML Heading have default Size. however you can specify the size for any heading with the style attribute using the css "font-size" property.
+          <h1 "font-size:60px;">Heading 1</h1>
+==============================================================================================================================================================================================
