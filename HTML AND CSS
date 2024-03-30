@@ -68,4 +68,7 @@ LET US SEE ELEMENTS IN THE HEAD TAG:-
 -->"<base>" -->Specifies the base URL for all relative URL's in a Document.
 -->"<meta>" -->is used to specify page description, keywords, author of Document , last modified charset and other metadata.
 -->"<link>" -->defines the link between a Document and an external resource.
+Headings:-
+=========
+-->They are defined with 
 ===================================================================================================================================================================
