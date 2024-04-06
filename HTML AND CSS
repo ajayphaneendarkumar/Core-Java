@@ -83,5 +83,12 @@ Headings:-
 
 PARAGRAPH AND FROMATTING:-
 ==========================
+-->It defines a paragraph.it is written as "<p>HELLO</p>". 
+-->"<br>" element defines a line break.
+-->"<pre>" element defines a preformatted text.
+-->The text inside a "<pre>" element is displayed in a fixed width font.
+
+Formatting:-
+===========
 -->
 ==============================================================================================================================================================================================
