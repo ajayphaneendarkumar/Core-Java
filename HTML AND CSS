@@ -52,10 +52,10 @@ ATTRIBUTES:-
          Ex:- <img src="https://www.w3schools.com/images/img_girl.jpg">
        Relative URL:- Links to an image that is hosted within the website.
          Ex:- <img src="image.jpg">
- -->The "alt" attribute for the "img" tag specifies the alternative text for the image incase of image doesn't load due to poor Network Connection ,
+ -->The "alt" attribute for the "img" tag specifies the alternative text for the image incase of error in loading image due to poor Network Connection ,
     user can understand easily by seeing the alternative text.
        Ex:-  <img src="image.jpg" alt="This is Ajay Picture">
--->The Style attribute specifies different styles to an element such as color , font , size and more..
+-->The Style attribute specifies different styles to an element such as color , font - size and more..        
      Ex:- <p color:"blue">This is a paragraph </p>
 -->The "Lang" attribute of html page declares the language of the html page.
 -->The HTML Standard does not require qoutes to the attribute values but the w3c recommends quotes to the attribute values.
@@ -79,4 +79,9 @@ Headings:-
          <h6>Heading 6</h6>
 -->Each HTML Heading have default Size. however you can specify the size for any heading with the style attribute using the css "font-size" property.
           <h1 "font-size:60px;">Heading 1</h1>
+--> The <hr> defines the horizontal bar or horizontal line.
+
+PARAGRAPH AND FROMATTING:-
+==========================
+-->
 ==============================================================================================================================================================================================
