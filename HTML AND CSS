@@ -118,4 +118,16 @@ HTML STYLES:-
 ==================================================================================================================================================================
 HTML QUOATATIONS:-
 ===================
--->
+-->The HTML "<q>" tag defines a short quoatation.
+    Eg:- <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+-->The HTML "<abbr>" tag defines an abbrevation.
+    Eg:- <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+-->The HTML "<address>" tag defines the contact information for the author of an article.
+    Eg:- <address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+==================================================================================================================================================================
