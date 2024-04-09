@@ -103,4 +103,16 @@ Formatting:-
 ==============================================================================================================================================================================================
 HTML STYLES:-
 =============
--->
+-->   The HTML style attribute is used to add styles to an element such as color,font , size and more.
+--> syntax:
+      <tagname style="property:value;">
+-->  The property is a CSS property and the value is a CSS value.
+-->  The CSS "background-color" property defines the background color of an html element.
+       Eg:- <body style="background-color:red;"></body>
+-->  The CSS "color" property defines the text color for an HTML element.
+        Eg:<p style="color:red;"></p>
+-->  The CSS "font-size" property defines the text size for an HTML element.
+         Eg:- <p style="font-size:160%;"></p> 
+-->  The CSS "text-align" property defines the horizontal text- alignment  for an HTML element.
+         Eg:- <p style="text-align:center";> </p>
+==================================================================================================================================================================
