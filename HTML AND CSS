@@ -68,8 +68,8 @@ LET US SEE ELEMENTS IN THE HEAD TAG:-
 -->"<base>" -->Specifies the base URL for all relative URL's in a Document.
 -->"<meta>" -->is used to specify page description, keywords, author of Document , last modified charset and other metadata.
 -->"<link>" -->defines the link between a Document and an external resource.
-Headings:-
-=========
+HTML HEADINGS:-
+====================
 -->They are defined with the <h1> to <h6>. <h1> defines the most important heading and <h6> defines the least important heading.it is important to use headings to show the document structure.
    Ex:-  <h1>Heading 1</h1>
          <h2>Heading 2</h2>
@@ -79,9 +79,9 @@ Headings:-
          <h6>Heading 6</h6>
 -->Each HTML Heading have default Size. however you can specify the size for any heading with the style attribute using the css "font-size" property.
           <h1 "font-size:60px;">Heading 1</h1>
---> The <hr> defines the horizontal bar or horizontal line.
+--> The <hr> tag defines the horizontal bar or horizontal line.
 
-PARAGRAPH AND FROMATTING:-
+HTML PARAGRAPH AND FROMATTING:-
 ==========================
 -->It defines a paragraph.it is written as "<p>HELLO</p>". 
 -->"<br>" element defines a line break.
