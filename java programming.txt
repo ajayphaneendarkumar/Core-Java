@@ -113,7 +113,7 @@ Scanner class:-
      double w=sc.nextDouble();
      float f=sc.nextFloat();
      String q=sc.nextLine();
-     Char ch=sc.nextcharAt(0/i);
+     Char ch=sc.next().charAt(0/i);
 BufferedReader class:-
     -->InputStreamReader s=new InputStreamReader(System.in);
     -->BufferedReader br=new BufferedReader(s);
