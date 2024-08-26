@@ -133,6 +133,7 @@ PRINTING OUTPUT:-
 -->1.System.out.println("HELLO WORLD");
 -->2.System.out.println(x);
 -->3.System.out.println("THE VALUE OF x IS :"+x);
+-->"System" is a prdefined Class, "Out" is a static variabel in System Class and refering PrintStream Class, "println()" is a Method in printStream Class.
 while printing the floating point numbers after decimal point print only 2 digits.
 float pi=3.142345f;
 System.out.println(pi);
