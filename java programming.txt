@@ -19,13 +19,12 @@ JAVA ARCHITECTURE:-
 -->step-2:  compile the source code using the java compiler which will creates a bytecode file with .class extension.
 -->Step-3:  class loader reads both user defined and library classes into memory for execution.
 -->step-4:  bytecode verifier validates all the byte codes are valid.
--->step-5:  jvm(java virtual machine) reads bytecodes and translate into machine code for execution. 
+-->step-5:  jvm(java virtual machine) reads bytecodes and translate into machine Level Language for execution. 
 -->jvm is a interpreter which converts bytecode to machine code or machine specific instructions.
 -->"JVM" stands for Java Virtual Machine it is a Java interpreter. It is responsible for loading, verifying, and executing the bytecode created in Java.
 -->"JRE" stands for Java Run-Time Environment, it is an installed package that provides environment and libraries and other components to run applets and java programming Applications.
--->"JDK" stands for Java Development Kit which provides the environment to develop and execute the java programs.
+-->"JDK" (JDK=JRE+JVM)stands for Java Development Kit which provides the environment to develop and execute the java programs.
 -->"JIT" stands for Just-In-Time , it is a part of JRE that is used for better performance of java applications during run-time.
--->class, Heap , stack, pc register, Native method stack these are memory's of class loader.
 ================================================================================================================================================================
 APPLICATIONS OF JAVA:-
 ==========================
