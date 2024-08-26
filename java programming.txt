@@ -26,6 +26,9 @@ JAVA ARCHITECTURE:-
 -->"JDK" (JDK=JRE+JVM)stands for Java Development Kit which provides the environment to develop and execute the java programs.
 -->"JIT" stands for Just-In-Time , it is a part of JRE that is used for better performance of java applications during run-time.
 ================================================================================================================================================================
+JVM ARCHITECTURE:-
+=====================
+=================================================================================================================================================================
 APPLICATIONS OF JAVA:-
 ==========================
   -->java is used in "DESKTOP APPLICATIONS"
