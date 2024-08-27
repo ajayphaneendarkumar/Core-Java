@@ -12,6 +12,13 @@ How Java Started:-
 -->Java is one of the most popular programming language in the world.
 -->It has more demand inthe current job market.
 -->it is easy to learn and simple to use.
+-->We use java to develop Applications:
+        -->Application Contains Group of Programs.
+    Where:
+        -->Presentation Layer(FET)
+        -->Controller Layer(J2SE,J2EE,Frameworks)
+        -->Data Acess Layer(JDBC)
+        -->Data Layer(SQL)
 ================================================================================================================================================================
 JAVA ARCHITECTURE:-
 ===============================
