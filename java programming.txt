@@ -28,6 +28,7 @@ JAVA ARCHITECTURE:-
 ================================================================================================================================================================
 JVM ARCHITECTURE:-
 =====================
+
 =================================================================================================================================================================
 APPLICATIONS OF JAVA:-
 ==========================
@@ -71,7 +72,7 @@ DIFFERENCE BETWEEN C++ AND JAVA:-
     3.It supports goto statement                                   3.It doesn't supports goto statements
     4.It suports multiple inheritance                              4.It doesn't supports multiple inheritance through class. It is acheived through interfaces.
     5.It supports structures and unions                            5.java doesn't supports structures and unions.
-    6.c++ supports pointers and we can write a pointer program     6.java supports pointers internally but we can't pointer program in java.
+    6.c++ supports pointers and we can write a pointer program     6.java does not supports pionters instead they developed references(address of the objects)
     7.c++ supoorts operator overloading                            7.java doesn't supports operator overloading.
 ================================================================================================================================================================
 PACKAGES IN JAVA:-
