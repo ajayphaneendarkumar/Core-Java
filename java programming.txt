@@ -20,8 +20,8 @@ How Java Started:-
         -->Data Acess Layer(JDBC)
         -->Data Layer(SQL)
 ================================================================================================================================================================
-JAVA ARCHITECTURE:-
-===============================
+JAVA PROGRAM STEP BY STEP EXECUTION PROCESS:-
+===============================================
 -->Step-1:  create a java source code file with .java extension
 -->step-2:  compile the source code using the java compiler which will creates a bytecode file with .class extension.
 -->Step-3:  class loader reads both user defined and library classes into memory for execution.
@@ -35,7 +35,37 @@ JAVA ARCHITECTURE:-
 ================================================================================================================================================================
 JVM ARCHITECTURE:-
 =====================
+Why we need JVM:-
+  -->Operating System is not provided environment to execute java Applications or programs.
+  --->To excute java programs or Applications we must need  to have JVM.
+".Class" file is the input to the JVM.
 
+".class" --> 1)Class Loader Subsystem
+                 -->Loading
+                      -->Bootstrap Class Loader
+                      -->Extension Class Loader
+                      -->Apllication Class Loader
+                 -->Linking
+                      -->verify
+                      -->Prepare
+                      -->Resolve
+                -->Intialization
+             2)Memory management
+                  -->Method Area
+                       -->All the static Data will be stored in 'Method Area".
+                  -->Heap Area
+                       -->All the Instance data Will be Stored in "Heap Area".
+                  -->Stack Area
+                  -->PC Registers
+                  -->Native Method Stack
+              3)Execution Engine
+                   -->Interpreter 
+                         -->Converts byte Code into machine level language.
+                   -->JIT(Just-In-Time) Compiler 
+                   -->Garbage Collection
+              4)Native Method Libraries  --
+                                            |-> Any logic that  written in other lanaguage can access in java by using this native method lib and interfaces. 
+              4)Native Method Interface  --
 =================================================================================================================================================================
 APPLICATIONS OF JAVA:-
 ==========================
@@ -128,7 +158,7 @@ BufferedReader class:-
     -->InputStreamReader s=new InputStreamReader(System.in);
     -->BufferedReader br=new BufferedReader(s);
        ---->int n = Integer.parseInt(br.readLine());
-       --->float f=Float.parseFloat(br.redLine());
+       --->float f= Float.parseFloat(br.redLine());
 =================================================================================================================================
 -->To find Number of digits in the given number use this logic: (int)Math.log10(num)+1;
 -->TO seperate the digits from first then use the below logic:
@@ -142,8 +172,8 @@ PRINTING OUTPUT:-
  ==============================
 -->there are 3 ways of printing output.
 -->1.System.out.println("HELLO WORLD");
--->2.System.out.println(x);
--->3.System.out.println("THE VALUE OF x IS :"+x);
+-->2.System.out.print(x);
+-->3.System.out.printf("THE VALUE OF x IS :"+x);
 -->"System" is a prdefined Class, "Out" is a static variabel in System Class and refering PrintStream Class, "println()" is a Method in printStream Class.
 while printing the floating point numbers after decimal point print only 2 digits.
 float pi=3.142345f;
