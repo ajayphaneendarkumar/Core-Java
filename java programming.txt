@@ -46,7 +46,7 @@ APPLICATIONS OF JAVA:-
   -->"EMBEDDED SYSTEMS"
   -->"GAMING".
 ===============================================================================================================================================================
-ADVANTAGES (OR) FEATURES OF JAVA:-
+ADVANTAGES OF JAVA:-
 ==============================
 -->java  is a popular and widely used programming language with many advantages.
      -->platform independent -->code can run on any jvm installed desktop
@@ -110,7 +110,7 @@ SRTUCTURE OF JAVA PROGRAM:-
 ================================================================================================================================================================
 OBJECT CREATION IN JAVA :-
 ================================
-         classname obj_name=new classname();
+         classname obj_reference_variable=new classname();
 ======================================================================
 READING INPUT:-
 =====================
