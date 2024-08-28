@@ -44,9 +44,11 @@ ARCHITECTURE:-
 --------------
 ".class" --> 1)Class Loader Subsystem
                  -->Loading
-                      -->Bootstrap Class Loader
-                      -->Extension Class Loader
-                      -->Apllication Class Loader
+                      -->Bootstrap Class Loader -->"JAVA_HOME/lib"-->Find Class -->Loaded
+                      -->Extension Class Loader -->"JAVA_HOME/lib/ext" -->Find Class -->Loaded
+                      -->Apllication Class Loader -->class Path" -->Find Class -->Loaded
+                             |
+                           CLASS NOT FOUND EXCEPTION
                  -->Linking
                       -->verify
                       -->Prepare
