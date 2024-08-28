@@ -62,6 +62,8 @@ ARCHITECTURE:-
                        -->The "Heap Area" is Loading Object Level Data.
                        -->All the Instance data Will be Stored in "Heap Area".
                   -->Stack Area
+                        -->Executing the method When we Called is happening inside the Stack Area, When Main  method and all other methods after completing 
+                            execution will be removed from Stack Area.
                   -->PC Registers
                   -->Native Method Stack
               3)Execution Engine
