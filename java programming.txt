@@ -56,8 +56,10 @@ ARCHITECTURE:-
                 -->Intialization
              2)Memory management
                   -->Method Area
+                       -->The Method Area is Loading Class Level Data.
                        -->All the static Data will be stored in 'Method Area".
                   -->Heap Area
+                       -->The Heap Area is Loading Object Level Data.
                        -->All the Instance data Will be Stored in "Heap Area".
                   -->Stack Area
                   -->PC Registers
