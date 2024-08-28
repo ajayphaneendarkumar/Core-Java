@@ -147,6 +147,7 @@ SRTUCTURE OF JAVA PROGRAM:-
 OBJECT CREATION IN JAVA :-
 ================================
          classname obj_reference_variable=new classname();
+  -->Creating a Object and Storing it into reference variable.
 ================================================================================================================================================================
 WHAT A CLASS CAN CONTAIN:-
 ==========================
