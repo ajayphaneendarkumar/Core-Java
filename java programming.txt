@@ -1420,3 +1420,4 @@ JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 -->what is the difference b/w interpreter and JIT?
 -->Expalin About Garbage Collection how can we achieve this?
 -->Explain about main method why need to have in java?
+-->Difference between Static Blocks and instance Blocks.
