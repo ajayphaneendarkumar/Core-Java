@@ -1400,3 +1400,17 @@ JAVA 8 Features:-
   -->Functional Interfaces
   -->Stream API
 
+================================================================================================================================================================
+JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
+=====================================
+-->Why u choosed java and what are the features of java?
+-->what is the difference c/c++ and java?
+-->what is the difference b/w static and dynamic memory allocation?
+-->differecne b/w class and object?
+-->what is the difference b/w source code, byte code , binary code or machine level code?
+-->what is the difference static v/s Instance data members?
+-->what are the different types of Class loaders?
+-->what are the different memory managaments in jvm?
+-->what is the difference b/w interpreter and JIT?
+-->Expalin About Garbage Collection how can we achieve this?
+-->Explain about main method why need to have in java?
