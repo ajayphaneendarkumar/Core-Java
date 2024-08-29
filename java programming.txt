@@ -69,8 +69,14 @@ ARCHITECTURE:-
               3)Execution Engine
                    -->Interpreter 
                          -->Converts byte Code into machine level language to excecute.
-                   -->JIT(Just-In-Time) Compiler 
-                   -->Garbage Collection
+                   -->JIT(Just-In-Time) Compiler : suppose if we call a method for many times in main method then the jvm will go to the interpreter only once 
+                     and remaining time the JIT Compiler  will take care of it , that is the use of JIT(i.e used for better performance of Java Apllications 
+                     during runtime). 
+                   -->Garbage Collection:
+                        -->This garbage Collection can be done in two ways:
+                            -->By Making the refernce variable as "NULL"ify(t=NULL), and assigning one reference variable to other(t1=t).When we use any one of 
+                               the above mehtod we need to call garbage Collector(System.gc()) then the Garbage Collector will Call the Finalize() method and it 
+                               will remove garbage value or nullify value from the memory.
               4)Native Method Libraries  --
                                             |--> Any logic that  written in other lanaguage can access in java by using this native method lib and interfaces. 
               4)Native Method Interface  --
