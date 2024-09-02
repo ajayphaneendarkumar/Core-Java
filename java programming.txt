@@ -238,7 +238,10 @@ COMMENT LINES IN JAVA:-
    2)Java Identifiers should not start with numeric values(0 -9)(Sysntax error at token 1).
    3)Java Identifiers should not contain any Special Characters except "_" and  "$" , we can start identifers with "_" or "$".
    4)Java Identifiers should not be a Java Keywords.
-======================================================================================================================================================
+===============================================================================================================================================================
+JAVA KEYWORDS:-
+================
+
 JAVA ACCESS MODIFIERS/SPECIFIERS:-
 =======================================================================
 -->final    ->final Attributes and methods cannot be overridden/modified , for final class inheritance cannot be possible. and this final keyword is used for constants.
