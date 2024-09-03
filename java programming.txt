@@ -128,10 +128,10 @@ DIFFERENCE BETWEEN C++ AND JAVA:-
 =================================================================================================================================================================================================================
 PACKAGES IN JAVA:-
 =====================
--->Packages in java can be defined as grouping related type of classes.
+-->Package in java can be defined as grouping related type of classes & interfaces.
 -->packages are used to avoid naming clashes and provides easier control access.
--->it is easier to locate related type classes.
--->there are two typesof packages in java they are -->user defined and built in packages.
+-->It is easier to locate related type classes using Packages.
+-->There are two typesof packages in java they are -->user defined and built in packages.
 =================================================================================================================================================================================================================
 SRTUCTURE OF JAVA PROGRAM:-
 ===================================
@@ -241,19 +241,41 @@ COMMENT LINES IN JAVA:-
 ==================================================================================================================================================================================================================
 JAVA KEYWORDS:-
 ==================
+"Primitive Datatypes(8), Apllication level or oops(14), Access Modifiers(12), Exception handling(5), Logical Satatement(11)"
+PRIMITIVE DATATYPES KEYWORDS:-
+-------------------------------
 For Reprsenting The Numbers:
   -->byte
   -->short
   -->int
   -->long
-
+------------------------------------------
 For Reprsenting floating Decimals:
   ->float
   ->double
-
+----------------------------------------------------------
 For Representing charcters and true or false conditions:
   ->char
   ->boolean
+---------------------------------------------------------
+APPLICATION LEVEL OR OOPS KEYWORDS:-
+---------------------------------------
+ -->"package" :- package is a keyword to create package for collection of classes and interfaces.
+ -->"import"  :- To import classes or interfaces or enums  from one package to another package.
+-----------------------------------------------------------------------------------------------
+ -->"class"    :- Class is a blue print of an object or template or user defined datatype.
+ -->"interface":- interface is Blueprint of a class. 
+ -->"enum"     :- To represent constant values we use enum like a class.
+ -->"new"      :- new keyword is used to create object for a class.
+ -->"instanceof" --> to check status of the object from another object.
+---------------------------------------------------------------------------------------------------
+-->"void" -->return nothing
+-->"int"  -->return something in a method based on the return type.
+--------------------------------------------------------------------------------------------------
+-->"this" :-> this Keyword is used "To invoke current object data members".
+-->"super" :-> super keyword is used "To invoke super object data members".
+-->"implements" 
+-->"extends"
 =================================================================================================================================================================================================================
 JAVA ACCESS MODIFIERS/SPECIFIERS:-
 =======================================================================
@@ -667,38 +689,6 @@ JAVA CONSTRUCTORS:-
         }
    }
 ================================================================================================================================================================
-SUPER AND THIS KEYWORDS:-
-================================
-let us discuss super keyword by using an example program.
-class A extends object{  // class is by default extends from object
-  public A(){
-    super();
-    System.out.println("In A");         //super() key word will call the super class first and then  calls derived or sub class.
- }
- public A(int n){
-    this();                            // this keyword is used to call the constructor of the same class.
-    super();
-    System.out.println(n:+"In A int");
- }
-}
-class B extends A{
-    public B(){
-        super();
-       System.out.println("In B");
-  }
- public B(int n){
-     this();
-     super(n);
-     System.out.println(n: + "In B int");
-}
-}
-class Main{
-   public static void main(String args[]){
-       B myobj= new B(); // it will call class A default constructor and class B default constructor.
-       B myobj= new B(6); // it will call class B parameterised constructor and class A default constructuor and to call class A parameterised constructor pass the value in to super keyword.
-  }
-}
-============================================================================================================================================================== 
 Following are some object oriented Principles:-
    -->Encapsulation
    -->Inheritance
