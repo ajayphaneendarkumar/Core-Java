@@ -19,7 +19,7 @@ How Java Started:-
         -->Controller Layer(J2SE,J2EE,Frameworks)
         -->Data Acess Layer(JDBC)
         -->Data Layer(SQL)
-==================================================================================================================================================================================================================
+=================================================================================================================================================================
 JAVA PROGRAM STEP BY STEP EXECUTION PROCESS:-
 ===============================================
 -->Step-1:  create a java source code file with .java extension
@@ -32,7 +32,7 @@ JAVA PROGRAM STEP BY STEP EXECUTION PROCESS:-
 -->"JRE" stands for Java Run-Time Environment, it is an installed package that provides environment and libraries and other components to run applets and java programming Applications.
 -->"JDK" (JDK=JRE+JVM)stands for Java Development Kit which provides the environment to develop and execute the java programs.
 -->"JIT" stands for Just-In-Time , it is a part of JRE that is used for better performance of java applications during run-time.
-==================================================================================================================================================================================================================
+=================================================================================================================================================================
 JVM ARCHITECTURE:-
 ===========================
 Why we need JVM:-
@@ -80,7 +80,7 @@ ARCHITECTURE:-
               4)Native Method Libraries  --
                                             |--> Any logic that  written in other lanaguage can access in java by using this native method lib and interfaces. 
               4)Native Method Interface  --
-=================================================================================================================================================================================================================
+=================================================================================================================================================================
 APPLICATIONS OF JAVA:-
 ==========================
   -->java is used in "DESKTOP APPLICATIONS"
@@ -89,7 +89,7 @@ APPLICATIONS OF JAVA:-
   -->"WEB APPLICATIONS"
   -->"EMBEDDED SYSTEMS"
   -->"GAMING".
-==================================================================================================================================================================================================================
+=================================================================================================================================================================
 ADVANTAGES OF JAVA:-
 ==============================
 -->java  is a popular and widely used programming language with many advantages.
@@ -105,7 +105,7 @@ ADVANTAGES OF JAVA:-
      -->Distrobuted.
      -->Robust-->Garbage Collection and exception handling makes the java programming as Robust.
      -->Architecture Neutral -->it is not depend on the Architecture design.
-==================================================================================================================================================================================================================
+=================================================================================================================================================================
 -->What is meant by "public static void main(String args[])"?
      -->In public static void main(String args[])
               -->public means direct access to the jvm(Java virtual machine).
@@ -113,7 +113,7 @@ ADVANTAGES OF JAVA:-
               -->void means where as main function does not return anything.
               -->main means, it is callable environment to the java programs  where we can call user defined and pre-defined functions.
               -->As we taking String args[] as arugment it accepts any type of any number of arguments.
-==================================================================================================================================================================================================================
+=================================================================================================================================================================
 DIFFERENCE BETWEEN C++ AND JAVA:-
 =======================================================
 --> C++                                                                JAVA
@@ -125,14 +125,14 @@ DIFFERENCE BETWEEN C++ AND JAVA:-
     5.It supports structures and unions                            5.java doesn't supports structures and unions.
     6.c++ supports pointers and we can write a pointer program     6.java does not supports pionters instead they developed references(address of the objects)
     7.c++ supoorts operator overloading                            7.java doesn't supports operator overloading.
-=================================================================================================================================================================================================================
+=================================================================================================================================================================
 PACKAGES IN JAVA:-
 =====================
 -->Package in java can be defined as grouping related type of classes & interfaces.
 -->packages are used to avoid naming clashes and provides easier control access.
 -->It is easier to locate related type classes using Packages.
 -->There are two typesof packages in java they are -->user defined and built in packages.
-=================================================================================================================================================================================================================
+=================================================================================================================================================================
 SRTUCTURE OF JAVA PROGRAM:-
 ===================================
 //-->java lib contains all java related packages .
@@ -151,12 +151,12 @@ SRTUCTURE OF JAVA PROGRAM:-
                  System.out.println("HELLO JAVA PROGRAMMING");
             }
       }
-=================================================================================================================================================================================================================
+=================================================================================================================================================================
 OBJECT CREATION IN JAVA :-
 ================================
          classname obj_reference_variable=new classname();
   -->Creating a Object and Storing it into reference variable.
-==================================================================================================================================================================================================================
+=================================================================================================================================================================
 WHAT A CLASS CAN CONTAIN:-
 ==========================
 1) Data Members:
@@ -170,7 +170,7 @@ WHAT A CLASS CAN CONTAIN:-
       -->Parametrized Constructor
 4)Interfaces
 5)Inner Classes
-==================================================================================================================================================================================================================
+=================================================================================================================================================================
 READING INPUT IN JAVA:-
 ========================
 Scanner class:-
@@ -188,7 +188,7 @@ BufferedReader class:-
     -->BufferedReader br=new BufferedReader(s);
        ---->int n = Integer.parseInt(br.readLine());
        --->float f= Float.parseFloat(br.redLine());
-==================================================================================================================================================================================================================
+=================================================================================================================================================================
 -->To find Number of digits in the given number use this logic: (int)Math.log10(num)+1;
 -->TO seperate the digits from first then use the below logic:
         while(num>0)
@@ -196,7 +196,7 @@ BufferedReader class:-
            int r= num/(int)Math.pow(10,d) ;
            num=num%(int)Math.pow(10,d);
         }
- ================================================================================================================================================================================================================
+ =================================================================================================================================================================
 PRINTING OUTPUT:-
  ==============================
 -->there are 3 ways of printing output.
@@ -212,7 +212,7 @@ System.out.format("%.2f",pi);
 printf("%.2f",pi);
 -->final int myNum = 15;
 myNum = 20;  // will generate an error: cannot assign a value to a final variable
--================================================================================================================================================================================================================
+=================================================================================================================================================================
 COMMENT LINES IN JAVA:-
 ================================
 1.single line comment:-
@@ -221,12 +221,12 @@ COMMENT LINES IN JAVA:-
 2.multiple line comment :-
 ----------------------------------
 /* System.out.println("This is multi line comment"); */
-==================================================================================================================================================================================================================
+=================================================================================================================================================================
 -->In java programming we need to save the file name with the class name with .java extension
 -->compiling the code:-   javac filename.java
 -->running the code :-    java  filename/className
 -->To see the Copiled Code:- javap filename
-=================================================================================================================================================================================================================
+=================================================================================================================================================================
  JAVA IDENTIFIERS:-
 ============================
 -->java identifiers are used for indentification purpose (or) Any name of the Project, package,class,interface, Method,variable is called as Identifier.
@@ -238,7 +238,7 @@ COMMENT LINES IN JAVA:-
    2)Java Identifiers should not start with numeric values(0 -9)(Sysntax error at token 1).
    3)Java Identifiers should not contain any Special Characters except "_" and  "$" , we can start identifers with "_" or "$".
    4)Java Identifiers should not be a Java Keywords.
-==================================================================================================================================================================================================================
+=================================================================================================================================================================
 JAVA KEYWORDS:-
 ==================
 "Primitive Datatypes(8), Apllication level or oops(14), Access Modifiers(12), Exception handling(5), Logical Satatement(11)"
@@ -276,7 +276,11 @@ APPLICATION LEVEL OR OOPS KEYWORDS:-
 -->"super" :-> super keyword is used "To invoke super object data members".
 -->"implements" 
 -->"extends"
-=================================================================================================================================================================================================================
+-------------------------------------------------------------------------------------------------
+ACCESS MODIFIERS KEYWORDS:-
+--------------------------------
+
+=================================================================================================================================================================
 JAVA ACCESS MODIFIERS/SPECIFIERS:-
 =======================================================================
 -->final    ->final Attributes and methods cannot be overridden/modified , for final class inheritance cannot be possible. and this final keyword is used for constants.
@@ -550,7 +554,7 @@ ARRAYS CLASS:-
        5)int[] copy=Arrays.copyOfRange(Array_name,value1,value2); //copies the specified range of Array elements to another Array.
        6)Arrays.fill(Array_name,value); //Fills specific value in to the array.
        7)Arrays.toString(Array_name)
-==============================================================================================================================================
+==============================================================================================================================================================
 JAVA METHODS:-
 ===========================================
 -->Method is a block of code which runs when it is called.
@@ -582,7 +586,7 @@ JAVA METHODS:-
       myfunc(int x);
       myfunc(float y);
       myfunc(double z);
-===================================================================================
+================================================================================================================================================================
 JAVA RECURSION:-
 ==================
 -->Recursion is the technique of making a function call itself. This Technique provides a way to break down complicated problems into simple problems which are easier to solve.
@@ -605,39 +609,6 @@ Example:-
      }
   }
 ================================================================================================================================================================
-JAVA OOPS:-
-============================
--->OOPs Stands for object oriented programming.
--->object-oriented programming is about creating objects that contains both data and Methods.
--->Advantgaes/why we use:-
-==========================
--->oop is faster and easier to execute.
--->oop gives clear structure of program.
--->oop makes code easier to maintain and reusable.
--->oop provides security and high efficiency.
-=============================================
--->class:- Template or blue print of an objects.
--->In java ,by default class is always extends from object.
--->object:- It is an Instance of class which has set of properties and behaviours and more over it is physically occurs in nature.
--->To create a class use "class keyword" --> class Main{
-                                                 public int x=5;
-                                            }
--->creating of Object:-
-    classname objname = new classname();
--->Accessing methods with object :-
-       objname.methodname(); //we can pass parameters also if require.
--->we can create multiple classes:-
-   example:
-       public class Main(){
-             int x=5;
-       }
-      public class second(){
-          public static void main(String args[]){
-              Main obj= new Main();
-              Sytem.out.println(obj.x);
-       }
-    }
-===============================================================================================================================================================
 JAVA CLASS METHODS:-
 =======================
 -->There are two types of Java Class Methods they are static and public.
@@ -689,6 +660,39 @@ JAVA CONSTRUCTORS:-
         }
    }
 ================================================================================================================================================================
+JAVA OOPS:-
+============================
+-->OOPs Stands for object oriented programming.
+-->object-oriented programming is about creating objects that contains both data and Methods.
+Advantgaes/why we use oops:-
+===========================
+-->oop is faster and easier to execute.
+-->oop gives clear structure of program.
+-->oop makes code easier to maintain and reusable.
+-->oop provides security and high efficiency.
+=============================================
+-->class:- Template or blue print of an objects.
+-->In java ,by default class is always extends from object.
+-->object:- It is an Instance of class which has set of properties and behaviours and more over it is physically occurs in nature.
+-->To create a class use "class keyword" --> class Main{
+                                                 public int x=5;
+                                            }
+-->creating of Object:-
+    classname objname = new classname();
+-->Accessing methods with object :-
+       objname.methodname(); //we can pass parameters also if require.
+-->we can create multiple classes:-
+   example:
+       public class Main(){
+             int x=5;
+       }
+      public class second(){
+          public static void main(String args[]){
+              Main obj= new Main();
+              Sytem.out.println(obj.x);
+       }
+    }
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Following are some object oriented Principles:-
    -->Encapsulation
    -->Inheritance
