@@ -279,20 +279,35 @@ APPLICATION LEVEL OR OOPS KEYWORDS:-
 -------------------------------------------------------------------------------------------------
 ACCESS MODIFIERS KEYWORDS:-
 --------------------------------
--->public
--->private
--->protected
---><default>
+-->"private" :-  priavte is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
+-->"<default>" :- The Scope of default is wihtin the package.
+-->"protected" :- protected is a keyword , we cannot use for a class but we can use inside the class.(The Scope of Protected is "within the package + outside of the packages of subclasses:).
+-->"public" :- public is a keyword we can user for a class and also we can use inside the class. (The Scope of public is within the project Anywhere).
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-->"abstract" :-  abstract is a keyword for achieving  abstraction.
+-->"static"   :-  static is a keyword we can use for data members and blocks. 
+                  if we use static for a variable or data then it is constant for all objects.
+                  if we use static for a method or blocks then it will loading to  the memory without creating object.
+-->"strictfp" :-  strictly follow floating point data in all the systems.
+-->"synchronized"
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-->"final" :-  final is for class then we cannot extends that class.
+               final is for method then we cannot override that method in child class.
+               final is for varaible then we cannot change the value.
+-->"transient"(only for varaibles)
+-->"Volatile" :- volatile means keep on changing , we can use it in multithreading when the threads are sleeping still you want to make your variables to change  the values.
+-->"native"
 =================================================================================================================================================================
 JAVA ACCESS MODIFIERS/SPECIFIERS:-
 =======================================================================
--->final    ->final Attributes and methods cannot be overridden/modified , for final class inheritance cannot be possible. and this final keyword is used for constants.
--->Static  -> Attributes and methods belongs to a class , rather than object.-->It can be accessed without creating a object.
-In Java Access Modifiers or Specifiers are helps to restirct the scope of a class, variable,constructor ,method or data member.
--->private -->code within the private section is accessible but outside the class not accessible.
--->public  -->code in the public section can accessed even outside the class also.
--->default -->The default variables are only accessible by classes of same package.(package is nothing but  collection of classes).
--->protected -->code acessible in both parent and child classes. 
+-->"private" :-  priavte is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
+-->"<default>" :- The Scope of default is wihtin the package.
+-->"protected" :- protected is a keyword , we cannot use for a class but we can use inside the class.(The Scope of Protected is "within the package + outside of the packages of subclasses:).
+-->"public" :- public is a keyword we can user for a class and also we can use inside the class. (The Scope of public is within the project Anywhere).
+-->"final"  :- 
+-->"static" :- static is a keyword we can use for data members and blocks. 
+               if we use static for a varaible or data then it is constant for all objects.
+               
 ================================================================================================================================================================
 JAVA PRIMITIVE DATATYPES:-
 ==========================================================
