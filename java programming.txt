@@ -258,7 +258,7 @@ For Representing charcters and true or false conditions:
   ->char
   ->boolean
 ---------------------------------------------------------
-APPLICATION LEVEL OR OOPS KEYWORDS:-
+APPLICATION LEVEL (OR) OOPS KEYWORDS:-
 ---------------------------------------
  -->"package" :- package is a keyword to create package for collection of classes and interfaces.
  -->"import"  :- To import classes or interfaces or enums  from one package to another package.
@@ -276,8 +276,9 @@ APPLICATION LEVEL OR OOPS KEYWORDS:-
 -->"super" :-> super keyword is used "To invoke super object data members".
 -->"implements" 
 -->"extends"
+-->"assert"
 -------------------------------------------------------------------------------------------------
-ACCESS MODIFIERS KEYWORDS:-
+ACCESS MODIFIERS KEYWORDS(12):-
 --------------------------------
 -->"private" :-  priavte is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
 -->"<default>" :- The Scope of default is wihtin the package.
@@ -297,17 +298,27 @@ ACCESS MODIFIERS KEYWORDS:-
 -->"transient"(only for varaibles)
 -->"Volatile" :- volatile means keep on changing , we can use it in multithreading when the threads are sleeping still you want to make your variables to change  the values.
 -->"native"
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+EXCEPTION HANDLING(5):-
+------------------------
+-->try
+-->catch
+-->finally
+-->throw , throws
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 =================================================================================================================================================================
 JAVA ACCESS MODIFIERS/SPECIFIERS:-
-=======================================================================
+====================================
 -->"private" :-  priavte is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
 -->"<default>" :- The Scope of default is wihtin the package.
 -->"protected" :- protected is a keyword , we cannot use for a class but we can use inside the class.(The Scope of Protected is "within the package + outside of the packages of subclasses:).
 -->"public" :- public is a keyword we can user for a class and also we can use inside the class. (The Scope of public is within the project Anywhere).
--->"final"  :- 
+-->"final"  :- final is for class then we cannot extend the classs.
+               final is for method then we cannot override that method in child class.
+               final is for variable then we cannot change the value of that variable.
 -->"static" :- static is a keyword we can use for data members and blocks. 
                if we use static for a varaible or data then it is constant for all objects.
-               
+               if we use static for a method or block then it will loading to the memory wihtout creating object.
 ================================================================================================================================================================
 JAVA PRIMITIVE DATATYPES:-
 ==========================================================
