@@ -332,18 +332,30 @@ JAVA ACCESS MODIFIERS/SPECIFIERS:-
                if we use static for a varaible or data then it is constant for all objects.
                if we use static for a method or block then it will loading to the memory wihtout creating object.
 ================================================================================================================================================================
-JAVA PRIMITIVE DATATYPES:-
-==========================================================
--->Primitive data_types in java are pre-defined by a java language and named as the reserved keywords. As primitive data_types does not share a state with other primitive values.
-boolean ->size->1bit  -->boolean boolvar;
-byte (Byte)   ->size->1byte(8 bits)-->max value we can store in byte is 127 and min value is -128 -->byte bytevar;(Byte.SIZE,Byte.MAX_VALUE,Byte.MIN_VALUE);
-char    ->size->16-bits-->char charvar;
-short(Short)    ->size->2bytes(16 bits)-->max value we can store in short is 32767 and min value is -32768 -->short shortvar;(Short.SIZE,Short.MAX_VALUE,Short.MIN_VALUE)
-int(Integer)      ->size->4bytes(32 bits) -->max value we can store in int is 214748 and min value is -214748 -->int intvar;(Integer.SIZE,Integer.MAX_VALUE,Integer.MIN_VALUE)
-long(Long)     ->size->8bytes(64-bits)-->long longvar;
-float(Float)    ->size->4bytes(32 bits)-->float floatvar;
-double(Double)   ->size->8bytes(64 bits)-->double doublevar;
--->String, Array,class are Non-primitive datatypes.
+JAVA  DATATYPES:-
+=======================================
+-->There are Two types of Data types in java : they are "Primitive Data types " and "Non-primitive datatypes"
+-->Primitive data_types in java are pre-defined by a java language and named as the reserved keywords. As primitive data_types does not share a state with other primitive values. The Data in data types is stored in a 2's complement way. ( -2^n to 2^n-1)
+-->byte (Byte)        ->size->1byte(8 bits)-->max value we can store in byte is 127 and min value is -128 -->byte bytevar;
+                                                                                                (Byte.SIZE,Byte.MAX_VALUE,Byte.MIN_VALUE);
+-->short(Short)       ->size->2bytes(16 bits)-->max value we can store in short is 32767 and min value is -32768 -->short shortvar; 
+                                                                                                (Short.SIZE,Short.MAX_VALUE,Short.MIN_VALUE)
+-->int(Integer)      ->size->4bytes(32 bits) -->max value we can store in int is 214748 and min value is -214748 -->int intvar; 
+                                                                                                (Integer.SIZE,Integer.MAX_VALUE,Integer.MIN_VALUE)
+-->long(Long)        ->size->8bytes(64-bits)-->long longvar;          
+                                                                                                (Long.SIZE, Long.MAX_VALUE,LONG.MIN_VALUE)                                       
+-->float(Float)      ->size->4bytes(32 bits)-->float floatvar;
+-->double(Double)    ->size->8bytes(64 bits)-->double doublevar;
+-->boolean           ->size->1bit  -->boolean boolvar;
+-->char              ->size->16-bits-->char charvar;
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Non-Prirmitive Data types(Wrapped object data types, pre-defined object data types, user-defined object data types):-
+====================================================================================================================
+-->String
+-->StringBuffer
+-->Math
+-->BigInteger
+-->BigDecimal
 =================================================================================================================================================================
 JAVA TYPECASTING:-
 ====================
@@ -363,8 +375,8 @@ JAVA TYPECASTING:-
 JAVA WRAPPER CLASSES:-
 =======================
 -->Java Wrapper classes provides a way to use primitive data_types as objects.
---->  Primitive data_type                Wrapper Class
-     ========================          ===================
+--->  Primitive data_type                Wrapper Oject Data Types
+     ========================          ==============================
        byte(8bits)              -->      Byte
        short(16 bits)           -->      Short
        int(32 bits)             -->      Integer
