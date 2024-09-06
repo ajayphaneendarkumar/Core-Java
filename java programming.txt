@@ -347,7 +347,7 @@ JAVA  DATATYPES:-
 -->float(Float)      ->size->4bytes(32 bits)-->float floatvar;
 -->double(Double)    ->size->8bytes(64 bits)-->double doublevar;
 -->boolean           ->size->1bit  -->boolean boolvar;
--->char              ->size->16-bits-->char charvar;
+-->char              ->size->16-bits-->char charvar; ( 0 to 65536)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 Non-Prirmitive Data types(Wrapped object data types, pre-defined object data types, user-defined object data types):-
 ====================================================================================================================
