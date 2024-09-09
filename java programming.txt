@@ -360,7 +360,12 @@ Non-Prirmitive Data types(Wrapped object data types, pre-defined object data typ
 -->StringBuffer
 -->Math
 -->BigInteger 
-      -->it is 
+      -->it is a predefined class and predefined object datatype , it can value larger than "int" and "long".
+      -->synatx:-  BigInteger b= new BigInteger("232097329209027598383833793830383");
+                   BigInteger b1= new BigInteger("2320973292090275983834865484646438463830383");
+      -->Following are some the methods that BigInteger have:
+              -->b.add(b1);
+              -->b.multiply(b1);
 -->BigDecimal
 =================================================================================================================================================================
 JAVA TYPECASTING:-
