@@ -356,8 +356,8 @@ JAVA  DATATYPES:-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Non-Prirmitive Data types(Wrapped object data types, pre-defined object data types, user-defined object data types):-
 ====================================================================================================================
--->String
--->StringBuffer
+-->String        
+-->StringBuffer   
 -->Math
 -->BigInteger 
       -->it is a predefined class and predefined object datatype , it can value larger than "int" and "long".
@@ -367,6 +367,9 @@ Non-Prirmitive Data types(Wrapped object data types, pre-defined object data typ
               -->b.add(b1);
               -->b.multiply(b1);
 -->BigDecimal
+       -->BigDecimal b2=new BigDecimal("467686969670707.6868686868");
+-->Student,Employee,Address,....(user-defined object datatypes)
+-->NULL is the Default value of any object data type.
 =================================================================================================================================================================
 JAVA TYPECASTING:-
 ====================
@@ -436,6 +439,20 @@ JAVA WRAPPER CLASSES:-
        }
    }
 ================================================================================================================================================================
+JAVA LITERALS:-
+=================
+-->Literal is a Constant value which we are storing it into a varaibles.
+-->there are six type sof literals,they are:
+       --Integral Literals
+             --Decimal Literals
+             --octa Decimal Literals(Octa Decimal Numbers starts with "0")
+             --Hexa Decimal Literals(Hexa Decimal Numbers starts with "0X" or "0x")
+       --Floating Literals
+       --char Literals
+       --boolean Literals
+       --null literals
+       --String Literals
+=================================================================================================================================================================
 ESCAPE SEQUENCES:-
 ==================
 single quote ---> \'
@@ -478,7 +495,7 @@ JAVA STRINGS:-
 -->Syntax :-
       string literal:-(<String_type>  <string_variable> = <String_Sequence>)
           String s = "HELLO";
-      String using keyword:-
+      String object :-
           String s = new String("HELLO");
 -->byte[] b_arr={12,13,14,15,16};
    String s= new String(b_arr);
