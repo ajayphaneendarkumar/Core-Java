@@ -57,7 +57,7 @@ ARCHITECTURE:-
                       -->Prepare -->For all static variables memory will be allocated and assigned with default values.
                       -->Resolve -->All symbolic memory references are replaced with original references from Method Area.
                 -->Intialization -->we assign original values to the static varibales and static blocks get executed.
-             2)Memory management:
+             2)Memory management or Run time Data Area:
                   -->Method Area
                        -->The "Method Area" is Loading Class Level Data.
                        -->All the static Data will be stored in 'Method Area".
