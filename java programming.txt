@@ -155,11 +155,6 @@ SRTUCTURE OF JAVA PROGRAM:-
             }
       }
 =================================================================================================================================================================
-OBJECT CREATION IN JAVA :-
-================================
-         classname obj_reference_variable=new classname();
-  -->Creating a Object and Storing it into reference variable.
-=================================================================================================================================================================
 WHAT A CLASS CAN CONTAIN:-
 ==========================
 1) Data Members:
@@ -173,6 +168,19 @@ WHAT A CLASS CAN CONTAIN:-
       -->Parametrized Constructor
 4)Interfaces
 5)Inner Classes
+---------------------------------------------------------
+CLASS:-
+=======
+-->Class is a Blue Print of an object or it is a Template.
+-->We can call class as a user defined data type.
+-->By Default class extends from Object in java.
+OBJECT:-
+=========
+-->An Instance of a class is called an object.
+-->Object is a Dynamic Memory Allocation.
+-->Object is a real time entity.
+-->Object consists of state , behaviour and Indentity.
+Note: Where as Class is Dummy and Object is Real.
 =================================================================================================================================================================
 READING INPUT IN JAVA:-
 ========================
@@ -201,7 +209,7 @@ BufferedReader class:-
         }
  =================================================================================================================================================================
 PRINTING OUTPUT:-
- ==============================
+==============================
 -->there are 3 ways of printing output.
 -->1.System.out.println("HELLO WORLD");
 -->2.System.out.print(x);
@@ -215,20 +223,6 @@ System.out.format("%.2f",pi);
 printf("%.2f",pi);
 -->final int myNum = 15;
 myNum = 20;  // will generate an error: cannot assign a value to a final variable
-=================================================================================================================================================================
-COMMENT LINES IN JAVA:-
-================================
-1.single line comment:-
- --------------------------
-   //System.out.println("This is single comment line");
-2.multiple line comment :-
-----------------------------------
-/* System.out.println("This is multi line comment"); */
-=================================================================================================================================================================
--->In java programming we need to save the file name with the class name with .java extension
--->compiling the code:-   javac filename.java
--->running the code :-    java  filename/className
--->To see the Copiled Code:- javap filename
 =================================================================================================================================================================
  JAVA IDENTIFIERS:-
 ============================
@@ -751,28 +745,6 @@ Advantgaes/why we use oops:-
 -->oop gives clear structure of program.
 -->oop makes code easier to maintain and reusable.
 -->oop provides security and high efficiency.
-=============================================
--->class:- Template or blue print of an objects.
--->In java ,by default class is always extends from object.
--->object:- It is an Instance of class which has set of properties and behaviours and more over it is physically occurs in nature.
--->To create a class use "class keyword" --> class Main{
-                                                 public int x=5;
-                                            }
--->creating of Object:-
-    classname objname = new classname();
--->Accessing methods with object :-
-       objname.methodname(); //we can pass parameters also if require.
--->we can create multiple classes:-
-   example:
-       public class Main(){
-             int x=5;
-       }
-      public class second(){
-          public static void main(String args[]){
-              Main obj= new Main();
-              Sytem.out.println(obj.x);
-       }
-    }
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Following are some object oriented Principles:-
    -->Encapsulation
