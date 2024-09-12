@@ -457,10 +457,18 @@ TYPES OF VARIABLES:-
               -->static & instance (Global) variables are used inside the class .
          -->Local variables
               -->Local variables are used inside the methods.
--->they are divided based on "type of the value" and "the position"
+-->they are divided based on "type of the value" and "the position".
 =================================================================================================================================================================
 TYPES OF METHODS:-
 ====================
+-->Method means it's a behaviour of a class.
+-->Method means Collection of logics and collection of statements.
+-->Method is a block of code which runs when we call.
+-->There are 4 types of methods they are:
+    -->Method with no "return type" and with "no arguments".
+    -->method with "return type" and with "no arguements".
+    -->method with "no return type" and with "arguements".
+    -->method with "return type" and with "arguements".
 =================================================================================================================================================================
 ESCAPE SEQUENCES:-
 ==================
@@ -571,7 +579,7 @@ STRING BUFFER && STRING BUILDER IN JAVA:-
           sb.replace(1,3,string);
 =================================================================================================================================================================
 JAVA MATH:-
-=========================
+=====================
 import java.io.*;
 -->Math.max(x,y); //returns the maximum value.
 -->Math.min(x,y); //returns the minimum value.
@@ -645,40 +653,8 @@ ARRAYS CLASS:-
        6)Arrays.fill(Array_name,value); //Fills specific value in to the array.
        7)Arrays.toString(Array_name)
 ==============================================================================================================================================================
-JAVA METHODS:-
-===========================================
--->Method is a block of code which runs when it is called.
--->Method is also called as fucntions.
--->Both Method and Main fucntion should be in one class.
--->we can call the Method Multiple Times.
--->public class Smaple{
-        public static void myname(){
-              System.out.println("Ajay");     //Method Without Parameters and it is a static Method
-        }
-        public static void Main(String args[]){
-                  myname();
-         }
-  }
- -->public class Main()
-   {
-         public static void myName(String s){     //Method with Parameters.
-             System.out.println(s);
-          }
-           public static void main(String[] args) thorws Exception{
-                 myName("Ajay");
-           }
-    }
--->similarly we can wirte this Methods with if-else statments ,for loops ...
--->Method Overloading:-
-   ----------------------
-   A Method declared  with Same Name But with diferrent parameters.
-  example:-
-      myfunc(int x);
-      myfunc(float y);
-      myfunc(double z);
-================================================================================================================================================================
 JAVA RECURSION:-
-==================
+====================
 -->Recursion is the technique of making a function call itself. This Technique provides a way to break down complicated problems into simple problems which are easier to solve.
 Example:-
   public class Main{
@@ -697,27 +673,6 @@ Example:-
               return 0;
             }
      }
-  }
-================================================================================================================================================================
-JAVA CLASS METHODS:-
-=======================
--->There are two types of Java Class Methods they are static and public.
--->static methods can be called without creating or without using object.
--->public methods should be called by using objects.
-example:-
-  public class Main(){
-        static void myMethod()
-          {
-                System.out.println("Ajay");  //Static Method
-          }
-         public void myName(){
-              System.out.println("Anil");  //Non-static Method
-          }
-         public static void main(String args[]){
-               myMethod();
-              Main obj = new Main();
-              obj.myName();
-        }
   }
 ================================================================================================================================================================
 JAVA CONSTRUCTORS:-
