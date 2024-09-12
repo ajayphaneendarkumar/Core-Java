@@ -224,14 +224,14 @@ printf("%.2f",pi);
 -->final int myNum = 15;
 myNum = 20;  // will generate an error: cannot assign a value to a final variable
 =================================================================================================================================================================
-JAVA LANGUAGE FUNDAMENTALS:-
+"JAVA LANGUAGE FUNDAMENTALS":-
 ============================================================
- JAVA IDENTIFIERS:-
+JAVA IDENTIFIERS:-
 ============================
 -->java identifiers are used for indentification purpose (or) Any name of the Project, package,class,interface, Method,variable is called as Identifier.
 -->valid identifiers:-->($,_,[A-Z],[a-z],[0-9])-->but should not start with numbers.
 -->Invalid identifiers:-->(@,#,%,-,...)
-  Rules for identifiers:-
+  RULES FOR IDENTIFIERS:-
  =====================================================================
    1)Java Identifiers can use (a-z) or (A-Z) or (0 - 9).
    2)Java Identifiers should not start with numeric values(0 -9)(Sysntax error at token 1).
@@ -345,7 +345,9 @@ JAVA  DATATYPES:-
 -->long(Long)        ->size->8bytes(64-bits)-->long longvar;          
                                                                                                 (Long.SIZE, Long.MAX_VALUE,LONG.MIN_VALUE)                                       
 -->float(Float)      ->size->4bytes(32 bits)-->float floatvar;
+                                                                                                (Float.size(), Float.MAX_VALUE,Float.MIN_VALUE)
 -->double(Double)    ->size->8bytes(64 bits)-->double doublevar;
+                                                                                                (Double.size(), Double.MAX_VALUE,Double.MIN_VALUE)
 -->boolean           ->size->1bit  -->boolean boolvar;
 -->char              ->size->16-bits-->char charvar; ( 0 to 65535)
 -->All integers can be characters(bythe concept of ASCII Values) and all Characters can be a integers.
@@ -356,7 +358,7 @@ Non-Prirmitive Data types(Wrapped object data types, pre-defined object data typ
 -->StringBuffer   
 -->Math
 -->BigInteger 
-      -->it is a predefined class and predefined object datatype , it can value larger than "int" and "long".
+      -->It is a predefined class and predefined object datatype , it can store value larger than "int" and "long".
       -->synatx:-  BigInteger b= new BigInteger("232097329209027598383833793830383");
                    BigInteger b1= new BigInteger("2320973292090275983834865484646438463830383");
       -->Following are some the methods that BigInteger have:
@@ -365,7 +367,7 @@ Non-Prirmitive Data types(Wrapped object data types, pre-defined object data typ
 -->BigDecimal
        -->BigDecimal b2=new BigDecimal("467686969670707.6868686868");
 -->Student,Employee,Address,....(user-defined object datatypes)
--->NULL is the Default value of any object data type.
+-->"NULL" is the Default value of any object data type.
 =================================================================================================================================================================
 JAVA TYPECASTING:-
 ====================
