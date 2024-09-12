@@ -457,13 +457,16 @@ TYPES OF VARIABLES:-
               -->static & instance (Global) variables are used inside the class .
          -->Local variables
               -->Local variables are used inside the methods.
--->they are divided based on "type of the value" and "the position".
+-->We can use these variables based on "type of the value" and based on  "the position".
+-->Compared to staic , instance and local , the highest priority will be given to local varaibles.
 =================================================================================================================================================================
 TYPES OF METHODS:-
 ====================
 -->Method means it's a behaviour of a class.
+                or
 -->Method means Collection of logics and collection of statements.
--->Method is a block of code which runs when we call.
+                or
+-->Method is a block of code which execute when we called.
 -->There are 4 types of methods they are:
     -->Method with no "return type" and with "no arguments".
     -->method with "return type" and with "no arguements".
