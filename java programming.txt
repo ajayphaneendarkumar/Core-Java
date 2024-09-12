@@ -207,7 +207,7 @@ BufferedReader class:-
            int r= num/(int)Math.pow(10,d) ;
            num=num%(int)Math.pow(10,d);
         }
- =================================================================================================================================================================
+=================================================================================================================================================================
 PRINTING OUTPUT:-
 ==============================
 -->there are 3 ways of printing output.
@@ -224,6 +224,8 @@ printf("%.2f",pi);
 -->final int myNum = 15;
 myNum = 20;  // will generate an error: cannot assign a value to a final variable
 =================================================================================================================================================================
+JAVA LANGUAGE FUNDAMENTALS:-
+============================================================
  JAVA IDENTIFIERS:-
 ============================
 -->java identifiers are used for indentification purpose (or) Any name of the Project, package,class,interface, Method,variable is called as Identifier.
@@ -446,6 +448,19 @@ JAVA LITERALS:-
        --boolean Literals
        --null literals
        --String Literals
+=================================================================================================================================================================
+TYPES OF VARIABLES:-
+====================
+-->In Java We are having following three types of variables they are:
+         -->Static variables 
+         -->Instance Variables
+              -->static & instance (Global) variables are used inside the class .
+         -->Local variables
+              -->Local variables are used inside the methods.
+-->they are divided based on "type of the value" and "the position"
+=================================================================================================================================================================
+TYPES OF METHODS:-
+====================
 =================================================================================================================================================================
 ESCAPE SEQUENCES:-
 ==================
