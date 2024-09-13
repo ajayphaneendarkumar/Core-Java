@@ -67,8 +67,9 @@ ARCHITECTURE:-
                   -->Stack Area
                         -->Executing the method When we Called is happening inside the Stack Area, When Main  method and all other methods after completing 
                             execution will be removed from Stack Area.
-                  -->PC Registers
-                  -->Native Method Stack
+                  -->PC Registers -->They will hold the address of the current executing instruction once execution is completed they will updated with next 
+                                      instruction.
+                  -->Native Method Stack -->native method stack holds the native method area information.
               3)Execution Engine
                    -->Interpreter 
                          -->Converts byte Code into machine level language to excecute.
