@@ -182,6 +182,7 @@ OBJECT:-
 -->Object is a real time entity.
 -->Object consists of state , behaviour and Indentity.
 Note: Where as Class is Dummy and Object is Real.
+-->The Java Compiler will provide default constructor for your class to create an object.
 =================================================================================================================================================================
 READING INPUT IN JAVA:-
 ========================
