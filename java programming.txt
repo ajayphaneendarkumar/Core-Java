@@ -291,7 +291,7 @@ ACCESS MODIFIERS KEYWORDS(12):-
                   if we use static for a variable or data then it is constant for all objects.
                   if we use static for a method or blocks then it will loading to  the memory without creating object.
 -->"strictfp" :-  strictly follow floating point data in all the systems.
--->"synchronized"
+-->"synchronized" 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -->"final" :-  final is for class then we cannot extends that class.
                final is for method then we cannot override that method in child class.
@@ -322,7 +322,7 @@ LOGICAL STATEMENT:-
 =================================================================================================================================================================
 JAVA ACCESS MODIFIERS/SPECIFIERS:-
 ====================================
--->"private"   :-  priavte is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
+-->"private"   :- priavte is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
 -->"<default>" :- The Scope of default is wihtin the package.
 -->"protected" :- protected is a keyword , we cannot use for a class but we can use inside the class.(The Scope of Protected is "within the package + outside of 
                   the packages of subclasses:).
@@ -442,16 +442,18 @@ JAVA WRAPPER CLASSES:-
 JAVA LITERALS:-
 =================
 -->Literal is a Constant value which we are storing it into a varaibles.
--->there are six type sof literals,they are:
+-->Java Language Specifies Five Major types of literals,they are:
        --Integral Literals
-             --Decimal Literals
-             --octa Decimal Literals(Octa Decimal Numbers starts with "0")
-             --Hexa Decimal Literals(Hexa Decimal Numbers starts with "0X" or "0x")
+             --Decimal Literals (Decimal Numbers starts  as a normal number and its range is 0 to 9)
+             --octa Decimal Literals(Octa Decimal Numbers prefixed with "0")(range 0 to 8)
+             --Hexa Decimal Literals(Hexa Decimal Numbers prefixed with "0X" or "0x") (range 0 to 9, a to f)
        --Floating Literals
        --char Literals
        --boolean Literals
        --null literals
        --String Literals
+-->Literals can be any Number  or texr or other information that represents a value.
+-->We will use Literals in addition to variables in java  statements.
 =================================================================================================================================================================
 TYPES OF VARIABLES:-
 ====================
