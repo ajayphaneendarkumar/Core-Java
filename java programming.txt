@@ -169,7 +169,7 @@ WHAT A CLASS CAN CONTAIN:-
       -->Parametrized Constructor
 4)Interfaces
 5)Inner Classes
----------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 CLASS:-
 =======
 -->Class is a Blue Print of an object or it is a Template.
@@ -186,16 +186,16 @@ Note: Where as Class is Dummy and Object is Real.
 =================================================================================================================================================================
 READING INPUT IN JAVA:-
 ========================
-Scanner class:-
-  -->Scanner sc=new Scanner(System.in);
-     byte r=sc.nextByte();
-     short m=sc.nextShort();
-     int n=sc.nextInt();
-     long s=sc.nextLong();
-     double w=sc.nextDouble();
-     float f=sc.nextFloat();
-     String q=sc.nextLine();
-     Char ch=sc.next().charAt(0/i);
+Scanner class:- Scanner Class is a predefined class in "java.util" package
+  -->Scanner sc=new Scanner(System.in); 
+     byte r   =sc.nextByte();
+     short m  =sc.nextShort();
+     int n    =sc.nextInt();
+     long s   =sc.nextLong();
+     double w =sc.nextDouble();
+     float f  =sc.nextFloat();
+     String q =sc.nextLine(); or sc.next();
+     Char ch  =sc.next().charAt(0 or i);
 BufferedReader class:-
     -->InputStreamReader s=new InputStreamReader(System.in);
     -->BufferedReader br=new BufferedReader(s);
@@ -217,14 +217,12 @@ PRINTING OUTPUT:-
 -->2.System.out.print(x);
 -->3.System.out.printf("THE VALUE OF x IS :"+x);
 -->"System" is a prdefined Class, "Out" is a static variabel in System Class and refering PrintStream Class, "println()" is a Method in printStream Class.
-while printing the floating point numbers after decimal point print only 2 digits.
+-->while printing the floating point numbers after decimal point print only 2 digits.
 float pi=3.142345f;
 System.out.println(pi);
--->formating the output:-
+-->Formating the output:-
 System.out.format("%.2f",pi);
-printf("%.2f",pi);
--->final int myNum = 15;
-myNum = 20;  // will generate an error: cannot assign a value to a final variable
+System.out.printf("%.2f",pi);
 =================================================================================================================================================================
 "JAVA LANGUAGE FUNDAMENTALS":-
 ============================================================
@@ -258,12 +256,12 @@ For Reprsenting floating Decimals:
 For Representing charcters and true or false conditions:
   ->char
   ->boolean
----------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 APPLICATION LEVEL (OR) OOPS KEYWORDS:-
 ---------------------------------------
  -->"package" :- package is a keyword to create package for collection of classes and interfaces.
  -->"import"  :- To import classes or interfaces or enums  from one package to another package.
------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
  -->"class"    :- Class is a blue print of an object or template or user defined datatype.
  -->"interface":- interface is Blueprint of a class. 
  -->"enum"     :- To represent constant values we use enum like a class.
@@ -278,7 +276,7 @@ APPLICATION LEVEL (OR) OOPS KEYWORDS:-
 -->"implements" 
 -->"extends"
 -->"assert"
--------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ACCESS MODIFIERS KEYWORDS(12):-
 --------------------------------
 -->"private" :-  priavte is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
@@ -351,7 +349,7 @@ JAVA  DATATYPES:-
 -->double(Double)    ->size->8bytes(64 bits)-->double doublevar;
                                                                                                 (Double.size(), Double.MAX_VALUE,Double.MIN_VALUE)
 -->boolean           ->size->1bit  -->boolean boolvar;
--->char              ->size->16-bits-->char charvar; ( 0 to 65535)
+-->char              ->size->16-bits-->char charvar; ( 0 to 65535) -->char data types is a single 16-bit unicode characters.
 -->All integers can be characters(bythe concept of ASCII Values) and all Characters can be a integers.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Non-Prirmitive Data types(Wrapped object data types, pre-defined object data types, user-defined object data types):-
@@ -448,15 +446,15 @@ JAVA LITERALS:-
              --octa Decimal Literals(Octa Decimal Numbers prefixed with "0")(range 0 to 8)
              --Hexa Decimal Literals(Hexa Decimal Numbers prefixed with "0X" or "0x") (range 0 to 9, a to f)
        --Floating Literals
-       --char Literals
-       --boolean Literals
-       --null literals
+       --char Literals -->char data types is a single 16-bit unicode characters.
+       --boolean Literals -->(true or false)
+       --null literals -->most of the object reference varaibles are assigned with null vaue.
        --String Literals
 -->Literals can be any Number  or texr or other information that represents a value.
 -->We will use Literals in addition to variables in java  statements.
 =================================================================================================================================================================
 TYPES OF VARIABLES:-
-====================
+=====================
 -->In Java We are having following three types of variables they are:
          -->Static variables 
          -->Instance Variables
@@ -480,6 +478,48 @@ TYPES OF METHODS:-
     -->method with "return type" and with "no arguements".
     -->method with "no return type" and with "arguements".
     -->method with "return type" and with "arguements".
+Example Program:-
+====================
+package com.sample;
+import java.util.Scanner;
+public class TypesofMethods4 {
+     static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TypesofMethods4 t = new TypesofMethods4();
+		t.m();
+		t.m1(10,20);
+		int age = t.m2();
+		int sum= t.m3(2333, 333);
+		System.out.println("my Age is:"+age);
+		System.out.println("my sum is:"+age);
+        
+	}
+	
+	void m()   //With "No return Type" and with "No arguments"
+	{
+		System.out.println("Hai Ajay");
+	}
+	 
+	void m1(int x , float y) {    //method with "no return type" and "with arguments"
+		System.out.println("Sum of two Numbers is:"+(x+y));
+		
+	}
+	
+	int m2() //method "with return type" and "with no arguments"
+	{
+		System.out.println("enter your age:");
+	  int age = sc.nextInt();
+	  return age;
+	}
+	
+	int m3(int x, int y) //method "with return type" and "with arguments"
+	{
+		return x+y;
+	}
+
+}
+
 =================================================================================================================================================================
 ESCAPE SEQUENCES:-
 ==================
