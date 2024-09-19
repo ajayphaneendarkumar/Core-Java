@@ -525,12 +525,12 @@ public class TypesofMethods4 {
 JAVA CONSTRUCTORS:-
 =====================
 Whay We need Constructors..?
------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
      -->To Initializing an object and initializing instance data we need Constructor.
      -->Without Constructor there is no chance to create the object.
--------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 What is Constructor..?
-----------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 -->Constructor is a special member function which is used to intialize objects.when Object is created constructor get invoked Automatically.
 -->The class name and constructor name should be same.
 -->constructors can be overLoaded.
@@ -541,9 +541,13 @@ What is Constructor..?
 What are the types of Constructor types:
 -----------------------------------------
 -->Default Constructor
-      --> If in our class we don't have any constructor then "java compiler" will create Constructor that is called as "default Constructor".
--->No-arg Constructor
+      -->why?--> If in our class we don't have any constructor(no-args,parameterized) then "java compiler" will create a Constructor that is called as "default 
+           Constructor".
+-->No-arg Constructor'
+      -->why?--> If in a class we are having a paramterized constructor then the java compiler will not create any default constructor so that we will go the 
+          No-args Constructor. 
 -->Parameterised Constructor
+      -->why?-->While Creating an object, if we want to any send values to that object then we can go for the parameterized constructor.
 -->Copy Constructor
 -->constructor Charming
 ================================================================================================================================================================
