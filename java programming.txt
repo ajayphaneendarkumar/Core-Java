@@ -523,13 +523,28 @@ public class TypesofMethods4 {
 =================================================================================================================================================================
 JAVA CONSTRUCTORS:-
 =====================
+Whay We need Constructors..?
+-----------------------------------------------------------------------------------------------------------------------------------------------
+     -->To Initializing an object and initializing instance data we need Constructor.
+     -->Without Constructor there is no chance to create the object.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+What is Constructor..?
+----------------------------------------------------------------------------------------------------------------------------------------------------
 -->Constructor is a special member function which is used to intialize objects.when Object is created constructor get invoked Automatically.
 -->The class name and constructor name should be same.
 -->constructors can be overLoaded.
 -->Constructors doesn't return any values.
--->Constructors does not have any return datatypes.
--->Constructors shuold be declared under public section and they get executed automatically when object is created.
--->Two Types -->parametrised and default constructors.
+-->Constructors does not have any return datatypes even Void.
+-->Constructors shuold be declared under public section.
+-----------------------------------------------------------------------------
+What are the types of Constructor types:
+-----------------------------------------
+-->Default Constructor
+      --> If in our class we don't have any constructor then "java compiler" will create Constructor that is called as "default Constructor".
+-->No-arg Constructor
+-->Parameterised Constructor
+-->Copy Constructor
+-->constructor Charming
 ================================================================================================================================================================
 ESCAPE SEQUENCES:-
 ==================
