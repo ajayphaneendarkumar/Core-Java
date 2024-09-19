@@ -473,6 +473,7 @@ TYPES OF METHODS:-
 -->Method is a block of code which execute when we called.
 -->We cannot write one method inside another method.
 -->we can write a block in any of the Method.
+-->The main aim of creating methods is to reuse the methods any number of times.
 -->There are 4 types of methods they are:
     -->Method with no "return type" and with "no arguments".
     -->method with "return type" and with "no arguements".
