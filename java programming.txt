@@ -521,6 +521,16 @@ public class TypesofMethods4 {
 }
 
 =================================================================================================================================================================
+JAVA CONSTRUCTORS:-
+=====================
+-->Constructor is a special member function which is used to intialize objects.when Object is created constructor get invoked Automatically.
+-->The class name and constructor name should be same.
+-->constructors can be overLoaded.
+-->Constructors doesn't return any values.
+-->Constructors does not have any return datatypes.
+-->Constructors shuold be declared under public section and they get executed automatically when object is created.
+-->Two Types -->parametrised and default constructors.
+================================================================================================================================================================
 ESCAPE SEQUENCES:-
 ==================
 single quote ---> \'
@@ -725,36 +735,6 @@ Example:-
             }
      }
   }
-================================================================================================================================================================
-JAVA CONSTRUCTORS:-
-=====================
--->Constructor is a special member function which is used to intialize objects.when Object is created constructor get invoked Automatically.
--->The class name and constructor name should be same.
--->constructors can be overLoaded.
--->Constructors doesn't return any values.
--->Constructors does not have any return datatypes.
--->Constructors shuold be declared under public section and they get executed automatically when object is created.
--->Two Types -->parametrised and default constructors.
--->public class Main{
-      public Main()
-       {
-          int x=5;             //Constructor Without Parameters.
-       } 
-       public static void main(String args[]){
-             Main myobj = new Main();
-             System.out.println(myobj.x);
-       }
-}
- -->public class Main(){
-         int x;
-        public Main(int y){
-             x=y;                     //Constructor with Parameters.
-        }
-       public static void main(String args[]){
-            Main myobj= new Main(5);
-            System.out.println(myobj.x);
-        }
-   }
 ================================================================================================================================================================
 JAVA OOPS:-
 ============================
