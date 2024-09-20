@@ -455,13 +455,9 @@ JAVA LITERALS:-
 =================================================================================================================================================================
 TYPES OF VARIABLES:-
 =====================
--->In Java We are having following three types of variables they are:
-         -->Static variables 
-         -->Instance Variables
-              -->static & instance (Global) variables are used inside the class .
-         -->Local variables
-              -->Local variables are used inside the methods.
--->We can use these variables based on "type of the value" and based on  "the position".
+-->DIVISION 1:-
+--------------
+
 -->Compared to staic , instance and local , the highest priority will be given to local varaibles.
 =================================================================================================================================================================
 TYPES OF METHODS:-
