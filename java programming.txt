@@ -331,6 +331,7 @@ JAVA ACCESS MODIFIERS/SPECIFIERS:-
 -->"static"    :- static is a keyword we can use for data members and blocks. 
                   if we use static for a varaible or data then it is constant for all objects.
                   if we use static for a method or block then it will loading to the memory wihtout creating object.
+                  static data remains constant for every object but instance data varies for object to object.
 ================================================================================================================================================================
 JAVA  DATATYPES:-
 =======================================
