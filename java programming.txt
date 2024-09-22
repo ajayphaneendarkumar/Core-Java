@@ -458,7 +458,25 @@ TYPES OF VARIABLES:-
 =====================
 -->DIVISION 1:-
 --------------
-
+   -->Based on type of value represented by a variable all variables are divide into two types:
+          "Primitive variables" : can be used to represent primitive values.
+          "object variables"    : can be used to refer to objects.
+---------------------------------------------------------------------------------------------------
+-->DIVISION 2:-
+---------------
+   -->Based on behavior and position of declaration all variable are divided into three types :
+        1) "Instance variables" :
+             -->The value of Instance variables varies from object to object.
+             -->For every object a separate copy of Instance variable will be created.
+             -->Instance variable will be created at the time of object creation and destroyed at the time of object destruction.
+             -->Instance variables will be loaded in to the Heap Area when object is created.
+        2) "Static Variables" :
+              -->The Value of Static variables will be remain constant for all objects.
+              -->For Any object , only one copy of static variable will be created.
+              -->Static variables will be created at class level and loaded in to the method Area.
+        3) "Local Variables" :
+              -->The Local variables will be created inside the main method.
+              -->Duplicates can be allowed to this variables.
 -->Compared to staic , instance and local , the highest priority will be given to local varaibles.
 =================================================================================================================================================================
 TYPES OF METHODS:-
@@ -469,8 +487,8 @@ TYPES OF METHODS:-
                 or
 -->Method is a block of code which execute when we called.
 -->We cannot write one method inside another method.
--->we can write a block in any of the Method.
--->The main aim of creating methods is to reuse the methods any number of times.
+-->we can write a block inside of the Any Method.
+-->The main aim of creating methods is to reuse the code any number of times.
 -->There are 4 types of methods they are:
     -->Method with no "return type" and with "no arguments".
     -->method with "return type" and with "no arguements".
@@ -489,6 +507,7 @@ public class TypesofMethods4 {
 		t.m1(10,20);
 		int age = t.m2();
 		int sum= t.m3(2333, 333);
+       //t.m3(int x=2, int y=3) --->We cannot pass arguements in this way -->it will give token error.
 		System.out.println("my Age is:"+age);
 		System.out.println("my sum is:"+age);
         
@@ -517,7 +536,6 @@ public class TypesofMethods4 {
 	}
 
 }
-
 =================================================================================================================================================================
 JAVA CONSTRUCTORS:-
 =====================
