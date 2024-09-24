@@ -569,6 +569,7 @@ What are the types of Constructor types:
 -->"super" keyword is used to invoke super class  object data members.
 -->"super()" method is used to call super class constructor.
 -->Copy Constructor
+       -->if we are copying one constructor into another constructor by using object reference variable.
 -->constructor Chaining
        -->If we are calling  one constructor into another constructor by using "this()"(incase of single class) and "super()"(incase of multiple classes) 
          methods is known as constructor chaining. 
