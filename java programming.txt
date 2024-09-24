@@ -563,14 +563,19 @@ What are the types of Constructor types:
          an object with no args we will go for the No-args Constructor. 
 -->Parameterised Constructor
       -->why?-->While Creating an object, if we want to  send any  values to that object then we can go for the parameterized constructor.
--->"this" keyword is used to invoke current object data members to maintian the "code redability".
--->"this()" method is used to call current class Constructor. it cannot be used in a method, and this should be used only inside the constructor and written at 
+-->"this" keyword is used to invoke current class object data members to maintian the "code redability".
+-->"this()" method is used to call current class Constructor. It cannot be used in a method, and this should be used only inside the constructor and written at 
     first line.
--->"super" keyword is used to invoke super object data members.
+-->"super" keyword is used to invoke super class  object data members.
 -->"super()" method is used to call super class constructor.
 -->Copy Constructor
--->constructor Charming
-       -->if we are calling  one constructor into another constructor by using "this()" method is known as constructor chaining. 
+-->constructor Chaining
+       -->If we are calling  one constructor into another constructor by using "this()"(incase of single class) and "super()"(incase of multiple classes) 
+         methods is known as constructor chaining. 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+RULES FOR CONSTRUCTORS:-
+----------------------------
+
 ================================================================================================================================================================
 ESCAPE SEQUENCES:-
 ==================
