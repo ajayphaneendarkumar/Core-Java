@@ -591,6 +591,7 @@ RULES FOR CONSTRUCTORS:-
 9)"this" and "super" keywords can used in both methods and constructors but not used in static methods.
 10)In java ,constructor overloading is possible.
 11)In one Constructor, we cannot call both this() and super().
+12)The scope of "default constructor" is the "scope of class".
 ================================================================================================================================================================
 ESCAPE SEQUENCES:-
 ==================
@@ -627,7 +628,15 @@ If we have same preceedence operators in the equation:
 =================================================================================================================================================================
 JAVA ARRAYS:-
 =================
--->
+Why wee need Arrays?
+----------------------
+       -->structuring the data in a proper way from unstructured data.
+       -->It is More Readable to maintain the code.
+----------------------------------------------------------------------------------------
+What is Array?
+--------------
+ -->Array is an object.
+ -->Array is a index based, collection homogeneous data elements into a single unit with fixed size.
 =================================================================================================================================================================
 JAVA STRINGS:-
 ====================
