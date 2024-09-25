@@ -446,7 +446,7 @@ JAVA LITERALS:-
              --Decimal Literals (Decimal Numbers starts  as a normal number and its range is 0 to 9)
              --octa Decimal Literals(Octa Decimal Numbers prefixed with "0")(range 0 to 8)
              --Hexa Decimal Literals(Hexa Decimal Numbers prefixed with "0X" or "0x") (range 0 to 9, a to f)
-       --Floating Literals
+       --Floating Literals -->ocat and hex decimal literals are not possible for double datatype.
        --char Literals -->char data types is a single 16-bit unicode characters.
        --boolean Literals -->(true or false)
        --null literals -->most of the object reference varaibles are assigned with null vaue.
