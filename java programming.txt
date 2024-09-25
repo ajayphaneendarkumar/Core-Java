@@ -576,7 +576,21 @@ What are the types of Constructor types:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 RULES FOR CONSTRUCTORS:-
 ----------------------------
-
+1)Class name and Constructor name must be same.
+2)Constructors should not return anything not even void.
+3)Applicable modifiers for constructors as below: 
+    -->private
+    --><default>
+    -->protected,public 
+  Note:otherthan the above modifiers if we give any other modifiers then we will get the compile time error.
+4)"this()" and "super()" must be in the first line of any constructor.
+5)"this()" and "super()" must need to be call in constructor only but not in methods.
+6)If we didn't create any constructor for a class , java compiler will create a default constructor.
+7)If we have any constructor in our class then java compiler does not create any default constructor.
+8)If we have parameterized constructor and we need to create an object with no values then we need to go for the no args constructor.
+9)"this" and "super" keywords can used in both methods and constructors but not used in static methods.
+10)In java ,constructor overloading is possible.
+11)In one Constructor, we cannot call both this() and super().
 ================================================================================================================================================================
 ESCAPE SEQUENCES:-
 ==================
@@ -610,7 +624,11 @@ Operators Preceedence and Associativity:-
 If we have same preceedence operators in the equation:
   then for(*,/, %) the Associativity will be Left to Right.
   then for(+,-) the Associativity will be from Right to Left.
-====================================================================================================
+=================================================================================================================================================================
+JAVA ARRAYS:-
+=================
+-->
+=================================================================================================================================================================
 JAVA STRINGS:-
 ====================
 -->Strings are the type of objects that can store the character of values. A string acts the same as an array of characters in Java.
@@ -694,59 +712,6 @@ import java.io.*;
 -->Math.abs(x); //returns the absolute value.
 -->(int)Math.random()*10; //return the random values.
 ===============================================================================================================================================================
-JAVA ARRAYS:-
-=============================================
--->In java all arrays are static in nature.
--->size of the arrays cannot be altered.
--->The size of an array must be specified by int or short value and not long.
--->declaration:-
-       int[] Array;
-           or 
-        int Array[];
-        byte[] byteArray;
-        short[] shortArray;
-        long[] longArray;
-        char[] charArray;
-        boolean[] booleanArray;
--->intialization:-
-        int[] Array=new int[Array.length()];
-        byte[] byteArray=new byte[Array.length()];
--->Accessing:-
-      for(int i=0;i<Array.length();i++)
-       {
-           Array[i]=sc.nextInt();
-           System.out.println(Array[i]);
-       }
--->time complexity :O(n)
--->cloning of Arrays:-(deep of the original array)
- ---------------------------------------------------
-     int[] Array1={1,2,3};
-     int[] Array2=Array1.clone();
-----------------------------------------------------------
--->multidimensional Arrays:-
-   ===========================
-   syntax:-
-       data_type[1st dimension][2nd]......[nth dimension]  array_name ;  //declaration
-       array_name=new int[][][]...[];         //intializing
-    -->for(int i=0;i<rows;i++)
-       {
-         for(int j=0;j<cols;j++)
-          {
-             Array[i][j]=sc.nextInt();
-           }
-       }
-===============================================================================================================================================================
---->int min=Integer.MAX_VALUE;
--->int max=Integer.MIN_VALUE;
-      if(A[i] < min)
-       {
-           min=A[i];
-        }
-       if(A[i]>max)           //min and max elements inthe array.
-        {
-           max=A[i];
-        }
-==============================================================================================================================================================
 ARRAYS CLASS:-
 ==================
   -->Arrays class is a built-in class in java that provides variuos utility methods for working with Arrays.
