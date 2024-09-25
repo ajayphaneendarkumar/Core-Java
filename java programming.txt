@@ -636,7 +636,7 @@ Why wee need Arrays?
 What is Array?
 --------------
  -->Array is an object.
- -->Array is a index based, collection homogeneous data elements into a single unit with fixed size.
+ -->Array is a index based, collection of homogeneous data elements into a single unit with fixed size.
 =================================================================================================================================================================
 JAVA STRINGS:-
 ====================
