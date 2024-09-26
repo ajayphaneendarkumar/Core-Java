@@ -1,0 +1,31 @@
+INTRODUCTION OF MYSQL:-
+========================
+DATABASE:-
+==========
+SYNTAX FOR CREATING DATABASE:-
+-----------------------------
+-->create database "database name";
+-->Database consists of tables, views, stored procedures, functions.
+-->tables, views come under the structured query language(SQL) and Stored procedures, functions comes under PL/SQL.
+----------------------------------------------------------------------------------------------------------------------------------
+SYNTAX FOR CREATING TABLE:-
+---------------------------
+-->create table "table name" (Col name, datatype(Size), constraint); 
+----------------------------------------------------------------------------------------------------------------------------------
+SYNTAX FOR INSERTING VALUES INTO TABLE:-
+----------------------------------------
+-->insert into "table name" values(column values);
+----------------------------------------------------------------------------------------------------------------------------------
+Database management categorized into following five types:-
+----------------------------------------------------------
+1)DDL(Data Definition Language) : it deals with columns or structure of the table.
+                                  -->create, Drop, Alter-ADD, Alter-Modify, Alter-Drop
+
+2)DML(Data Manipulation Language) : it deals with rows of the table.
+                                   -->insert, update , delete
+
+3)DQL(Data Query Language)     : it deals with the query's -->select
+
+4)DCL(Data Control Language)   : it deals with permissions or privileges of the table.
+
+5)TCL(Transaction control Language): 
