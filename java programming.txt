@@ -595,8 +595,8 @@ RULES FOR CONSTRUCTORS:-
 ================================================================================================================================================================
 ESCAPE SEQUENCES:-
 ==================
-single quote ---> \'
-double quote ---> \"
+single quote ---> ' '
+double quote ---> " "
 new line     ---> \n
 tab space    ---> \t
 carriage return --> \r
@@ -632,11 +632,29 @@ Why wee need Arrays?
 ----------------------
        -->structuring the data in a proper way from unstructured data.
        -->It is More Readable to maintain the code.
+       -->To maintain continuous memory allocation.
 ----------------------------------------------------------------------------------------
 What is Array?
 --------------
  -->Array is an object.
  -->Array is a index based, collection of homogeneous data elements into a single unit with fixed size.
+Array Creation:-(For Creating an array we need to follow four steps they are: Declaration, Creation, Intialization, Representation)
+=================
+1) Declaration
+    --> int[] ages;
+2)Creation
+    ages = new int[n]; //n is the size and index is "0 to n-1"
+   Note:while creating an array, we must specify the size.
+3)Intialization
+    ages[0] = 22;
+    ages[1] = 23;
+    ages[2] = 24;
+    ages[3] = 25;
+4)Representation.
+    //for(Initialization; condition; incre/decre){}
+    //Intialization : where you want to starts from : int i= 0
+    //condition     : up to where u want to go ?: i<100
+    //Increment     :  Initial values incremented by +1: i++
 =================================================================================================================================================================
 JAVA STRINGS:-
 ====================
