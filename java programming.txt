@@ -655,6 +655,9 @@ Array Creation:-(For Creating an array we need to follow four steps they are: De
     //Intialization : where you want to starts from : int i= 0
     //condition     : up to where u want to go ?: i<100
     //Increment     :  Initial values incremented by +1: i++
+   for(int i=0;i<n;i++){
+     System.out.println(ages[i]);
+   }
 =================================================================================================================================================================
 JAVA STRINGS:-
 ====================
