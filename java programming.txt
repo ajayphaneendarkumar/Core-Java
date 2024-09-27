@@ -412,15 +412,14 @@ JAVA WRAPPER CLASSES:-
        }
    }
 -->For converting one primitive data_type to another data_type we have type casting but to one type to another type by using wrapper class objects we have folowing methods.
-     -->intValue();
-     -->floatValue();
-     -->doubleValue();
-     -->longValue();
-     -->charValue();
      -->byteValue();
-     -->shortValue();
+     -->shortVAlue();
+     -->intValue();
+     -->longvalue();
+     -->floatvalue();
+     -->doubleValue();
+     -->charValue();
      -->toString();
-     -->booleanValue();
 -->example:-
   ==========
   import java.util.*;
@@ -477,6 +476,7 @@ TYPES OF VARIABLES:-
         3) "Local Variables" :
               -->The Local variables will be created inside the main method.
               -->Duplicates can be allowed to this variables.
+              -->JVM is Not responsible for loading these local variables.
 -->Compared to staic , instance and local , the highest priority will be given to local varaibles.
 =================================================================================================================================================================
 TYPES OF METHODS:-
@@ -555,24 +555,24 @@ What is Constructor..?
 -----------------------------------------------------------------------------
 What are the types of Constructor types:
 -----------------------------------------
--->Default Constructor
+-->Default Constructor:-
       -->why?--> If in our class we don't have any constructor(no-args,parameterized) then "java compiler" will create a Constructor that is called as "default 
            Constructor".
--->No-arg Constructor'
+-->No-arg Constructor:-
       -->why?--> If in a class we are having a paramterized constructor then the java compiler will not create or call any default constructor so that to create 
          an object with no args we will go for the No-args Constructor. 
--->Parameterised Constructor
+-->Parameterised Constructor:-
       -->why?-->While Creating an object, if we want to  send any  values to that object then we can go for the parameterized constructor.
--->"this" keyword is used to invoke current class object data members to maintian the "code redability".
+-->"this" keyword is used to invoke current class object data members and to maintian the "code redability".
 -->"this()" method is used to call current class Constructor. It cannot be used in a method, and this should be used only inside the constructor and written at 
     first line.
 -->"super" keyword is used to invoke super class  object data members.
 -->"super()" method is used to call super class constructor.
--->Copy Constructor
-       -->if we are copying one constructor into another constructor by using object reference variable.
 -->constructor Chaining
        -->If we are calling  one constructor into another constructor by using "this()"(incase of single class) and "super()"(incase of multiple classes) 
          methods is known as constructor chaining. 
+-->Copy Constructor
+       -->if we are copying one constructor into another constructor by using object reference variable.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 RULES FOR CONSTRUCTORS:-
 ----------------------------
@@ -638,6 +638,7 @@ What is Array?
 --------------
  -->Array is an object.
  -->Array is a index based, collection of homogeneous data elements into a single unit with fixed size.
+ -->Array is a fixed and mutable(i.e we can replace the value of a array element)
 Array Creation:-(For Creating an array we need to follow four steps they are: Declaration, Creation, Intialization, Representation)
 =================
 1) Declaration
