@@ -137,25 +137,6 @@ PACKAGES IN JAVA:-
 -->It is easier to locate related type classes using Packages.
 -->There are two typesof packages in java they are -->user defined and built in packages.
 =================================================================================================================================================================
-SRTUCTURE OF JAVA PROGRAM:-
-===================================
-//-->java lib contains all java related packages .
-       import java.util.Scanner;
-       import java.utilvector;  //import vector class
-       import java.io.*;
-       import java.util.*;
-       import java.util.lang;
-       import java.util.Arrays;
-       import java.io.BufferedReader;
-       import java.io.InputStreamReader;
-       public class Sample{
-            public static void main(String args[]) //for static method we can access by using class ,for non-static method we can access by
-            {                                                                                         creating object.
-                 //wirte the logic here
-                 System.out.println("HELLO JAVA PROGRAMMING");
-            }
-      }
-=================================================================================================================================================================
 WHAT A CLASS CAN CONTAIN:-
 ==========================
 1) Data Members:
@@ -183,6 +164,11 @@ OBJECT:-
 -->Object consists of state , behaviour and Indentity.
 Note: Where as Class is Dummy and Object is Real.
 -->The Java Compiler will provide default constructor for your class to create an object.
+creating object:-
+-----------------
+-->ClassName A = new ClassName();
+          or
+    new ClassName();
 =================================================================================================================================================================
 READING INPUT IN JAVA:-
 ========================
