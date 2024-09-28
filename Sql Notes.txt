@@ -1,7 +1,22 @@
 INTRODUCTION OF MYSQL:-
 ========================
+-->MYSQL is a open source relational database management system(RDBMS) that uses Structured Query Language(SQL) to manage the data.
+Developed by MYSQL AB and now occupied by oracle corporation. it's  widely used due to its reliability, speed and ease of use.
+MYSQL is a one of the key component in many web Applications. it allows users to create , modify and maintain databases , supporting
+operations like insertion, updating and deletion.
+
+MYSQL provide many features like:-
+---------------------------------
+-->Data storage
+-->Data retrieval
+-->Data Manipulation
+-->Data Querying
+-->Data security
+-->scalability
+-------------------------------------------------------------------------------------------------------------------------------------------
 DATABASE:-
 ==========
+-->Database is a digital system designed for the storage and arrangement of data.
 SYNTAX FOR CREATING DATABASE:-
 -----------------------------
 -->create database "database name";
@@ -17,7 +32,7 @@ SYNTAX FOR INSERTING VALUES INTO TABLE:-
 -->insert into "table name" values(column values);
 ----------------------------------------------------------------------------------------------------------------------------------
 Database management categorized into following five types:-
-----------------------------------------------------------
+------------------------------------------------------------
 1)DDL(Data Definition Language) : it deals with columns or structure of the table.
                                   -->create, Drop, Alter-ADD, Alter-Modify, Alter-Drop
 
