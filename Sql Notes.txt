@@ -22,7 +22,7 @@ SYNTAX FOR CREATING DATABASE:-
 -->create database "database name";
 -->Database consists of tables, views, stored procedures, functions.
 -->tables, views come under the structured query language(SQL) and Stored procedures, functions comes under PL/SQL.
-----------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 SYNTAX FOR CREATING TABLE:-
 ---------------------------
 -->create table "table name" (Col name, datatype(Size), constraint); 
@@ -43,4 +43,10 @@ Database management categorized into following five types:-
 
 4)DCL(Data Control Language)   : it deals with permissions or privileges of the table.
 
-5)TCL(Transaction control Language): 
+5)TCL(Transaction control Language): TCL  Deals with ACID Properties
+                                     -->Atomicity
+                                     -->consistency
+                                     -->Isolation
+                                     -->Durable
+                   -->ROLLBACK, COMMIT, UPDATE
+--------------------------------------------------------------------------------------------------------------------------------
