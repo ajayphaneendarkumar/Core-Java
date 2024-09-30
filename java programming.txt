@@ -646,6 +646,7 @@ Array Creation:-(For Creating an array we need to follow four steps they are: De
      System.out.println(ages[i]);
    }
 -->The Maximum Range of Array is : Integer maximum value(2147483647).
+-->We can create and intialize an array in a single line using "{}".
 =================================================================================================================================================================
 JAVA STRINGS:-
 ====================
