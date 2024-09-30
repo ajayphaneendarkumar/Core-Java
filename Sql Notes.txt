@@ -38,6 +38,8 @@ SYNTAX FOR CREATING TABLE:-
 SYNTAX FOR INSERTING VALUES INTO TABLE:-
 ----------------------------------------
 -->insert into "table name" values(column values);
+-->"Primary key"(Constraint) : It does not allows duplicates or redundancy in the table -->for this we need to make suitable column of the table asa primary key.
+-->"foreign key"(constraint) : If We make any column of table as a foreign key then that column shu=ould be the primary key in another table.(i.e for eg: courseid)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Database management categorized into following five types:-
 ------------------------------------------------------------
