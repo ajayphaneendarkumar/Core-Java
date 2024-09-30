@@ -21,6 +21,19 @@ Applications of MySQL:-
 -->Financial Services
 -->Health Care
 -->Social Media
+
+Difference Between MySQl SQL:-
+------------------------------
+           MySQL                                                                SQL
+      ------------------                                                 ----------------------
+
+-->MySQL isa Relational Database Management System                 -->SQL(Structured Query Language ) is a standard Language used for communicating wit
+   (RDBMS) that uses SQL.                                             relational databases.
+-->MySQl isa open-source and accessible to anyone and              -->It is not-an open source Language.
+   everyone for free. 
+-->MySQl supports basic programming languages like                 -->SQl itself is an query language used for database systems.
+   c,c++, python, ruby, etc..
+-->MySQL does not supports user-defined functions and XML.         -->SQL supports user-defined fucntions and XML.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 DATABASE:-
 ==========
@@ -51,7 +64,7 @@ Database management categorized into following five types:-
 
 3)DQL(Data Query Language)     : it deals with the query's -->select
 
-4)DCL(Data Control Language)   : it deals with permissions or privileges of the table.
+4)DCL(Data Control Language)   : it deals with permissions or privileges of the table from administrator.
 
 5)TCL(Transaction control Language): TCL  Deals with ACID Properties
                                      -->Atomicity
