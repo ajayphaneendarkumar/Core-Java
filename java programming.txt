@@ -32,7 +32,6 @@ JAVA PROGRAM STEP BY STEP EXECUTION PROCESS:-
 -->"JVM" stands for Java Virtual Machine it is a Java interpreter. It is responsible for loading, verifying, and executing the bytecode created in Java.
 -->"JRE" stands for Java Run-Time Environment, it is an installed package that provides environment and libraries and other components to run applets and java programming Applications.
 -->"JDK" (JDK=JRE+JVM)stands for Java Development Kit which provides the environment to develop and execute the java programs.
--->"JIT" stands for Just-In-Time , it is a part of JRE that is used for better performance of java applications during run-time.
 =================================================================================================================================================================
 JVM ARCHITECTURE:-
 ===========================
@@ -646,7 +645,72 @@ Array Creation:-(For Creating an array we need to follow four steps they are: De
      System.out.println(ages[i]);
    }
 -->The Maximum Range of Array is : Integer maximum value(2147483647).
--->We can create and intialize an array in a single line using "{}".
+-->We can create and intialize an array in a single line by using "{}".
+//Reading the elements from console using scanner clas..
+---> for(int i=0;i<size;i++){
+       A[i] = sc.nextInt();
+   }
+//for-each loop or enhanced for loop
+-->for(int i : A){
+    System.out.println(i);
+   }
+
+2D Arrays:-
+==============
+Whenever you want to represent rows and columns we need to go for 2Dimensional arrays.
+synatx:-
+-->int[][] A = new int[3][3];
+          (or)
+-->int[] A[] = new int[3][3];
+for(int i=0;i<A.length;i++){
+  for(int j=0;j<A[i].length;j++){
+     System.oout.println(A[i][j]);
+  }
+}
+-->for(int[] n1 : A){ //for -each loop for 2D array.-->first convet 2D to 1D array and then 1D to normal Number.
+      for(int n : n1){
+         System.out.print(n+" ");
+      }
+  }
+
+
+JAGGED ARRAY:-
+===============
+-->Array of Arrays is called as jagged array.
+ synatx:-
+  int[][] A = new int[2][];
+   A[0] = new int[4];
+   A[1] = new int[3];
+
+Example program for prime Number:-
+-----------------------------------
+import java.util.Scanner;
+public class M{
+   public static void main(String args[]){
+       scanner sc =new  Scanner(System.in);
+       System.out.println("Enter the size:");
+       int s = sc.nextInt();
+       int[] A = new int[s];
+       System.out.println("Plz enter the array elements:");
+       for(int i=0;i<s;i++)
+       {
+             A[i]=sc.nextInt();
+        }
+        System.out.println("Prime Numbers for the Array are:");
+        for(int i=0;i<s;i++){
+          boolean flag = true;
+          for(int j=2;j<A[i];j++){
+                if(A[i]%j==0){
+                    flag = false;
+                    break;
+                }
+           }
+           if(flag){
+              System.out.println(A[i]);
+           }
+         }
+   }
+}
 =================================================================================================================================================================
 JAVA STRINGS:-
 ====================
@@ -1506,7 +1570,6 @@ JAVA 8 Features:-
   -->Lambda Expressions
   -->Functional Interfaces
   -->Stream API
-
 ================================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 =====================================
