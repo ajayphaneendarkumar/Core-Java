@@ -2,24 +2,42 @@ JAVA INTORDUCTION:-
 =====================
 Definition of Java:-
 ====================
--->java is a simple , High-level, secure,platform independent,Robust,Dynamic , Multi threading and Object oriented programming language used for developing Both 
+-->java is a simple , High-level, secure, platform independent, Robust, Dynamic , Multi threading and Object oriented programming language used for developing Both 
    Standalone and Web(internet) Applications.
 -->java is case sensitive programming language.
+Note: Not a pure object-oriented language because it supports primitive data types like int, char etc.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-How Java Started:-
-===================
--->In 1990, sun microsystems began a new project known as the Green project to work on a new Technology.
--->java was developed by or brainchild of  James gosling and his team(patrick Naughthon,Mike sherdin) at sun micro Systems in 1991.
--->intitally java named as "GreenTalk" later on it is renamed as "oak" .
--->"oak" is renamed as java in the year 1995 where java was first publicy released and later acquired by oracle corporation.
--->In 1996 java Development kit(JDK)1.0 was released.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-WHY JAVA:-
-===========
+WHY JAVA..?:-
+============
 -->Java Programming language is Invented for Developing Internet Applications by providing Platform independence(Write once run anywhere).
 -->Java is one of the most popular programming language in the world.
+-->Java is popular programming language for client-server web applications.
 -->It has more demand in the current job market.
 -->it is easy to learn and simple to use.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+HISTORY OF JAVA:-
+=================
+-->Java history was started with the Green Team.
+-->The Green Team started a project to develop a language for digital devices such as Television.
+-->It works on Internet Programming.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+CREATION OF JAVA:-
+==================
+-->Java was developed by James Gosling and his team (Mike shredding, park Naughton) at "Sun Microsystems INC" in the year 1991.
+-->James Gosling is also known as Father of the java.
+-->Initially, James Gosling call it as "Green Talk" with the file extension as ".gt"
+-->Later on it is renamed as "OAK" and again it is renamed as "java" in the year 1995 , because "oak" is already a trademark by the "oak Technologies".
+-->"java is a island in Indonesia where a first coffee was produced."
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Java Divided into Three Categories:-
+-------------------------------------
+J2SE(java 2 standard Edition)
+J2EE(java 2 Enterprise Edition)
+J2ME(java 2 Micro Edition)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+JDK:- Java Development kit(JDK) is a software development kit required to develop applications in java. When you download JDK, JRE is also downloaded with it.
+JRE:- Java Runtime Environment(JRE) is a software Package that provides java class libraries, JVM and other components that are needed to run java programs.
+JVM:- Java Virtual Machine(JVM) is an interpreter that converts byte code into machine level language code .
 =================================================================================================================================================================
 JAVA PROGRAM STEP BY STEP EXECUTION PROCESS:-
 ===============================================
@@ -27,35 +45,31 @@ JAVA PROGRAM STEP BY STEP EXECUTION PROCESS:-
 -->step-2:  compile the source code using the java compiler which will creates a bytecode file with .class extension.
 -->Step-3:  class loader reads both user defined and library classes into memory for execution.
 -->step-4:  bytecode verifier validates all the byte codes are valid.
--->step-5:  jvm(java virtual machine) reads bytecodes and translate into machine Level Language for execution. 
--->jvm is a interpreter which converts bytecode to machine code or machine specific instructions.
--->"JVM" stands for Java Virtual Machine it is a Java interpreter. It is responsible for loading, verifying, and executing the bytecode created in Java.
--->"JRE" stands for Java Run-Time Environment, it is an installed package that provides environment and libraries and other components to run applets and java programming Applications.
--->"JDK" (JDK=JRE+JVM)stands for Java Development Kit which provides the environment to develop and execute the java programs.
+-->step-5:  JVM(java virtual machine) reads bytecodes and translate into machine Level Language for execution. 
 =================================================================================================================================================================
 JVM ARCHITECTURE:-
 ===========================
 Why do we need JVM:-
 --------------------
 -->Operating System is not provided environment to execute java Applications or programs.
--->To excute java programs or Applications we must need  to have JVM.
+-->To execute java programs or Applications we must need  to have JVM.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-what is JVM? -->JVM is a interpreter which is responsible for loading,verifying and executing byte code created in java.
+what is JVM? -->JVM is a interpreter which is responsible for loading, verifying and executing byte code created in java.
 -->".Class" file is the input to the JVM.
 ARCHITECTURE:-
 --------------
 ".class"--> 1)Class Loader Subsystem:
                  -->Loading(Classes will be loaded by this Component)
-                      -->Bootstrap Class Loader -->Responsible for loading classes find inthe "jre/lib .folder"
-                      -->Extension Class Loader -->ResPonsible for loading Classes find inthe "jre/lib/ext.folder"
-                      -->Application Class Loader -->Responsible for loading Application-level class path,path mentioned in environment variable,etc.
+                      -->Bootstrap Class Loader -->Responsible for loading classes find in the "jre/lib .folder"
+                      -->Extension Class Loader -->Responsible for loading Classes find in the "jre/lib/ext. folder"
+                      -->Application Class Loader -->Responsible for loading Application-level class path, path mentioned in environment variable, etc..
                              |
                            CLASS NOT FOUND EXCEPTION
                  -->Linking
                       -->verify -->Bytecode verifier will verify whether the generated bytecode is proper or not.
                       -->Prepare -->For all static variables memory will be allocated and assigned with default values.
                       -->Resolve -->All symbolic memory references are replaced with original references from Method Area.
-                -->Intialization -->we assign original values to the static varibales and static blocks get executed.
+                -->Initialization -->we assign original values to the static variables and static blocks get executed.
              2)Memory management or Run time Data Area:
                   -->Method Area
                        -->The "Method Area" is Loading Class Level Data.
@@ -71,17 +85,17 @@ ARCHITECTURE:-
                   -->Native Method Stack -->native method stack holds the native method area information.
               3)Execution Engine
                    -->Interpreter 
-                         -->Converts byte Code into machine level language to excecute.
-                   -->JIT(Just-In-Time) Compiler : suppose if we call a method for many times in main method then the jvm will go to the interpreter only once 
-                     and remaining time the JIT Compiler  will take care of it , that is the use of JIT(i.e used for better performance of Java Apllications 
+                         -->Converts byte Code into machine level language to execute.
+                   -->JIT(Just-In-Time) Compiler : suppose if we call a method for many times in main method then the JVM will go to the interpreter only once 
+                     and remaining time the JIT Compiler  will take care of it , that is the use of JIT(i.e. used for better performance of Java Applications 
                      during runtime). 
                    -->Garbage Collection:
                         -->This garbage Collection can be done in two ways:
-                            -->By Making the refernce variable as "NULL"ify(t=NULL), and assigning one reference variable to other(t1=t).When we use any one of 
-                               the above mehtod we need to call garbage Collector(System.gc()) then the Garbage Collector will Call the Finalize() method and it 
+                            -->By Making the reference variable as "Nullify(t=NULL)", and assigning one reference variable to other(t1=t).When we use any one of 
+                               the above method we need to call garbage Collector(System.gc()) then the Garbage Collector will Call the Finalize() method and it 
                                will remove garbage value or nullify value from the memory.
               4)Native Method Libraries  --
-                                            |--> Any logic that  written in other lanaguage can access in java by using this native method lib and interfaces. 
+                                            |--> Any logic that  written in other language can access in java by using this native method lib and interfaces. 
               4)Native Method Interface  --
 =================================================================================================================================================================
 APPLICATIONS OF JAVA:-
@@ -96,8 +110,8 @@ APPLICATIONS OF JAVA:-
 ADVANTAGES OF JAVA:-
 ==============================
 -->java  is a popular and widely used programming language with many advantages.
-     -->platform independent -->code can run on any jvm installed desktop
-     -->object-oriented programming -->deals the data with objects
+     -->platform independent -->compiled code can run on any Platform(OS) where JVM is installed(WORA).
+     -->object-oriented programming -->
      -->Simple
      -->Secure
      -->High-performance
@@ -105,17 +119,24 @@ ADVANTAGES OF JAVA:-
      -->multi-threading
      -->community support
      -->Dynamic
-     -->Distrobuted.
      -->Robust-->Garbage Collection and exception handling makes the java programming as Robust.
      -->Architecture Neutral -->it is not depend on the Architecture design.
 =================================================================================================================================================================
--->What is meant by "public static void main(String args[])"?
-     -->In public static void main(String args[])
-              -->public means direct access to the jvm(Java virtual machine).
-              -->static means direct access to the jvm(Java virtual machine)  but without creating any object.
+-->What is meant by "public static void main(String[] arms)"?
+     -->In public static void main(String arms[])
+              -->public means direct access to the JVM(Java virtual machine).
+              -->static means direct access to the JVM(Java virtual machine)  but without creating any object.
               -->void means where as main function does not return anything.
               -->main means, it is callable environment to the java programs  where we can call user defined and pre-defined functions.
-              -->As we taking String args[] as arugment it accepts any type of any number of arguments.
+              -->why "String arms[]"(String array arguments)? :- if you want to send arguments through command line then we need to go for "String[] arms".
+-->We can give "synchronized, strictfp, final" keywords for main method other than static..
+-->CLA(Command Line arguments)
+-->sop(System.out.println):-
+--------------------------------
+-->"System" is a predefined class from Java. Lang Package.
+-->"out" is a static variable in system class and referring print stream class.
+-->"println" is a method from print Stream class.
+-->We have total of 10 println methods with all primitive data types and object datatypes as arguments.
 =================================================================================================================================================================
 DIFFERENCE BETWEEN C++ AND JAVA:-
 =======================================================
@@ -123,24 +144,17 @@ DIFFERENCE BETWEEN C++ AND JAVA:-
    ======================                                       =====================================
     1.It is plat-form dependent                                    1.It is plat-from Independent
     2.It is mainly used for system programming                     2.It is mainly useful for application programming
-    3.It supports goto statement                                   3.It doesn't supports goto statements
-    4.It suports multiple inheritance                              4.It doesn't supports multiple inheritance through class. It is acheived through interfaces.
+    3.It supports go to statement                                   3.It doesn't supports go to statements
+    4.It supports multiple inheritance                              4.It doesn't supports multiple inheritance through class. It is achieved through interfaces.
     5.It supports structures and unions                            5.java doesn't supports structures and unions.
-    6.c++ supports pointers and we can write a pointer program     6.java does not supports pionters instead they developed references(address of the objects)
-    7.c++ supoorts operator overloading                            7.java doesn't supports operator overloading.
-=================================================================================================================================================================
-PACKAGES IN JAVA:-
-=====================
--->Package in java can be defined as grouping related type of classes & interfaces.
--->packages are used to avoid naming clashes and provides easier control access.
--->It is easier to locate related type classes using Packages.
--->There are two typesof packages in java they are -->user defined and built in packages.
+    6.c++ supports pointers and we can write a pointer program     6.java does not supports pointers instead they developed references(address of the objects)
+    7.c++ supports operator overloading                            7.java doesn't supports operator overloading.
 =================================================================================================================================================================
 WHAT A CLASS CAN CONTAIN:-
 ==========================
 1) Data Members:
-        -->Static Datamembers(variables+Methods)
-        -->instance DataMembers(Variables+Methods)
+        -->Static Data members(variables + Methods)
+        -->instance Data Members(Variables + Methods)
 2)Blocks:
     -->Static Blocks
     -->Instance Blocks
@@ -155,12 +169,13 @@ CLASS:-
 -->Class is a Blue Print of an object or it is a Template.
 -->We can call class as a user defined data type.
 -->By Default class extends from Object in java.
+-->class is a static memory allocation.
 OBJECT:-
 =========
 -->An Instance of a class is called an object.
 -->Object is a Dynamic Memory Allocation.
 -->Object is a real time entity.
--->Object consists of state , behaviour and Indentity.
+-->Object consists of state , behavior and Identity.
 Note: Where as Class is Dummy and Object is Real.
 -->The Java Compiler will provide default constructor for your class to create an object.
 creating object:-
@@ -171,7 +186,7 @@ creating object:-
 =================================================================================================================================================================
 READING INPUT IN JAVA:-
 ========================
-Scanner class:- Scanner Class is a predefined class in "java.util" package
+Scanner class:- Scanner Class is a predefined class in "java. util" package
   -->Scanner sc=new Scanner(System.in); 
      byte r   =sc.nextByte();
      short m  =sc.nextShort();
@@ -188,11 +203,11 @@ BufferedReader class:-
        --->float f= Float.parseFloat(br.redLine());
 =================================================================================================================================================================
 -->To find Number of digits in the given number use this logic: (int)Math.log10(num)+1;
--->TO seperate the digits from first then use the below logic:
+-->TO separate the digits from first then use the below logic:
         while(num>0)
         {
-           int r= num/(int)Math.pow(10,d) ;
-           num=num%(int)Math.pow(10,d);
+           int r= num/(int)Math. Pow(10,d) ;
+           num=num%(int)Math. Pow(10,d);
         }
 =================================================================================================================================================================
 PRINTING OUTPUT:-
@@ -201,11 +216,10 @@ PRINTING OUTPUT:-
 -->1.System.out.println("HELLO WORLD");
 -->2.System.out.print(x);
 -->3.System.out.printf("THE VALUE OF x IS :"+x);
--->"System" is a prdefined Class, "Out" is a static variabel in System Class and refering PrintStream Class, "println()" is a Method in printStream Class.
 -->while printing the floating point numbers after decimal point print only 2 digits.
 float pi=3.142345f;
 System.out.println(pi);
--->Formating the output:-
+-->Formatting the output:-
 System.out.format("%.2f",pi);
 System.out.printf("%.2f",pi);
 =================================================================================================================================================================
@@ -213,48 +227,48 @@ System.out.printf("%.2f",pi);
 ============================================================
 JAVA IDENTIFIERS:-
 ============================
--->java identifiers are used for indentification purpose (or) Any name of the Project, package,class,interface, Method,variable is called as Identifier.
+-->java identifiers are used for identification purpose (or) Any name of the Project, package, class, interface, Method, variable is called as Identifier.
 -->valid identifiers:-->($,_,[A-Z],[a-z],[0-9])-->but should not start with numbers.
 -->Invalid identifiers:-->(@,#,%,-,...)
   RULES FOR IDENTIFIERS:-
  =====================================================================
    1)Java Identifiers can use (a-z) or (A-Z) or (0 - 9).
-   2)Java Identifiers should not start with numeric values(0 -9)(Sysntax error at token 1).
-   3)Java Identifiers should not contain any Special Characters except "_" and  "$" , we can start identifers with "_" or "$".
+   2)Java Identifiers should not start with numeric values(0 -9)(Syntax error at token 1).
+   3)Java Identifiers should not contain any Special Characters except "_" and  "$" , we can start identifiers with "_" or "$".
    4)Java Identifiers should not be a Java Keywords.
 =================================================================================================================================================================
 JAVA KEYWORDS:-
 ==================
-"Primitive Datatypes(8), Apllication level or oops(14), Access Modifiers(12), Exception handling(5), Logical Satatement(11)"
+"Primitive Datatypes(8), Application level or oops(14), Access Modifiers(12), Exception handling(5), Logical Statement(11)"
 PRIMITIVE DATATYPES KEYWORDS:-
 -------------------------------
-For Reprsenting The Numbers:
+For Representing The Numbers:
   -->byte
   -->short
   -->int
   -->long
 ------------------------------------------
-For Reprsenting floating Decimals:
+For Representing floating Decimals:
   ->float
   ->double
 ----------------------------------------------------------
-For Representing charcters and true or false conditions:
+For Representing characters and true or false conditions:
   ->char
-  ->boolean
+  ->Boolean
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 APPLICATION LEVEL (OR) OOPS KEYWORDS:-
 ---------------------------------------
  -->"package" :- package is a keyword to create package for collection of classes and interfaces.
- -->"import"  :- To import classes or interfaces or enums  from one package to another package.
+ -->"import"  :- To import classes or interfaces or Enums  from one package to another package.
 ---------------------------------------------------------------------------------------------------
  -->"class"    :- Class is a blue print of an object or template or user defined datatype.
  -->"interface":- interface is Blueprint of a class. 
- -->"enum"     :- To represent constant values we use enum like a class.
+ -->"Enum"     :- To represent constant values we use Enum like a class.
  -->"new"      :- new keyword is used to create object for a class.
- -->"instanceof" --> to check status of the object from another object.
+ -->"instance of" --> to check status of the object from another object.
 ---------------------------------------------------------------------------------------------------
 -->"void" -->return nothing
--->"int"  -->return something in a method based on the return type.
+-->"return"  -->return something in a method based on the return type.
 --------------------------------------------------------------------------------------------------
 -->"this" :-> this Keyword is used "To invoke current object data members".
 -->"super" :-> super keyword is used "To invoke super object data members".
@@ -264,8 +278,8 @@ APPLICATION LEVEL (OR) OOPS KEYWORDS:-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ACCESS MODIFIERS KEYWORDS(12):-
 --------------------------------
--->"private" :-  priavte is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
--->"<default>" :- The Scope of default is wihtin the package.
+-->"private" :-  private is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
+-->"<default>" :- The Scope of default is within the package.
 -->"protected" :- protected is a keyword , we cannot use for a class but we can use inside the class.(The Scope of Protected is "within the package + outside of the packages of subclasses:).
 -->"public" :- public is a keyword we can user for a class and also we can use inside the class. (The Scope of public is within the project Anywhere).
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -278,8 +292,8 @@ ACCESS MODIFIERS KEYWORDS(12):-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -->"final" :-  final is for class then we cannot extends that class.
                final is for method then we cannot override that method in child class.
-               final is for varaible then we cannot change the value.
--->"transient"(only for varaibles)
+               final is for variable then we cannot change the value.
+-->"transient"(only for variables)
 -->"Volatile" :- volatile means keep on changing , we can use it in multithreading when the threads are sleeping still you want to make your variables to change  the values.
 -->"native"
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -305,23 +319,23 @@ LOGICAL STATEMENT:-
 =================================================================================================================================================================
 JAVA ACCESS MODIFIERS/SPECIFIERS:-
 ====================================
--->"private"   :- priavte is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
--->"<default>" :- The Scope of default is wihtin the package.
+-->"private"   :- private is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
+-->"<default>" :- The Scope of default is within the package.
 -->"protected" :- protected is a keyword , we cannot use for a class but we can use inside the class.(The Scope of Protected is "within the package + outside of 
                   the packages of subclasses:).
 -->"public"    :- public is a keyword we can user for a class and also we can use inside the class. (The Scope of public is within the project Anywhere).
--->"final"     :- final is for class then we cannot extend the classs.
+-->"final"     :- final is for class then we cannot extend the class.
                   final is for method then we cannot override that method in child class.
                   final is for variable then we cannot change the value of that variable.
 -->"static"    :- static is a keyword we can use for data members and blocks. 
-                  if we use static for a varaible or data then it is constant for all objects.
-                  if we use static for a method or block then it will loading to the memory wihtout creating object.
+                  if we use static for a variable or data then it is constant for all objects.
+                  if we use static for a method or block then it will loading to the memory without creating object.
                   static data remains constant for every object but instance data varies for object to object.
 ================================================================================================================================================================
 JAVA  DATATYPES:-
 =======================================
 -->There are Two types of Data types in java : they are "Primitive Data types " and "Non-primitive datatypes"
--->Primitive data_types in java are pre-defined by a java language and named as the reserved keywords. As primitive data_types does not share a state with other primitive values. The Data in data types is stored in a 2's complement way. ( -2^n to 2^n-1)
+-->Primitive datatype's in java are pre-defined by a java language and named as the reserved keywords. As primitive datatypes does not share a state with other primitive values. The Data in data types is stored in a 2's complement way. ( -2^n to 2^n-1)
 -->byte (Byte)        ->size->1byte(8 bits)-->max value we can store in byte is 127 and min value is -128 -->byte bytevar;
                                                                                                 (Byte.SIZE,Byte.MAX_VALUE,Byte.MIN_VALUE);
 -->short(Short)       ->size->2bytes(16 bits)-->max value we can store in short is 32767 and min value is -32768 -->short shortvar; 
@@ -335,8 +349,8 @@ JAVA  DATATYPES:-
 -->double(Double)    ->size->8bytes(64 bits)-->double doublevar;
                                                                                                 (Double.size(), Double.MAX_VALUE,Double.MIN_VALUE)
 -->boolean           ->size->1bit  -->boolean boolvar;
--->char              ->size->16-bits-->char charvar; ( 0 to 65535) -->char data types is a single 16-bit unicode characters.
--->All integers can be characters(bythe concept of ASCII Values) and all Characters can be a integers.
+-->char              ->size->16-bits-->char charvar; ( 0 to 65535) -->char data types is a single 16-bit Unicode characters.
+-->All integers can be characters(by the concept of ASCII Values) and all Characters can be a integers.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Non-Prirmitive Data types(Wrapped object data types, pre-defined object data types, user-defined object data types):-
 ====================================================================================================================
@@ -352,16 +366,16 @@ Non-Prirmitive Data types(Wrapped object data types, pre-defined object data typ
               -->b.multiply(b1);
 -->BigDecimal
        -->BigDecimal b2=new BigDecimal("467686969670707.6868686868");
--->Student,Employee,Address,....(user-defined object datatypes)
+-->Student, Employee, Address,....(user-defined object datatypes)
 -->"NULL" is the Default value of any object data type.
 =================================================================================================================================================================
 JAVA TYPECASTING:-
 ====================
 -->Type casting is nothing but when we assign a value of one primitive data_type to another data_type.
--->there are two typesof type casting they are:
-      1.Widening type casting(Automatic) :-  converts smaller data_type to larger data_type size. 
+-->there are two types of type casting they are:
+      1.Widening type casting(Automatic) :-  converts smaller datatype to larger datatype size. 
          byte -> short -> char -> int -> long -> float -> double.
-      2.Narrowing type casting(Manual) :- converts  larger data_type to smaller data_type size
+      2.Narrowing type casting(Manual) :- converts  larger datatype to smaller datatype size
          double -> float -> long -> int -> char -> short -> byte.
 -->Example for automatic or widening :-
           int myInt = 9;
@@ -372,8 +386,8 @@ JAVA TYPECASTING:-
 ================================================================================================================================================================
 JAVA WRAPPER CLASSES:-
 =======================
--->Java Wrapper classes provides a way to use primitive data_types as objects.
---->  Primitive data_type                Wrapper Oject Data Types
+-->Java Wrapper classes provides a way to use primitive datatype's as objects.
+--->  Primitive datatypes                Wrapper Object Data Types
      ========================          ==============================
        byte(8bits)              -->      Byte
        short(16 bits)           -->      Short
@@ -385,7 +399,7 @@ JAVA WRAPPER CLASSES:-
        boolean(1 bit)           -->      Boolean
 -->example:
    =======
-    import java.util.*;
+    import java. util.*;
     public class M{
         public static void main(String args[]){
                 Integer a = 5;
@@ -396,7 +410,7 @@ JAVA WRAPPER CLASSES:-
            System.out.println(c);
        }
    }
--->For converting one primitive data_type to another data_type we have type casting but to one type to another type by using wrapper class objects we have folowing methods.
+-->For converting one primitive datatype to another datatype we have type casting but to one type to another type by using wrapper class objects we have folowing methods.
      -->byteValue();
      -->shortVAlue();
      -->intValue();
@@ -407,7 +421,7 @@ JAVA WRAPPER CLASSES:-
      -->toString();
 -->example:-
   ==========
-  import java.util.*;
+  import java. util.*;
     public class M{
         public static void main(String args[]){
                 Integer a = 5;
@@ -424,18 +438,18 @@ JAVA WRAPPER CLASSES:-
 ================================================================================================================================================================
 JAVA LITERALS:-
 =================
--->Literal is a Constant value which we are storing it into a varaibles.
--->Java Language Specifies Five Major types of literals,they are:
+-->Literal is a Constant value which we are storing it into a variables.
+-->Java Language Specifies Five Major types of literals, they are:
        --Integral Literals
              --Decimal Literals (Decimal Numbers starts  as a normal number and its range is 0 to 9)
              --octa Decimal Literals(Octa Decimal Numbers prefixed with "0")(range 0 to 8)
              --Hexa Decimal Literals(Hexa Decimal Numbers prefixed with "0X" or "0x") (range 0 to 9, a to f)
-       --Floating Literals -->ocat and hex decimal literals are not possible for double datatype.
-       --char Literals -->char data types is a single 16-bit unicode characters.
-       --boolean Literals -->(true or false)
-       --null literals -->most of the object reference varaibles are assigned with null vaue.
+       --Floating Literals -->octa and hex decimal literals are not possible for double datatype.
+       --char Literals -->char data types is a single 16-bit Unicode characters.
+       --Boolean Literals -->(true or false)
+       --null literals -->most of the object reference variables are assigned with null value.
        --String Literals
--->Literals can be any Number  or texr or other information that represents a value.
+-->Literals can be any Number  or text or other information that represents a value.
 -->We will use Literals in addition to variables in java  statements.
 =================================================================================================================================================================
 TYPES OF VARIABLES:-
@@ -462,11 +476,11 @@ TYPES OF VARIABLES:-
               -->The Local variables will be created inside the main method.
               -->Duplicates can be allowed to this variables.
               -->JVM is Not responsible for loading these local variables.
--->Compared to staic , instance and local , the highest priority will be given to local varaibles.
+-->Compared to static , instance and local , the highest priority will be given to local variables.
 =================================================================================================================================================================
 TYPES OF METHODS:-
 ====================
--->Method means it's a behaviour of a class.
+-->Method means it's a behavior of a class.
                 or
 -->Method means Collection of logics and collection of statements.
                 or
@@ -476,13 +490,13 @@ TYPES OF METHODS:-
 -->The main aim of creating methods is to reuse the code any number of times.
 -->There are 4 types of methods they are:
     -->Method with no "return type" and with "no arguments".
-    -->method with "return type" and with "no arguements".
-    -->method with "no return type" and with "arguements".
-    -->method with "return type" and with "arguements".
+    -->method with "return type" and with "no arguments".
+    -->method with "no return type" and with "arguments".
+    -->method with "return type" and with "arguments".
 Example Program:-
 ====================
-package com.sample;
-import java.util.Scanner;
+package com. sample;
+import java. util. Scanner;
 public class TypesofMethods4 {
      static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
@@ -492,7 +506,7 @@ public class TypesofMethods4 {
 		t.m1(10,20);
 		int age = t.m2();
 		int sum= t.m3(2333, 333);
-       //t.m3(int x=2, int y=3) --->We cannot pass arguements in this way -->it will give token error.
+       //t.m3(int x=2, int y=3) --->We cannot pass arguments in this way -->it will give token error.
 		System.out.println("my Age is:"+age);
 		System.out.println("my sum is:"+age);
         
@@ -517,38 +531,38 @@ public class TypesofMethods4 {
 	
 	int m3(int x, int y) //method "with return type" and "with arguments"
 	{
-		return x+y;
+		return (x+y);
 	}
 
 }
 =================================================================================================================================================================
 JAVA CONSTRUCTORS:-
 =====================
-Whay We need Constructors..?
+Why We need Constructors..?
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
      -->To Initializing an object and initializing instance data but not static data  we need Constructor.
      -->Without Constructor there is no chance to create the object.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 What is Constructor..?
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
--->Constructor is a special member function which is used to intialize objects.when Object is created constructor get invoked Automatically.
+-->Constructor is a special member function which is used to initialize objects. When Object is created constructor get invoked Automatically.
 -->The class name and constructor name should be same.
--->constructors can be overLoaded.
+-->constructors can be overloaded.
 -->Constructors doesn't return any values.
 -->Constructors does not have any return datatypes even Void.
--->Constructors shuold be declared under public section.
+-->Constructors should be declared under public section.
 -----------------------------------------------------------------------------
 What are the types of Constructor types:
 -----------------------------------------
 -->Default Constructor:-
-      -->why?--> If in our class we don't have any constructor(no-args,parameterized) then "java compiler" will create a Constructor that is called as "default 
+      -->why?--> If in our class we don't have any constructor(no-args, parameterized) then "java compiler" will create a Constructor that is called as "default 
            Constructor".
 -->No-arg Constructor:-
-      -->why?--> If in a class we are having a paramterized constructor then the java compiler will not create or call any default constructor so that to create 
+      -->why?--> If in a class we are having a parametrized constructor then the java compiler will not create or call any default constructor so that to create 
          an object with no args we will go for the No-args Constructor. 
--->Parameterised Constructor:-
+-->Parameterized Constructor:-
       -->why?-->While Creating an object, if we want to  send any  values to that object then we can go for the parameterized constructor.
--->"this" keyword is used to invoke current class object data members and to maintian the "code redability".
+-->"this" keyword is used to invoke current class object data members and to maintain the "code readability".
 -->"this()" method is used to call current class Constructor. It cannot be used in a method, and this should be used only inside the constructor and written at 
     first line.
 -->"super" keyword is used to invoke super class  object data members.
@@ -566,8 +580,8 @@ RULES FOR CONSTRUCTORS:-
 3)Applicable modifiers for constructors as below: 
     -->private
     --><default>
-    -->protected,public 
-  Note:otherthan the above modifiers if we give any other modifiers then we will get the compile time error.
+    -->protected, public 
+  Note: other than the above modifiers if we give any other modifiers then we will get the compile time error.
 4)"this()" and "super()" must be in the first line of any constructor.
 5)"this()" and "super()" must need to be call in constructor only but not in methods.
 6)If we didn't create any constructor for a class , java compiler will create a default constructor.
@@ -590,27 +604,6 @@ backspace    ---> \b
 backslash    ---> \\
 -->While loop is called entry Controlled Loop or sentinel Loop and Do while loop is called exit controlled loop.
 =================================================================================================================================================================
-JAVA OPERATORS:-
-===================
--->Binary Arithmetic Operators:-(+,-,*,%,/)
--->unary  Arithmetic  operators:-(-,+,++(pre,post),--(pre,post));
--->Relational opeartors:-(>,<,>=,<=,==,!=)
--->Logical operators:-(&&,||,!)
--->Assignment operators:-(variable=value, = ,+=,-=,/=,*=,%=,&=,|=,^=,<<=,>>=)
--->Ternary operator:-(condition?if true:if false)
--->Bitwise operators:-(&,|,^,>>(right shift),<<(left shift))
-     -->right shfiting is nothing division by 2 and left is nothing but multiplication by2.
--->Literals are used to store binary data or hexadecimal data or all type of binary values.
-Operators Preceedence and Associativity:-
- ========================================
- 1.unary operators have high preceedence(+,-,++,--)
- 2.  (.) -->paranthesis are having Second highest priority.
- 3. *,/,% -->are having third highest priority.
- 4. +(Addition) , -(Subtraction) -->are having fourth highest priority.
-If we have same preceedence operators in the equation:
-  then for(*,/, %) the Associativity will be Left to Right.
-  then for(+,-) the Associativity will be from Right to Left.
-=================================================================================================================================================================
 JAVA ARRAYS:-
 =================
 Why wee need Arrays?
@@ -623,31 +616,31 @@ What is Array?
 --------------
  -->Array is an object.
  -->Array is a index based, collection of homogeneous data elements into a single unit with fixed size.
- -->Array is a fixed and mutable(i.e we can replace the value of a array element)
+ -->Array is a fixed and mutable(i.e. we can replace the value of a array element)
 Array Creation:-(For Creating an array we need to follow four steps they are: Declaration, Creation, Intialization, Representation)
 =================
 1) Declaration
     --> int[] ages;
 2)Creation
     ages = new int[n]; //n is the size and index is "0 to n-1"
-   Note:while creating an array, we must specify the size.
-3)Intialization
+   Note: while creating an array, we must specify the size.
+3)Initialization
     ages[0] = 22;
     ages[1] = 23;
     ages[2] = 24;
     ages[3] = 25;
 4)Representation.
-    //for(Initialization; condition; incre/decre){}
-    //Intialization : where you want to starts from : int i= 0
+    //for(Initialization; condition; increment/decrement){}
+    //Initialization : where you want to starts from : int i= 0
     //condition     : up to where u want to go ?: i<100
     //Increment     :  Initial values incremented by +1: i++
-   for(int i=0;i<n;i++){
+   for(int i=0;i<n; i++){
      System.out.println(ages[i]);
    }
 -->The Maximum Range of Array is : Integer maximum value(2147483647).
--->We can create and intialize an array in a single line by using "{}".
-//Reading the elements from console using scanner clas..
----> for(int i=0;i<size;i++){
+-->We can create and initialize an array in a single line by using "{}".
+//Reading the elements from console using scanner class..
+---> for(int i=0;i<size; i++){
        A[i] = sc.nextInt();
    }
 //for-each loop or enhanced for loop
@@ -658,16 +651,16 @@ Array Creation:-(For Creating an array we need to follow four steps they are: De
 2D Arrays:-
 ==============
 Whenever you want to represent rows and columns we need to go for 2Dimensional arrays.
-synatx:-
+syntax:-
 -->int[][] A = new int[3][3];
           (or)
 -->int[] A[] = new int[3][3];
-for(int i=0;i<A.length;i++){
-  for(int j=0;j<A[i].length;j++){
-     System.oout.println(A[i][j]);
+for(int i=0;i<A. length; i++){
+  for(int j=0;j<A[i].length; j++){
+     System.out.println(A[i][j]);
   }
 }
--->for(int[] n1 : A){ //for -each loop for 2D array.-->first convet 2D to 1D array and then 1D to normal Number.
+-->for(int[] n1 : A){ //for -each loop for 2D array.-->first convert 2D to 1D array and then 1D to normal Number.
       for(int n : n1){
          System.out.print(n+" ");
       }
@@ -677,13 +670,13 @@ for(int i=0;i<A.length;i++){
 JAGGED ARRAY:-
 ===============
 -->Array of Arrays is called as jagged array.
- synatx:-
+ syntax:-
   int[][] A = new int[2][];
    A[0] = new int[4];
    A[1] = new int[3];
 
 Example program for prime Number:-
------------------------------------
+======================================
 import java.util.Scanner;
 public class M{
    public static void main(String args[]){
@@ -711,6 +704,251 @@ public class M{
          }
    }
 }
+
+Bubble Sort Algorithm:-
+=========================
+Bubble Sort Algorithm is the Simplest Sorting Algorithm that  works by repeatedly Swapping the adjacent elements if they they are in wrong order.
+Time Complexity: o(n^2) -->Worst time complexity
+Space complexity : o(1)
+
+Example program:-
+======================
+class Main{
+  public static void main(String args[]){
+       int[] A = {39,19,15,12,5,6};
+       int tmp=0;
+       for(int i=0;i<A.length;i++){
+        int flag =0;
+         for(int j=0;j<A.length-1-i;j++){
+             if(A[j] > A[j+1]){
+                tmp=A[j];
+                A[j]=A[j+1];
+                A[j+1]=tmp;
+                flag = 1;
+         }
+       if(flag==0){
+          break;
+        }
+      }
+     for(int c :A){
+          System.out.println(c);
+     }
+
+Selection Sort Algorithm:-
+===========================
+Selection sort is a Straightforward sorting Algorithm that operates by repeatedly finding the minimum element from an unsorted section of array and moving it to the beginning. This process continues until the entire array is sorted.
+Time Complexity : o(n^2)
+Space Complexity: o(1)
+
+Example Program:-
+==================
+public class Array{
+    public static void main(String args[]){
+       int[] A = {39,19,29,12,15,5};
+       for(int i=0;i<A.length;i++){
+           int tmp=0;
+           int min=i;
+           for(int j=i+1;j<A.length;j++){
+                 if(A[j] < A[min]){
+                       min = j;
+                 }
+           }
+           tmp=A[i];
+           A[i]=A[min];
+           A[min] = tmp;
+       }
+       for(int c : A){
+         System.out.print(c+ " " );
+      }  
+
+3Dimensional Array:-
+====================
+Declaration and creation:-
+---------------------------
+int[][][] A = new int[3][3][3];
+       	 (or)
+int[] A[][] = new int[3][3][3];
+         (or)
+int[][] A[] = new int[2][2][2];
+
+initialization:-
+----------------
+A[0][0][0] = 111;
+A[0][0][1]=  222;
+A[0][0][2]=  333;
+
+A[0][1][0] =444;
+A[0][1][1] =555;
+A[0][1][2] =666;
+
+A[0][2][0]=777;
+A[0][2][1]=888;
+A[0][2][2]=999;
+
+  (or)
+int[][][] A = { { { 111, 0, 0 } }, { { 0, 222, 0 } }, { { 0, 0, 333 } }, { { 444, 0, 0 } }, { { 0, 555, 0 } },
+				{ { 0, 0, 666 } }, { { 777, 0, 0 } }, { { 0, 888, 0 } }, { { 0, 0, 999 } } };
+
+Representation:-
+---------------
+for(int i=0;i<A.length;i++){
+   for(int j=0;j<A[i].length;j++){
+     for(int k=0;k<A[i][j].length;k++){
+        System.out.print(A[i][j][k] + " ");
+     }
+     System.out.println();
+  }
+  System.out.println();
+}
+
+//using for each loop:-
+------------------------
+for(int[][] n2:A){
+  for(int[] n1:n2){
+      for(int n : n1){
+          System.out.print(n+" ");
+      }
+     System.out.println();
+   }
+System.out.println();
+}
+=================================================================================================================================================================
+ARRAYS CLASS:-
+==================
+  -->Arrays class is a built-in class in java that provides variuos utility methods for working with Arrays.
+   Methods:-
+        import java.uitl.Arrays;
+        int[] Array={1,4,2,5,3,6,9};
+       1) Arrays.sort(Array_name);   //sort the elements of the array in ascending order.
+       2)int[] index=Arrays.binarySearch(Array_name,value); //search for specific element inthe array using binary search algorithm.
+       3)boolean[] equal = Arrays.equals(Array1,Array2); //compares to Arrays for eqaulity.
+       4)var list=Arrays.asList(Array_name);  //converts given array into the list.
+       5)int[] copy=Arrays.copyOfRange(Array_name,value1,value2); //copies the specified range of Array elements to another Array.
+       6)Arrays.fill(Array_name,value); //Fills specific value in to the array.
+       7)Arrays.toString(Array_name)
+=================================================================================================================================================================
+JAVA LOGICAL STATEMENTS AND OPERATORS:-
+=========================================
+1)simple "if" and "else":-(Decision Making)
+---------------------------------------------
+syntax:-
+  if(condition){//true
+       //block of statements
+  }//if we are not taking curly braces to the if block then it is going to take only one statement.
+ else{//false
+    //block of statements
+ }
+
+2)"Nested if":-(Decision Making)
+-------------------------------
+syntax:-
+ if(condition1){
+     //block of statements
+     if(condition2){
+        //block of statements
+        if(condition3){
+           //block of statements
+        }
+     }
+}
+
+3)"Nested if-else":-(Decision making)
+-------------------------------------
+if(condition1){
+   //block of statements
+   if(condition2){
+      //block of statements
+  }
+  else{
+     //block of statements
+ }
+}
+else{
+   if(condition 3){
+        //block of statements
+  }
+  else{
+   //block of statements
+  }
+}
+
+4)"if-else-if":-(Decision making)
+--------------------------------
+syntax:-
+if(condition1){
+    //block of statements
+}
+else if(condition2){
+   //block of statements
+}
+else if(condition3){
+  //block of statements
+}
+
+5) "switch statement":-(Decision making)
+----------------------------------------
+A switch statement in java is used to execute a single statement when there are multiple conditions.
+syntax:-
+char Ch;
+switch(expression or Ch){
+     case 1 : //block of code
+              break;
+     case 2: { //we can give curly braces
+             //block of code
+             break;
+             }
+       |   
+       |
+     case n: //block of code
+             break;
+     default: //block of code
+             break;
+}
+
+6) "WHILE LOOP":-(looping Statements)
+  ------------------------------------
+  -->It is also called as entry controlled loop.
+ syntax:-
+  initialization;
+  while(condition-->Boolean){
+      //block of code;
+     increment/decrement; //breaking value
+  }
+ 
+7)"DO WHILE LOOP":-(looping statements)
+---------------------------------------
+-->It is also called as exit controlled loop.
+syntax:-
+initialization;
+do{
+  //block of code;
+}while(condition);
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+OPERATORS:-
+===========================================================
+-->unary  operators:-(++(pre, post),--(pre, post))
+   Post Increment: value will print first and then increment next.
+   post Decrement: value will print first and then decrement next.
+   pre  Increment: value will increment first and then print next.
+   pre Decrement : value will decrement first and then print next.
+-->Arithmetic Operators && shift operators:- (+,-,*,%,/, >>(right shift),<<(left shift))
+     -->Right shifting(>>) is nothing but division by 2 and Left shift(<<) is nothing but multiplication by2.
+-->Relational operators:- (>,<,>=,<=,==,!=)
+-->Logical operators:- (&&,||,!)
+-->Assignment operators:- (variable=value, = ,+=,-=,/=,*=,%=,&=,|=,^=,<<=,>>=)
+-->Ternary operator:- ((condition)?  true: false)
+-->Bitwise operators:- (&,|,^)
+-->instance of
+
+Operators Precedence and Associativity(BODMAS):-
+ ================================================
+ 1. unary operators have high precedence(+,-,++,--)
+ 2. ( ) -->parenthesis are having Second highest priority.(BO)
+ 3. *,/,% -->are having third highest priority.(DM)
+ 4. +(Addition) , -(Subtraction) -->are having fourth highest priority.(AS)
+If we have same precedence operators in the equation:
+  then for(*,/, %) the Associativity will be Left to Right.
+  then for(+,-) the Associativity will be from Right to Left.
 =================================================================================================================================================================
 JAVA STRINGS:-
 ====================
@@ -720,9 +958,9 @@ JAVA STRINGS:-
 -->Once String Object is Created its data or state can't be changed but new object will be created.
 -->Syntax :-
       string literal:-(<String_type>  <string_variable> = <String_Sequence>)
-          String s = "HELLO";
+          String s = "HELLO"; -->Stores value in a String Constant pool(SCP)
       String object :-
-          String s = new String("HELLO");
+          String s = new String("HELLO"); //Stores value in Heap Area.
 -->byte[] b_arr={12,13,14,15,16};
    String s= new String(b_arr);
 -->STRING METHODS:-
@@ -757,6 +995,7 @@ JAVA STRINGS:-
            "System.out.println(s.replace("f" , "g"));"
     13)string split:-
           "s.split("\\s+");" s.split(","); // for example String[] s = s1.split(",");
+           "String[] words=s.split("(?=[A-Z])"); //To split words in a String when we encourted a Capital Letter.
     14)toString():-
         String s1 = s.toString() or Integer.toString();-->used to convert given content to the string.
         String res = Integer.toBinaryString(num);
@@ -772,6 +1011,8 @@ JAVA STRINGS:-
     23) IntStream.rangeClosed(ele1 , ele2)
              .filter(num->num%2==0)
              .foreach(System.out:println)
+   24) "Character.toUpperCase(ch);"
+   25) "Character.toLowerCase(ch);"
 ================================================================================================================================================================
 STRING BUFFER && STRING BUILDER IN JAVA:-
 =========================================================
@@ -795,20 +1036,6 @@ import java.io.*;
 -->Math.abs(x); //returns the absolute value.
 -->(int)Math.random()*10; //return the random values.
 ===============================================================================================================================================================
-ARRAYS CLASS:-
-==================
-  -->Arrays class is a built-in class in java that provides variuos utility methods for working with Arrays.
-   Methods:-
-        import java.uitl.Arrays;
-        int[] Array={1,4,2,5,3,6,9};
-       1) Arrays.sort(Array_name);   //sort the elements of the array in ascending order.
-       2)int[] index=Arrays.binarySearch(Array_name,value); //search for specific element inthe array using binary search algorithm.
-       3)boolean[] equal = Arrays.equals(Array1,Array2); //compares to Arrays for eqaulity.
-       4)var list=Arrays.asList(Array_name);  //converts given array into the list.
-       5)int[] copy=Arrays.copyOfRange(Array_name,value1,value2); //copies the specified range of Array elements to another Array.
-       6)Arrays.fill(Array_name,value); //Fills specific value in to the array.
-       7)Arrays.toString(Array_name)
-==============================================================================================================================================================
 JAVA RECURSION:-
 ====================
 -->Recursion is the technique of making a function call itself. This Technique provides a way to break down complicated problems into simple problems which are easier to solve.
