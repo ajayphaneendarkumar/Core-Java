@@ -1,9 +1,8 @@
-JAVA INTORDUCTION:-
+ JAVA INTORDUCTION:-
 =====================
 Definition of Java:-
 ====================
--->java is a simple , High-level, secure, platform independent, Robust, Dynamic , Multi threading and Object oriented programming language used for developing Both 
-   Standalone and Web(internet) Applications.
+-->java is a simple , High-level, secure, platform independent, Robust, Dynamic , Multi threading and Object oriented programming language used for developing Both Standalone and Web(internet) Applications.
 -->java is case sensitive programming language.
 Note: Not a pure object-oriented language because it supports primitive data types like int, char etc.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -31,9 +30,9 @@ CREATION OF JAVA:-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Java Divided into Three Categories:-
 -------------------------------------
-J2SE(java 2 standard Edition)
-J2EE(java 2 Enterprise Edition)
-J2ME(java 2 Micro Edition)
+J2SE(java 2 standard Edition): for creating desktop-based applications.(File/input, collections,etc...)
+J2EE(java 2 Enterprise Edition) : for Developing enterprise web-based applications.(jsp,servlets,jpa,etc...)
+J2ME(java 2 Micro Edition): for Developing mobile-based applications.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 JDK:- Java Development kit(JDK) is a software development kit required to develop applications in java. When you download JDK, JRE is also downloaded with it.
 JRE:- Java Runtime Environment(JRE) is a software Package that provides java class libraries, JVM and other components that are needed to run java programs.
@@ -60,8 +59,9 @@ ARCHITECTURE:-
 --------------
 ".class"--> 1)Class Loader Subsystem:
                  -->Loading(Classes will be loaded by this Component)
-                      -->Bootstrap Class Loader -->Responsible for loading classes find in the "jre/lib .folder"
-                      -->Extension Class Loader -->Responsible for loading Classes find in the "jre/lib/ext. folder"
+                      -->Bootstrap Class Loader -->Responsible for loading classes from BootStrap class path, Nothing but rt.jar(contins all of the compiled 
+                         class files)
+                      -->Extension Class Loader -->Responsible for loading Classes find in the ext.folder("/jre/lib").
                       -->Application Class Loader -->Responsible for loading Application-level class path, path mentioned in environment variable, etc..
                              |
                            CLASS NOT FOUND EXCEPTION
@@ -90,13 +90,15 @@ ARCHITECTURE:-
                      and remaining time the JIT Compiler  will take care of it , that is the use of JIT(i.e. used for better performance of Java Applications 
                      during runtime). 
                    -->Garbage Collection:
+                        -->Garbage Collector Removes Unreferenced Objects.
                         -->This garbage Collection can be done in two ways:
                             -->By Making the reference variable as "Nullify(t=NULL)", and assigning one reference variable to other(t1=t).When we use any one of 
                                the above method we need to call garbage Collector(System.gc()) then the Garbage Collector will Call the Finalize() method and it 
                                will remove garbage value or nullify value from the memory.
-              4)Native Method Libraries  --
-                                            |--> Any logic that  written in other language can access in java by using this native method lib and interfaces. 
-              4)Native Method Interface  --
+              4)Native Method Libraries  -- This a Collection of Native Libraries which are required for the Execution engine.
+                                            
+              4)Java Native Interface(JNI) -- JNI will be interacted with the Native method libraries and provide the Native libraries required for the 
+                                              Execution Engine.
 =================================================================================================================================================================
 APPLICATIONS OF JAVA:-
 ==========================
@@ -131,7 +133,7 @@ ADVANTAGES OF JAVA:-
               -->why "String arms[]"(String array arguments)? :- if you want to send arguments through command line then we need to go for "String[] arms".
 -->We can give "synchronized, strictfp, final" keywords for main method other than static..
 -->CLA(Command Line arguments)
--->sop(System.out.println):-
+-->sop(System. out. println):-
 --------------------------------
 -->"System" is a predefined class from Java. Lang Package.
 -->"out" is a static variable in system class and referring print stream class.
@@ -283,17 +285,19 @@ ACCESS MODIFIERS KEYWORDS(12):-
 -->"protected" :- protected is a keyword , we cannot use for a class but we can use inside the class.(The Scope of Protected is "within the package + outside of the packages of subclasses:).
 -->"public" :- public is a keyword we can user for a class and also we can use inside the class. (The Scope of public is within the project Anywhere).
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
--->"abstract" :-  abstract is a keyword for achieving  abstraction.
+-->"abstract" :- abstract is a keyword 
+                      --> we can use for methods for declaration but not for implementation
+                      --> we can use for classes for not creating an object to our class.
 -->"static"   :-  static is a keyword we can use for data members and blocks. 
                   if we use static for a variable or data then it is constant for all objects.
                   if we use static for a method or blocks then it will loading to  the memory without creating object.
--->"strictfp" :-  strictly follow floating point data in all the systems.
--->"synchronized" 
+-->"strictfp" :-  strictly follows floating point data in all the systems.
+-->"synchronized" :-synchronized is a keyword , we can go and use in multithreading to acheive synchronization.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -->"final" :-  final is for class then we cannot extends that class.
                final is for method then we cannot override that method in child class.
                final is for variable then we cannot change the value.
--->"transient"(only for variables)
+-->"transient":- transient is a keyword we can use it in serialization concept.
 -->"Volatile" :- volatile means keep on changing , we can use it in multithreading when the threads are sleeping still you want to make your variables to change  the values.
 -->"native"
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -314,24 +318,9 @@ LOGICAL STATEMENT:-
 -->switch 
 -->case
 -->continue
--->goto
+-->go to
 -->const
 =================================================================================================================================================================
-JAVA ACCESS MODIFIERS/SPECIFIERS:-
-====================================
--->"private"   :- private is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
--->"<default>" :- The Scope of default is within the package.
--->"protected" :- protected is a keyword , we cannot use for a class but we can use inside the class.(The Scope of Protected is "within the package + outside of 
-                  the packages of subclasses:).
--->"public"    :- public is a keyword we can user for a class and also we can use inside the class. (The Scope of public is within the project Anywhere).
--->"final"     :- final is for class then we cannot extend the class.
-                  final is for method then we cannot override that method in child class.
-                  final is for variable then we cannot change the value of that variable.
--->"static"    :- static is a keyword we can use for data members and blocks. 
-                  if we use static for a variable or data then it is constant for all objects.
-                  if we use static for a method or block then it will loading to the memory without creating object.
-                  static data remains constant for every object but instance data varies for object to object.
-================================================================================================================================================================
 JAVA  DATATYPES:-
 =======================================
 -->There are Two types of Data types in java : they are "Primitive Data types " and "Non-primitive datatypes"
@@ -352,7 +341,7 @@ JAVA  DATATYPES:-
 -->char              ->size->16-bits-->char charvar; ( 0 to 65535) -->char data types is a single 16-bit Unicode characters.
 -->All integers can be characters(by the concept of ASCII Values) and all Characters can be a integers.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Non-Prirmitive Data types(Wrapped object data types, pre-defined object data types, user-defined object data types):-
+Non-Primitive Data types(Wrapped object data types, pre-defined object data types, user-defined object data types):-
 ====================================================================================================================
 -->String        
 -->StringBuffer   
@@ -362,8 +351,8 @@ Non-Prirmitive Data types(Wrapped object data types, pre-defined object data typ
       -->synatx:-  BigInteger b= new BigInteger("232097329209027598383833793830383");
                    BigInteger b1= new BigInteger("2320973292090275983834865484646438463830383");
       -->Following are some the methods that BigInteger have:
-              -->b.add(b1);
-              -->b.multiply(b1);
+              -->b. add(b1);
+              -->b. multiply(b1);
 -->BigDecimal
        -->BigDecimal b2=new BigDecimal("467686969670707.6868686868");
 -->Student, Employee, Address,....(user-defined object datatypes)
@@ -371,18 +360,28 @@ Non-Prirmitive Data types(Wrapped object data types, pre-defined object data typ
 =================================================================================================================================================================
 JAVA TYPECASTING:-
 ====================
--->Type casting is nothing but when we assign a value of one primitive data_type to another data_type.
+-->Type casting is nothing but when we assign a value of one primitive datatype to another datatype.
 -->there are two types of type casting they are:
       1.Widening type casting(Automatic) :-  converts smaller datatype to larger datatype size. 
          byte -> short -> char -> int -> long -> float -> double.
       2.Narrowing type casting(Manual) :- converts  larger datatype to smaller datatype size
          double -> float -> long -> int -> char -> short -> byte.
 -->Example for automatic or widening :-
-          int myInt = 9;
-          int mydouble = myInt; -->this is nothing but implicit casting.
+          int a = 9;
+          double b = a; -->this is nothing but implicit casting.
 -->Example for manual or narrowing:-
-          int myDouble = 9.0;
-          int myInt = (int)myDouble; -->this is nothing but explicit casting.
+          double c = 9.0;
+          int d = (int)c; -->this is nothing but explicit casting.
+
+-->Primitive data types can be converted to Wrapper class objects that conversion is called as Auto Boxing
+  eg:- int i= 10;
+       Integer i1=i;
+-->Wrapper class objects can be converted to primitve data types that conversion is called as Auto unBoxing.
+   eg:- Integer i2=100;
+        int i3=i2;
+-->All Strings can be converted to Wrapper class objects.
+  eg:- String s="123";
+       int res=Integer.parseInt(s);
 ================================================================================================================================================================
 JAVA WRAPPER CLASSES:-
 =======================
@@ -487,6 +486,8 @@ TYPES OF METHODS:-
 -->Method is a block of code which execute when we called.
 -->We cannot write one method inside another method.
 -->we can write a block inside of the Any Method.
+-->we can call one method in another different method.
+-->we can call the method in same method but we will get stackoverflow error.
 -->The main aim of creating methods is to reuse the code any number of times.
 -->There are 4 types of methods they are:
     -->Method with no "return type" and with "no arguments".
@@ -539,19 +540,14 @@ public class TypesofMethods4 {
 JAVA CONSTRUCTORS:-
 =====================
 Why We need Constructors..?
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
      -->To Initializing an object and initializing instance data but not static data  we need Constructor.
      -->Without Constructor there is no chance to create the object.
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 What is Constructor..?
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 -->Constructor is a special member function which is used to initialize objects. When Object is created constructor get invoked Automatically.
--->The class name and constructor name should be same.
--->constructors can be overloaded.
--->Constructors doesn't return any values.
--->Constructors does not have any return datatypes even Void.
--->Constructors should be declared under public section.
------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 What are the types of Constructor types:
 -----------------------------------------
 -->Default Constructor:-
@@ -903,7 +899,16 @@ switch(expression or Ch){
              break;
      default: //block of code
              break;
-}
+} 
+     (OR)
+switch(expression){
+ case 1 --> //block of statements;
+ case 2 --> //block of statements;
+   |
+   |
+   |
+ case n --> //block of statements;
+ default --> //block of code;
 
 6) "WHILE LOOP":-(looping Statements)
   ------------------------------------
@@ -923,7 +928,7 @@ initialization;
 do{
   //block of code;
 }while(condition);
------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 OPERATORS:-
 ===========================================================
 -->unary  operators:-(++(pre, post),--(pre, post))
@@ -931,7 +936,7 @@ OPERATORS:-
    post Decrement: value will print first and then decrement next.
    pre  Increment: value will increment first and then print next.
    pre Decrement : value will decrement first and then print next.
--->Arithmetic Operators && shift operators:- (+,-,*,%,/, >>(right shift),<<(left shift))
+-->Arithmetic Operators && shift operators:- (+,-,*,%,/, >>(right shift) or >>>,<<(left shift))
      -->Right shifting(>>) is nothing but division by 2 and Left shift(<<) is nothing but multiplication by2.
 -->Relational operators:- (>,<,>=,<=,==,!=)
 -->Logical operators:- (&&,||,!)
@@ -950,83 +955,194 @@ If we have same precedence operators in the equation:
   then for(*,/, %) the Associativity will be Left to Right.
   then for(+,-) the Associativity will be from Right to Left.
 =================================================================================================================================================================
-JAVA STRINGS:-
-====================
--->Strings are the type of objects that can store the character of values. A string acts the same as an array of characters in Java.
--->String Objects are immutable in java.
-    -->Immutable in the sense the Object cannot be modified or unchanagable.
--->Once String Object is Created its data or state can't be changed but new object will be created.
--->Syntax :-
-      string literal:-(<String_type>  <string_variable> = <String_Sequence>)
-          String s = "HELLO"; -->Stores value in a String Constant pool(SCP)
-      String object :-
-          String s = new String("HELLO"); //Stores value in Heap Area.
--->byte[] b_arr={12,13,14,15,16};
-   String s= new String(b_arr);
--->STRING METHODS:-
-   ===========================================
-    String s = "learm share any";
-    1)String length:-
-          "System.out.println(s.length());" --->returns the number of characters in the String.
-    2)String concatenate:-
-         "s1=s1.concat(s2);" -->used to concatenate the two strings
-    3)String charAt:-
-          "System.out.println(s.charAt(i));"  -->returns the character at the ith index.
-    4)String Substring:-
-         " System.out.println(s.substring(int i));"  -->returns the substring from the ith index to the end of string.
-    5)String subString:-
-         " System.out.println(s.substring(int i,int j));"  -->returns the substring from the ith index to j-1 index.
-    6)int indexOf:-
-          "System.out.println(s.indexOf(ch));"   -->Finding a index of character in String.
-    7)int lastIndexOf:-
-          "System.out.println(s.lastIndexOf("a"));" -->Finding last indexof character in the string.
-    8)String toLowerCase():-
-         " System.out.println(s.toLowerCase());"      -->returns all caharacters of the string to lower case.
-    9)String toUppercase():-
-          "System.out.println(s.toUpperCase());"      -->returns all characters of the string to Upper Case.
-    10)String equals(another string):-
-         " boolean res= s1.equals(s2);"       -->return true/false;
-         "boolean res1= s1.equalsIgnoreCase(s2);" -->return true again.
-         "s1.compareTo(s2);" -->Compares two strings lexicographically.
-         "s1.comapreTo(s2);" -->compare two Strings lexicographically,ignoring case differences.
-    11)String toCharArray():-
-          "char[] s=str.toCharArray();"
-    12)String replace(char old ,char new):-
-           "System.out.println(s.replace("f" , "g"));"
-    13)string split:-
-          "s.split("\\s+");" s.split(","); // for example String[] s = s1.split(",");
-           "String[] words=s.split("(?=[A-Z])"); //To split words in a String when we encourted a Capital Letter.
-    14)toString():-
-        String s1 = s.toString() or Integer.toString();-->used to convert given content to the string.
-        String res = Integer.toBinaryString(num);
-    15) String trim():-
-          string s1=s.trim();
-    16) "Character.isDigit(ch);" -->it will return true or false based on it is digit or not.
-    17) "Character.getNumericValue(ch);" 
-    18) "Character.isUpperCase();"
-    19) "Character.isLowerCase();"
-    20) "Integer.valueOf(ele);"
-    21) "String.valueOf(ele);"
-    22) int sum = IntStream.range(ele1 , ele2).sum();
-    23) IntStream.rangeClosed(ele1 , ele2)
-             .filter(num->num%2==0)
-             .foreach(System.out:println)
-   24) "Character.toUpperCase(ch);"
-   25) "Character.toLowerCase(ch);"
+JAVA ACCESS MODIFIERS/SPECIFIERS:-
+====================================
+-->"private"   :- private is a keyword, we cannot  use for a class but we can use inside the class.(The Scope of private is within  the class).
+                 USED FOR--> (inner class, variables, methods, constructors)
+-->"<default>" or undefined :- The Scope of default is within the package.
+                 USED FOR--> (class, inner classes, variables, methods, constructors, interfaces)
+-->"protected" :- protected is a keyword , we cannot use for a class but we can use inside the class.(The Scope of Protected is "within the package + outside of 
+                  the packages of subclasses by using sub class object reference variables).
+                  USED FOR -->(inner classes, variables, methods, constructors)
+-->"public"    :- public is a keyword we can user for a class and also we can use inside the class. (The Scope of public is anywhere in the project).
+                  USED FOR -->(class, inner classes, variables, methods, constructors, interfaces)
+-->"final"     :- final is for class then we cannot extend that class.(inheritance is not possible)
+                  final is for method then we cannot override that method in child class.
+                  final is for variable then we cannot change the value of that variable.
+                  USED FOR -->(class, inner classes, variables, methods)
+-->"static"    :- static is a keyword we can use for data members and blocks. 
+                  if we use static for a variable or data then it is constant for all objects.
+                  if we use static for a method or block then it be will loading in to the Method Area without creating object.
+                  static data remains constant for every object but instance data varies for object to object.
+                  USED FOR -->(variables, methods, blocks)
+-->"abstract"  :- abstract is a keyword 
+                      --> we can use for methods for declaration but not for implementation
+                      --> we can use for classes for not creating an object to our class.
+                  USED FOR -->(class, methods)
+-->"strictfp"  :-  strictfp is a keyword , which strictly follows floating point data in all the systems.
+                  USED FOR --> (Class, methods)
+-->"synchronized" :- synchronized is a keyword , we can go and use in multithreading to achieve synchronization.
+                  USED FOR--> (Blocks, methods)
+-->"transient"  :- transient is a keyword we can use it in serialization concept.(used for variables)
+-->"volatile"(used for variables)
+-->"native"(used for methods)
+================================================================================================================================================================
+JAVA STRING HANDLING:-
+======================
+-->String is a Non-primitive datatype or object datatype.
+-->String is a class from java.lang package.
+-->String is Immuatable(we cannot change the value of these  objects) object where as String Buffer and String Builder are Mutable(we can change the value of 
+   these object) objects.
+-->A Collection of characters which are represented into a single variable using "Double Quotes" is called a String.
+-->String is a thread Safe.
+
+--> There are 4 ways to create String:-
+    1) String Literal:-
+    --------------------
+       String s = "Ajay"  -->Loaded into String Constant pool(SCP) --> Special memory from Heap area.
+
+    2) String Object:-
+    ----------------------
+       String s1 = new String("Ajay1") -->Loaded into Heap Area.
+
+    3) StringBuffer:-
+    -----------------------
+      StringBuffer sb = new StringBuffer("ajay");
+
+    4) StringBuilder:-
+   --------------------------
+     StringBuilder SB = new StringBuilder("ajay");
+
+
+JAVA STRING METHODS:-
+======================
+1) "charAt(int index)" :- Returns the character at the specified index.(o/p:- character)
+   eg:- char c = s.charAt(i);
+
+2) "length()" :- Returns the Length of the String.(o/p:- integer)
+    eg:- s.length();
+
+3) "codePointAt(int index)":- Returns the unioce character at the specified index.(o/p:- return ASCII Value -->integer)
+    eg:- int res = s.codePointAt(index);
+
+4) "codePointBefore(int index)" :- Returns the unicode character before the specified index.(o/p:- integer)
+    eg:- int res1= s.codePointBefore(index);
+
+5) "equals(String s1)" :- Compare  String "s" with another String "s1".(o/p :- returns true or false)
+    eg:- boolean  res= s.equals(s1);
+
+6) "equalsIgnoreCase(String s1)" :- Compare String "s' with another String "s1" ignoring case considerations.(o/p:- return true or false)
+    eg:- boolean res1= s.equalsIgnoreCase(s1);
+
+7) "compareTo(String s1)" :- Compare two Strings lexicographically(based on ascii values).(o/p:- integer)
+    eg:- int res= s.compareTo(s1);
+
+8) "compareToIgnoreCase(String s1)" :- Compare two Strings lexicographically, ignoring case differences.(o/p:- integer)
+    eg:- int res1=s.compareToIgnoreCase(s1);
+
+9) "concat(String s1)" :- concatenate String "s1" to the end of String "s".(o/p:- String)
+   eg:- s=s.concat(s1);
+
+10) "contains(character sequence c)" :- Returns true if and only if the character 'c'  present in the character sequence of a String "s".(o/p:- boolean)
+    eg:- boolean res = s.contains("a");
+
+11) "toUpperCase()" :- Converts all the characters of a String "s" in to Upper case.(o/p:- String)
+   eg:- s.toUpperCase();
+
+12) "toLowerCase()" :- Converts all the characters of a String "s" in to Lower Case.(o/p:- String)
+    eg:- s.toLowerCase();
+
+13) "trim()" :-  To remove leading and trailing spaces in a String "s" we need to go for "trim()" method.(o/p:- String)
+    eg:- s.trim(); -->System.out.println(s.trim());
+
+14) "replace(charSequence target or delimter , charSequnce replacement)" :- To remove spaces in between a String based on Strings.(o/p:- String)
+     eg:- s.replace(" ", "");
+
+15) "replaceAll(String regexp, String replacement)" :- To Remove spaces in between a String based on regular expressions.(o/p:- String)
+    eg:- s.replaceAll(" ", "@");
+
+16) "replaceFirst(String regexp, String replacement)" :- To Remove First space in between a String based on regular expressions.(o/p:- String)
+    eg:- s.replaceFirst(" ", "@");
+
+17) "split(String regexp)" :- Splits this string around matches of the given regular expression.(o/p:- array of String)
+    eg:- String[] S2 = s.split(","); or String[] s2= s.split("//s");
+
+18) "split(String regexp, int limit)" :- Splits this string around matches of the given regular expression.(o/p:- array of Strings)
+     eg:- String[] s2= s.split("," , 3);
+
+19) "indexOf(int ch)" :- Returns the index of first occurence of a given subString within this String "s".(op:- integer)
+    "indexOf(int ch, int fromIndex);
+     eg:- s.indexOf('a');
+
+20) "lastIndexOf(int ch)" :- Returns the last index of a given subString within this String "s".(o/p:- integer)
+     eg:- s.lastIndexOf('a'); 
+
+21) "isEmpty()" :- Returns true if and only if the length() is "0".(o/p:- boolean)
+     eg:- boolean res= s.isEmpty();
+
+22) "toCharArray()" :- converts the given String into Array of Characters.(o/p:- char Array)
+     eg:- char[] ch = s.toCharArray();
+
+23) "subString(int beginindex)" :- Returns the String that is a subString of this String.(o/p:- String)
+      eg:- s.subString(5); 
+
+24) "subString(int beginIndex, int lastIndex)" :- Returns the String that is a subString of this String.(o/p:- String)
+     eg:- s.subString(3,7);
+
+25) "valueOf(int , byte,short, long,float,..)" :- Returns the String representation of  all the  primitive arguments.
+     eg:- int a1=100;
+          String a2=String.valueOf(a1);
+26) "toString()" 
+
+27) "Character.isDigit(ch);" :- It will return true or false based on it is digit or not.
+  
+28) "Character.getNumericValue(ch);" 
+     
+29) "Character.isUpperCase();"
+     
+30) "Character.isLowerCase();"
+     
+31) "Character.toUpperCase(ch);"
+    
+32) "Character.toLowerCase(ch);"
 ================================================================================================================================================================
 STRING BUFFER && STRING BUILDER IN JAVA:-
-=========================================================
--->String Buffer is a Class in java that represents a mutable sequence of Characters. It provides an alternative to the immutable string class by allowing you to modify the contents of a string without creating new object every time.
--->String buffer is used to protect threads.
--->where as String builder doesn't protect threads.
-     -->StirngBufffer sb=new StringBuffer();
-      methods:-
-          String sb=new StringBuffer();
-          sb.append("HELLO"); --->used to add ,insert strings at the end of the buffer.
-          sb.delete(1,3);     --->used to delete the characters from the buffer.
-          sb.reverse();        -->used to reverse the buffer.
-          sb.insert(position,string);
-          sb.replace(1,3,string);
+============================================
+StringBuffer:-
+-------------
+-->StringBuffer is a mutable Object(we can chage the value of these objects).
+-->StringBuufer is a thread safe.
+-->StingBuffer is a synchronized because its methods are thread safe and can be used in multithreading environment.
+-->The Default Capacity of StringBuffer is 16.
+
+StringBuilder:-
+----------------
+-->StringBuilder is also a mutable Object(We can the value of these objects).
+-->StringBuilder is not a thread Safe.
+-->StringBuilder is not synchronized, because its methods are not thread safe and cannot be used in multithreading environment.
+-->The Default capacity of StringBuilder is also 16.
+
+                        String                        StringBuilder                       StringBuffer
+                      ------------                  -------------------                 ----------------------
+Mutability->           Immutable                        Mutable                              Mutable
+
+Thread Safety->        Thread Safe                    Not thread safe                       Thread Safe
+
+Memory Efficiency->    High (SCP)                    Efficient(heap area)                   Less Efficient(heap Area)
+
+Performance->          High(No-synchornization)       High(No-synchornization)              Low(due to synchornization)
+
+usage->               This is used when we            This is used when thread              This is Used when thread safety 
+                      Want immutability                Safety is not required.              is required.
+
+
+syntax:-
+--------
+ StringBuffer sb = new StringBuffer();
+
+StringBuilder:-
+--------------
+-->StringBuilder is a mutable object.
 =================================================================================================================================================================
 JAVA MATH:-
 =====================
@@ -1792,23 +1908,17 @@ public class Main {
              System.out.println(myVar);
      }
 =================================================================================================================================================================
-JAVA 8 Features:-
-==========================
-  -->Lambda Expressions
-  -->Functional Interfaces
-  -->Stream API
-================================================================================================================================================================
 JAVA CHAPTER 1 INTERVIEW QUESTIONS:-
 =====================================
--->Why u choosed java and what are the features of java?
--->what is the difference c/c++ and java?
+-->Why u choose java and what are the features of java?
+-->what is the difference c/C++ and java?
 -->what is the difference b/w static and dynamic memory allocation?
--->differecne b/w class and object?
+-->difference b/w class and object?
 -->what is the difference b/w source code, byte code , binary code or machine level code?
 -->what is the difference static v/s Instance data members?
 -->what are the different types of Class loaders?
--->what are the different memory managaments in jvm?
+-->what are the different memory managements in JVM?
 -->what is the difference b/w interpreter and JIT?
--->Expalin About Garbage Collection how can we achieve this?
+-->Explain About Garbage Collection how can we achieve this?
 -->Explain about main method why need to have in java?
 -->Difference between Static Blocks and instance Blocks.
